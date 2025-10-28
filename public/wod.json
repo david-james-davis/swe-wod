@@ -1,0 +1,10 @@
+[
+  {
+    "word": "debounce",
+    "partOfSpeech": "verb",
+    "definition": "To limit the rate at which a function is invoked, ensuring it only runs after a specified period of inactivity to avoid excessive calls.",
+    "example": "We debounce the input event handler to prevent sending an API request on every keystroke, triggering it only after the user stops typing for 300ms.",
+    "date": "2025-10-28",
+    "hash": 50
+  }
+]

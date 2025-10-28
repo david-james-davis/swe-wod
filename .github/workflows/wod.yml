@@ -1,0 +1,58 @@
+name: Daily Word of the Day
+
+on:
+  schedule:
+    - cron: "0 8 * * *"   # 08:00 UTC ≈ 12:00am PT (1:00am during DST)
+  workflow_dispatch: {}
+  push:
+    branches: [ "main" ]  # so first push also deploys
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  wod:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install deps
+        run: npm ci
+
+      - name: Generate WOD JSON
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: npm run wod
+
+      - name: Commit WOD
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore(wod): update word of the day"
+          branch: ${{ github.ref_name }}
+          file_pattern: public/wod.json
+
+  deploy:
+    needs: wod
+    runs-on: ubuntu-latest
+    concurrency:
+      group: "pages"
+      cancel-in-progress: true
+    steps:
+      - uses: actions/checkout@v4
+      - name: Upload artifact (static site in /public)
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

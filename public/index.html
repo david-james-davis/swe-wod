@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>SWE • Word of the Day</title>
+<link rel="icon" href="data:;base64,=">
+<style>
+  :root { color-scheme: light dark; }
+  body { font: 16px/1.5 system-ui, sans-serif; margin: 2rem; }
+  .card { max-width: 720px; margin: 0 auto; padding: 1.25rem; border: 1px solid #ddd; border-radius: 12px; }
+  .muted { color: #666; }
+  code { background: color-mix(in oklab, canvas 80%, black 5%); padding: .1rem .3rem; border-radius: .35rem; }
+</style>
+<body>
+  <div class="card">
+    <h1>SWE Word of the Day</h1>
+    <p id="date" class="muted"></p>
+    <h2 id="word"></h2>
+    <p id="pos" class="muted"></p>
+    <p id="definition"></p>
+    <p><em id="example"></em></p>
+    <p class="muted" style="margin-top:1rem">Source: OpenAI (auto-updated daily)</p>
+  </div>
+
+<script type="module">
+async function load() {
+  try {
+    const res = await fetch('./wod.json', { cache: 'no-store' });
+    const items = await res.json(); // array of entries
+    if (!Array.isArray(items) || items.length === 0) throw new Error("empty");
+
+    // pick latest by date
+    const latest = items.reduce((a, b) => (a.date > b.date ? a : b));
+    document.getElementById('date').textContent = new Date(latest.date).toLocaleDateString();
+    document.getElementById('word').textContent = latest.word;
+    document.getElementById('pos').textContent = latest.partOfSpeech ? `(${latest.partOfSpeech})` : '';
+    document.getElementById('definition').textContent = latest.definition;
+    document.getElementById('example').textContent = latest.example;
+  } catch {
+    document.getElementById('definition').textContent = 'No word yet—check back soon.';
+  }
+}
+load();
+</script>
+</body>
+</html>
