@@ -6,5 +6,13 @@
     "example": "We debounce the input event handler to prevent sending an API request on every keystroke, triggering it only after the user stops typing for 300ms.",
     "date": "2025-10-28",
     "hash": 50
+  },
+  {
+    "word": "idempotent",
+    "partOfSpeech": "adjective",
+    "definition": "An operation is idempotent if executing it multiple times has the same effect as executing it once, ensuring no additional side effects occur on repeated calls.",
+    "example": "Sending multiple identical HTTP PUT requests to update a user profile is idempotent because the resource state remains consistent regardless of the number of repeated requests.",
+    "date": "2025-10-29",
+    "hash": 275055849
   }
 ]
