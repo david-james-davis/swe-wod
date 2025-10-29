@@ -6,13 +6,5 @@
     "example": "We debounce the input event handler to prevent sending an API request on every keystroke, triggering it only after the user stops typing for 300ms.",
     "date": "2025-10-28",
     "hash": 50
-  },
-  {
-    "word": "debounce",
-    "partOfSpeech": "verb",
-    "definition": "To limit the rate at which a function is executed by ensuring it only runs after a specified delay following the last trigger, commonly used to handle noisy input like rapid clicks or keystrokes.",
-    "example": "We debounced the search input so that the API call is only made 300ms after the user stops typing.",
-    "date": "2025-10-29",
-    "hash": 50
   }
 ]
