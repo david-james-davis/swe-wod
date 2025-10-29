@@ -31,10 +31,7 @@ async function load() {
 
     // pick latest by date
     const latest = items.reduce((a, b) => (a.date > b.date ? a : b));
-    const d = new Date(latest.date + "T00:00:00Z");
-    document.getElementById('date').textContent = d.toLocaleDateString(undefined, {
-      year: 'numeric', month: 'short', day: 'numeric'
-    });
+    document.getElementById('date').textContent = latest.date;
     document.getElementById('word').textContent = latest.word;
     document.getElementById('pos').textContent = latest.partOfSpeech ? `(${latest.partOfSpeech})` : '';
     document.getElementById('definition').textContent = latest.definition;
