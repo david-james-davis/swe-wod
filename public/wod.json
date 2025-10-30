@@ -14,5 +14,13 @@
     "example": "Sending multiple identical HTTP PUT requests to update a user profile is idempotent because the resource state remains consistent regardless of the number of repeated requests.",
     "date": "2025-10-29",
     "hash": 275055849
+  },
+  {
+    "word": "throughput",
+    "partOfSpeech": "noun",
+    "definition": "The amount of work or data processed by a system in a given amount of time, often used to measure system performance or capacity.",
+    "example": "Increasing the database throughput allowed the application to handle more user requests per second without slowing down.",
+    "date": "2025-10-30",
+    "hash": 275055871
   }
 ]
