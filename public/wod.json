@@ -14,5 +14,13 @@
     "example": "Sending multiple identical HTTP PUT requests to update a user profile is idempotent because the resource state remains consistent regardless of the number of repeated requests.",
     "date": "2025-10-29",
     "hash": 275055849
+  },
+  {
+    "word": "throttling",
+    "partOfSpeech": "noun",
+    "definition": "A technique to limit the number of operations or requests a system can handle over a certain time period to prevent overload and maintain stability.",
+    "example": "The API implements throttling by allowing only 100 requests per minute per user to avoid server crashes during high traffic.",
+    "date": "2025-10-30",
+    "hash": 275055871
   }
 ]
