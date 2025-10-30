@@ -6,55 +6,72 @@ import {
 } from "@jsr/negrel__webpush";
 
 const WOD_URL = "https://swe-wod.com/wod.json";
+const CORS_HEADERS = {
+  // if you want to be strict, use "https://swe-wod.com" instead of "*"
+  "Access-Control-Allow-Origin": "https://swe-wod.com",
+  "Access-Control-Allow-Methods": "POST, OPTIONS",
+  "Access-Control-Allow-Headers": "Content-Type, Authorization",
+  "Access-Control-Max-Age": "86400"
+};
+
+function withCors(res) {
+  const headers = new Headers(res.headers || {});
+  for (const [k, v] of Object.entries(CORS_HEADERS)) headers.set(k, v);
+  return new Response(res.body, { ...res, headers });
+}
+
+function jsonResponse(obj, init = {}) {
+  const headers = new Headers(init.headers || {});
+  headers.set("Content-Type", "application/json");
+  for (const [k, v] of Object.entries(CORS_HEADERS)) headers.set(k, v);
+  return new Response(JSON.stringify(obj), { ...init, headers });
+}
 
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
 
-    // Save subscription
+    // 1) CORS preflight
+    if (request.method === "OPTIONS") {
+      return new Response(null, { status: 204, headers: CORS_HEADERS });
+    }
+
+    // 2) subscribe
     if (url.pathname === "/subscribe" && request.method === "POST") {
       const sub = await request.json();
       await env.WOD_SUBS.put(sub.endpoint, JSON.stringify(sub));
-      return json({ ok: true });
+      return jsonResponse({ ok: true });
     }
 
-    // Remove subscription
+    // 3) unsubscribe
     if (url.pathname === "/unsubscribe" && request.method === "POST") {
       const { endpoint } = await request.json();
       if (endpoint) await env.WOD_SUBS.delete(endpoint);
-      return json({ ok: true });
+      return jsonResponse({ ok: true });
     }
 
-    // Manual broadcast (for testing)
+    // 4) broadcast (auth protected)
     if (url.pathname === "/broadcast" && request.method === "POST") {
-      const token = request.headers.get("Authorization");
-      if (token !== `Bearer ${env.BROADCAST_TOKEN}`) {
-        return new Response("Unauthorized", { status: 401 });
+      if (request.headers.get("Authorization") !== `Bearer ${env.BROADCAST_TOKEN}`) {
+        return withCors(new Response("Unauthorized", { status: 401 }));
       }
       const payload = await request.json();
       const res = await broadcast(env, payload);
-      return json(res);
+      return jsonResponse(res);
     }
 
+    // 5) debug
     if (url.pathname === "/debug") {
       const subs = await env.WOD_SUBS.list();
       const meta = await env.WOD_META.list();
-
-      return new Response(
-        JSON.stringify(
-          {
-            totalSubscriptions: subs.keys.length,
-            subscriptions: subs.keys.map(k => k.name),
-            metaKeys: meta.keys.map(k => k.name),
-          },
-          null,
-          2
-        ),
-        { headers: { "Content-Type": "application/json" } }
-      );
+      return jsonResponse({
+        totalSubscriptions: subs.keys.length,
+        subscriptions: subs.keys.map(k => k.name),
+        metaKeys: meta.keys.map(k => k.name),
+      });
     }
 
-    return new Response("OK");
+    return withCors(new Response("OK"));
   },
 
   // Cron: send once/day (we schedule two UTC slots and dedupe by date)
