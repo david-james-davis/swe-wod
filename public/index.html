@@ -46,36 +46,64 @@ async function load() {
 load();
 
 const VAPID_PUBLIC_KEY = 'BOWVS37bFE1BCyNT5swaUJYjLYdD8RSvmZxRMC32sFAkpoxDZMJCItk7kV497OPHl7F3M587mm5DuYiDlnDnzzA';
+
 function b64urlToUint8(b64) {
   const pad = '='.repeat((4 - b64.length % 4) % 4);
   const base64 = (b64 + pad).replace(/-/g, '+').replace(/_/g, '/');
   const raw = atob(base64), out = new Uint8Array(raw.length);
-  for (let i=0;i<raw.length;i++) out[i] = raw.charCodeAt(i);
+  for (let i = 0; i < raw.length; i++) out[i] = raw.charCodeAt(i);
   return out;
 }
+
 async function enablePush() {
-  if (!('serviceWorker' in navigator) || !('PushManager' in window)) {
-    alert('Push not supported on this browser.'); return;
-  }
-  const reg = await navigator.serviceWorker.register('/sw.js');
-  const perm = await Notification.requestPermission();
-  if (perm !== 'granted') return;
+  try {
+    if (!('serviceWorker' in navigator) || !('PushManager' in window)) {
+      console.error('Push not supported'); alert('Push not supported'); return;
+    }
 
-  let sub = await reg.pushManager.getSubscription();
-  if (!sub) {
-    sub = await reg.pushManager.subscribe({
-      userVisibleOnly: true,
-      applicationServerKey: b64urlToUint8(VAPID_PUBLIC_KEY),
+    console.log('Registering SW…');
+    const reg = await navigator.serviceWorker.register('/sw.js', { scope: '/' });
+    const ready = await navigator.serviceWorker.ready; // ensures active SW
+    console.log('SW ready:', !!ready);
+
+    const perm = await Notification.requestPermission();
+    console.log('Notification permission:', perm);
+    if (perm !== 'granted') { alert('Please allow notifications'); return; }
+
+    let sub = await ready.pushManager.getSubscription();
+    console.log('Existing subscription?', !!sub);
+    if (!sub) {
+      console.log('Subscribing with VAPID key…');
+      sub = await ready.pushManager.subscribe({
+        userVisibleOnly: true,
+        applicationServerKey: b64urlToUint8(VAPID_PUBLIC_KEY),
+      });
+    }
+    console.log('Endpoint:', sub.endpoint);
+
+    const payload = sub.toJSON(); // be explicit
+    console.log('Posting subscription to Worker…', payload);
+
+    const resp = await fetch('https://wod-push.davidjamesdavis-djd.workers.dev/subscribe', {
+      method: 'POST',
+      mode: 'cors',
+      keepalive: true,                // survives tab close/navigation
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload),
     });
-  }
 
-  await fetch('https://wod-push.davidjamesdavis-djd.workers.dev/subscribe', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(sub),
-  });
+    console.log('POST /subscribe status:', resp.status);
+    if (!resp.ok) {
+      const text = await resp.text().catch(() => '');
+      throw new Error(`Subscribe failed: ${resp.status} ${text}`);
+    }
     alert('Notifications enabled!');
+  } catch (err) {
+    console.error(err);
+    alert('Failed to enable notifications. See console for details.');
   }
+}
+
 document.getElementById('enablePush')?.addEventListener('click', enablePush);
 </script>
 <script>
