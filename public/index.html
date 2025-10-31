@@ -62,44 +62,48 @@ async function enablePush() {
     }
 
     console.log('Registering SW…');
-    const reg = await navigator.serviceWorker.register('/sw.js', { scope: '/' });
-    const ready = await navigator.serviceWorker.ready; // ensures active SW
-    console.log('SW ready:', !!ready);
+    await navigator.serviceWorker.register('/sw.js', { scope: '/' });
+
+    // IMPORTANT: wait for the ACTIVE registration that will handle push
+    const reg = await navigator.serviceWorker.ready;
+    console.log('SW ready:', !!reg, reg?.scope);
 
     const perm = await Notification.requestPermission();
     console.log('Notification permission:', perm);
     if (perm !== 'granted') { alert('Please allow notifications'); return; }
 
-    let sub = await ready.pushManager.getSubscription();
-    console.log('Existing subscription?', !!sub);
-    if (!sub) {
-      console.log('Subscribing with VAPID key…');
-      sub = await ready.pushManager.subscribe({
-        userVisibleOnly: true,
-        applicationServerKey: b64urlToUint8(VAPID_PUBLIC_KEY),
-      });
+    // Clean any stale/bad subscription
+    const existing = await reg.pushManager.getSubscription();
+    console.log('Existing subscription?', !!existing);
+    if (existing) {
+      try {
+        const ok = await existing.unsubscribe();
+        console.log('Unsubscribed previous?', ok);
+      } catch (e) { console.warn('Unsubscribe failed (ignored):', e); }
     }
-    console.log('Endpoint:', sub.endpoint);
 
-    const payload = sub.toJSON(); // be explicit
-    console.log('Posting subscription to Worker…', payload);
+    const key = b64urlToUint8(VAPID_PUBLIC_KEY);
+    console.log('VAPID key bytes:', key.length, 'firstByte:', key[0]); // expect 65 and 4
+
+    // The call that throws AbortError if FCM registration fails
+    const sub = await reg.pushManager.subscribe({
+      userVisibleOnly: true,
+      applicationServerKey: key,
+    });
+    console.log('Subscribed OK:', sub.endpoint);
 
     const resp = await fetch('https://wod-push.davidjamesdavis-djd.workers.dev/subscribe', {
       method: 'POST',
       mode: 'cors',
-      keepalive: true,                // survives tab close/navigation
+      keepalive: true,
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(payload),
+      body: JSON.stringify(sub.toJSON()),
     });
-
     console.log('POST /subscribe status:', resp.status);
-    if (!resp.ok) {
-      const text = await resp.text().catch(() => '');
-      throw new Error(`Subscribe failed: ${resp.status} ${text}`);
-    }
+    if (!resp.ok) throw new Error('Subscribe POST failed: ' + resp.status);
     alert('Notifications enabled!');
-  } catch (err) {
-    console.error(err);
+  } catch (e) {
+    console.error('enablePush error:', e.name, e.message, e);
     alert('Failed to enable notifications. See console for details.');
   }
 }
