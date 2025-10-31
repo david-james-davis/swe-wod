@@ -96,7 +96,7 @@ export default {
 
 function makeApp(env) {
   return new ApplicationServer({
-    contactInformation: "mailto:you@example.com",
+    contactInformation: "mailto:davidjamesdavis.djd@gmail.com",
     vapidKeys: importVapidKeys({
       publicKey: env.VAPID_PUBLIC_KEY,
       privateKey: env.VAPID_PRIVATE_KEY,
