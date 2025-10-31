@@ -6,7 +6,8 @@
   "scripts": {
     "build": "tsc -p .",
     "preview": "npx serve public",
-    "wod": "tsx src/generateWod.ts"
+    "wod": "tsx src/generateWod.ts",
+    "deploy:wrangler": "cd wod-push && npx wrangler deploy"
   },
   "dependencies": {
     "@jsr/negrel__webpush": "^0.5.0",

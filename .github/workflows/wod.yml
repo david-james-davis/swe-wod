@@ -2,10 +2,10 @@ name: Daily Word of the Day
 
 on:
   schedule:
-    - cron: "0 8 * * *"   # 08:00 UTC ≈ 12:00am PT (1:00am during DST)
+    - cron: "0 8 * * *"   # 08:00 UTC ≈ 1:00am PT during DST
   workflow_dispatch: {}
   push:
-    branches: [ "main" ]  # so first push also deploys
+    branches: [ "main" ]
 
 permissions:
   contents: write
@@ -33,9 +33,22 @@ jobs:
       - name: Commit WOD
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore(wod): update word of the day"
+          commit_message: "chore(wod): update word of the day [skip ci]"
           branch: ${{ github.ref_name }}
           file_pattern: public/wod.json
+
+      # (Optional but recommended) sanity check today's date is present
+      - name: Assert wod.json contains today
+        run: |
+          date=$(date -u +"%Y-%m-%d")
+          echo "Expecting date: $date"
+          grep -q "$date" public/wod.json || (echo "ERROR: public/wod.json missing $date" && exit 1)
+
+      # Upload the *fresh* site as the Pages artifact
+      - name: Upload artifact (static site in /public)
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
 
   deploy:
     needs: wod
@@ -44,11 +57,6 @@ jobs:
       group: "pages"
       cancel-in-progress: true
     steps:
-      - uses: actions/checkout@v4
-      - name: Upload artifact (static site in /public)
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./public
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
