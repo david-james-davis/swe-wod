@@ -22,5 +22,13 @@
     "example": "Increasing the database throughput allowed the application to handle more user requests per second without slowing down.",
     "date": "2025-10-30",
     "hash": 275055871
+  },
+  {
+    "word": "circuit breaker",
+    "partOfSpeech": "noun",
+    "definition": "A design pattern used in software to detect failures and encapsulate the logic of preventing a failure from constantly recurring, typically by stopping requests to a failing service for a period of time.",
+    "example": "In a microservices architecture, a circuit breaker can stop calls to a service that's down to avoid overwhelming it and allow time for recovery.",
+    "date": "2025-10-31",
+    "hash": 275055872
   }
 ]
