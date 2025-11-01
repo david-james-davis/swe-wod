@@ -37,11 +37,13 @@ export default {
     }
 
     // 2) subscribe
-    if (url.pathname === "/subscribe" && request.method === "POST") {
-      const sub = await request.json();
-      await env.WOD_SUBS.put(sub.endpoint, JSON.stringify(sub));
-      return jsonResponse({ ok: true });
+    if (url.pathname === '/subscribe' && request.method === 'POST') {
+        const sub = await request.json(); // { endpoint, keys: { p256dh, auth } }
+        // Key by endpoint for idempotency
+        await env.WOD_SUBS.put(sub.endpoint, JSON.stringify(sub));
+        return jsonResponse({ ok: true });
     }
+
 
     // 3) unsubscribe
     if (url.pathname === "/unsubscribe" && request.method === "POST") {
