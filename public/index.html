@@ -98,6 +98,7 @@ async function enablePush() {
       keepalive: true,
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(sub.toJSON()),
+      credentials: 'omit',
     });
     console.log('POST /subscribe status:', resp.status);
     if (!resp.ok) throw new Error('Subscribe POST failed: ' + resp.status);
