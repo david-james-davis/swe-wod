@@ -30,5 +30,13 @@
     "example": "In a microservices architecture, a circuit breaker can stop calls to a service that's down to avoid overwhelming it and allow time for recovery.",
     "date": "2025-10-31",
     "hash": 275055872
+  },
+  {
+    "word": "memoization",
+    "partOfSpeech": "noun",
+    "definition": "An optimization technique where the results of expensive function calls are cached so that subsequent calls with the same inputs return the cached result, improving performance.",
+    "example": "In a recursive Fibonacci function, using memoization can store previously computed Fibonacci numbers to avoid repeated calculation and significantly speed up the execution.",
+    "date": "2025-11-01",
+    "hash": 275085570
   }
 ]
