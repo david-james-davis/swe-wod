@@ -38,5 +38,13 @@
     "example": "In a recursive Fibonacci function, using memoization can store previously computed Fibonacci numbers to avoid repeated calculation and significantly speed up the execution.",
     "date": "2025-11-01",
     "hash": 275085570
+  },
+  {
+    "word": "race condition",
+    "partOfSpeech": "noun",
+    "definition": "A flaw that occurs when the behavior of software depends on the timing or sequence of uncontrollable events, often leading to unpredictable or erroneous results.",
+    "example": "Two threads incrementing the same counter without synchronization can cause a race condition, resulting in incorrect counts.",
+    "date": "2025-11-02",
+    "hash": 275085571
   }
 ]
