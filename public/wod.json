@@ -46,5 +46,13 @@
     "example": "Two threads incrementing the same counter without synchronization can cause a race condition, resulting in incorrect counts.",
     "date": "2025-11-02",
     "hash": 275085571
+  },
+  {
+    "word": "refactoring",
+    "partOfSpeech": "noun",
+    "definition": "The process of restructuring existing computer code without changing its external behavior to improve readability, reduce complexity, or enhance maintainability.",
+    "example": "The developer spent the afternoon refactoring the authentication module to simplify the code and remove duplicated logic.",
+    "date": "2025-11-03",
+    "hash": 275085572
   }
 ]
