@@ -54,5 +54,13 @@
     "example": "The developer spent the afternoon refactoring the authentication module to simplify the code and remove duplicated logic.",
     "date": "2025-11-03",
     "hash": 275085572
+  },
+  {
+    "word": "cache",
+    "partOfSpeech": "noun",
+    "definition": "A hardware or software component that stores data so future requests for that data can be served faster.",
+    "example": "The application uses an in-memory cache to store user session data, reducing database queries and improving response time.",
+    "date": "2025-11-04",
+    "hash": 275085573
   }
 ]
