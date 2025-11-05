@@ -62,5 +62,13 @@
     "example": "The application uses an in-memory cache to store user session data, reducing database queries and improving response time.",
     "date": "2025-11-04",
     "hash": 275085573
+  },
+  {
+    "word": "deadlock",
+    "partOfSpeech": "noun",
+    "definition": "A situation in concurrent programming where two or more threads are blocked forever, each waiting for the other to release a resource.",
+    "example": "Thread A holds Lock 1 and waits for Lock 2, while Thread B holds Lock 2 and waits for Lock 1, resulting in a deadlock.",
+    "date": "2025-11-05",
+    "hash": 275085574
   }
 ]
