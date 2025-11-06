@@ -70,5 +70,13 @@
     "example": "Thread A holds Lock 1 and waits for Lock 2, while Thread B holds Lock 2 and waits for Lock 1, resulting in a deadlock.",
     "date": "2025-11-05",
     "hash": 275085574
+  },
+  {
+    "word": "throttling",
+    "partOfSpeech": "noun",
+    "definition": "A technique used to limit the number of operations or requests to a system within a given time frame to prevent overload and ensure stability.",
+    "example": "The API server implements throttling to restrict clients to 100 requests per minute to avoid performance degradation during traffic spikes.",
+    "date": "2025-11-06",
+    "hash": 275085575
   }
 ]
