@@ -78,5 +78,13 @@
     "example": "The API server implements throttling to restrict clients to 100 requests per minute to avoid performance degradation during traffic spikes.",
     "date": "2025-11-06",
     "hash": 275085575
+  },
+  {
+    "word": "dependency injection",
+    "partOfSpeech": "noun",
+    "definition": "A design pattern where an object's dependencies are supplied by an external entity rather than the object creating them itself, promoting loose coupling and easier testing.",
+    "example": "In a web application, a logging service is injected into a controller class through its constructor instead of the controller instantiating the logger directly.",
+    "date": "2025-11-07",
+    "hash": 275085576
   }
 ]
