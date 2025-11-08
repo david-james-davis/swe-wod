@@ -86,5 +86,13 @@
     "example": "In a web application, a logging service is injected into a controller class through its constructor instead of the controller instantiating the logger directly.",
     "date": "2025-11-07",
     "hash": 275085576
+  },
+  {
+    "word": "latency",
+    "partOfSpeech": "noun",
+    "definition": "The time delay between a request and the corresponding response in a system, network, or application.",
+    "example": "Reducing latency in the API response improved the user experience by delivering data faster.",
+    "date": "2025-11-08",
+    "hash": 275085577
   }
 ]
