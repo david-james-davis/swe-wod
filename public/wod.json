@@ -94,5 +94,13 @@
     "example": "Reducing latency in the API response improved the user experience by delivering data faster.",
     "date": "2025-11-08",
     "hash": 275085577
+  },
+  {
+    "word": "rollback",
+    "partOfSpeech": "noun/verb",
+    "definition": "The process of reverting a system or database to a previous stable state, typically after a failed deployment or error to prevent system downtime or data corruption.",
+    "example": "After the latest update caused several critical bugs, the engineering team performed a rollback to the previous stable version to restore service quickly.",
+    "date": "2025-11-09",
+    "hash": 275085578
   }
 ]
