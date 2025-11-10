@@ -102,5 +102,13 @@
     "example": "After the latest update caused several critical bugs, the engineering team performed a rollback to the previous stable version to restore service quickly.",
     "date": "2025-11-09",
     "hash": 275085578
+  },
+  {
+    "word": "singleton",
+    "partOfSpeech": "noun",
+    "definition": "A design pattern that restricts the instantiation of a class to one single instance, ensuring controlled access to shared resources.",
+    "example": "In an application, a singleton logger ensures all components write logs to the same file instance without creating multiple logger objects.",
+    "date": "2025-11-10",
+    "hash": 275085600
   }
 ]
