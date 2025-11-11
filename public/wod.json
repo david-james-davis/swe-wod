@@ -110,5 +110,13 @@
     "example": "In an application, a singleton logger ensures all components write logs to the same file instance without creating multiple logger objects.",
     "date": "2025-11-10",
     "hash": 275085600
+  },
+  {
+    "word": "load balancer",
+    "partOfSpeech": "noun",
+    "definition": "A load balancer is a device or software that distributes incoming network traffic across multiple servers to ensure reliability and optimal resource use.",
+    "example": "Using a load balancer, the web application can handle more users by evenly distributing requests to several backend servers.",
+    "date": "2025-11-11",
+    "hash": 275085601
   }
 ]
