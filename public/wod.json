@@ -126,5 +126,13 @@
     "example": "In an event-driven architecture, a server might respond to a user's click by triggering a chain of asynchronous functions instead of executing a fixed sequence of instructions.",
     "date": "2025-11-12",
     "hash": 275085602
+  },
+  {
+    "word": "idempotency",
+    "partOfSpeech": "noun",
+    "definition": "The property of an operation wherein performing it multiple times has the same effect as performing it once.",
+    "example": "An HTTP PUT request is idempotent because updating a resource multiple times with the same data doesn't change the result beyond the initial update.",
+    "date": "2025-11-13",
+    "hash": 275085603
   }
 ]
