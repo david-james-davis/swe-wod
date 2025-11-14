@@ -134,5 +134,13 @@
     "example": "An HTTP PUT request is idempotent because updating a resource multiple times with the same data doesn't change the result beyond the initial update.",
     "date": "2025-11-13",
     "hash": 275085603
+  },
+  {
+    "word": "middleware",
+    "partOfSpeech": "noun",
+    "definition": "Software that acts as an intermediary layer between different systems or components, enabling communication and data management.",
+    "example": "In a web application, middleware can process incoming HTTP requests to authenticate users before passing the request to the main logic.",
+    "date": "2025-11-14",
+    "hash": 275085604
   }
 ]
