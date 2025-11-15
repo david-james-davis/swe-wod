@@ -142,5 +142,13 @@
     "example": "In a web application, middleware can process incoming HTTP requests to authenticate users before passing the request to the main logic.",
     "date": "2025-11-14",
     "hash": 275085604
+  },
+  {
+    "word": "pagination",
+    "partOfSpeech": "noun",
+    "definition": "A technique used in software to divide large sets of data into discrete pages to improve performance and user experience.",
+    "example": "The API implements pagination by returning only 20 records per response along with tokens to fetch the next page.",
+    "date": "2025-11-15",
+    "hash": 275085605
   }
 ]
