@@ -150,5 +150,13 @@
     "example": "The API implements pagination by returning only 20 records per response along with tokens to fetch the next page.",
     "date": "2025-11-15",
     "hash": 275085605
+  },
+  {
+    "word": "sharding",
+    "partOfSpeech": "noun",
+    "definition": "A database partitioning technique that splits large datasets into smaller, more manageable pieces called shards, each stored on separate database servers to improve performance and scalability.",
+    "example": "To handle millions of user records efficiently, the application employs sharding by distributing data across multiple databases based on user region.",
+    "date": "2025-11-16",
+    "hash": 275085606
   }
 ]
