@@ -158,5 +158,13 @@
     "example": "To handle millions of user records efficiently, the application employs sharding by distributing data across multiple databases based on user region.",
     "date": "2025-11-16",
     "hash": 275085606
+  },
+  {
+    "word": "immutability",
+    "partOfSpeech": "noun",
+    "definition": "The property of an object whose state cannot be modified after it is created, often used to avoid side effects and improve predictability in programs.",
+    "example": "In functional programming, strings are immutable, so methods like toUpperCase() return a new string without changing the original.",
+    "date": "2025-11-17",
+    "hash": 275085607
   }
 ]
