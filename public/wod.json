@@ -166,5 +166,13 @@
     "example": "In functional programming, strings are immutable, so methods like toUpperCase() return a new string without changing the original.",
     "date": "2025-11-17",
     "hash": 275085607
+  },
+  {
+    "word": "blue-green deployment",
+    "partOfSpeech": "noun",
+    "definition": "A deployment technique that reduces downtime and risk by running two identical production environments, switching traffic from the old to the new environment after validation.",
+    "example": "We used blue-green deployment to release the new version of our API, directing user traffic to the green environment once testing was complete, ensuring zero downtime.",
+    "date": "2025-11-18",
+    "hash": 275085608
   }
 ]
