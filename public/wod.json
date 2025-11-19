@@ -174,5 +174,13 @@
     "example": "We used blue-green deployment to release the new version of our API, directing user traffic to the green environment once testing was complete, ensuring zero downtime.",
     "date": "2025-11-18",
     "hash": 275085608
+  },
+  {
+    "word": "callback",
+    "partOfSpeech": "noun",
+    "definition": "A function passed as an argument to another function, intended to be executed after a certain event or operation completes.",
+    "example": "In JavaScript, you can use a callback function to handle the response after fetching data asynchronously from an API.",
+    "date": "2025-11-19",
+    "hash": 275085609
   }
 ]
