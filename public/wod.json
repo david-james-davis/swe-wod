@@ -182,5 +182,13 @@
     "example": "In JavaScript, you can use a callback function to handle the response after fetching data asynchronously from an API.",
     "date": "2025-11-19",
     "hash": 275085609
+  },
+  {
+    "word": "hotfix",
+    "partOfSpeech": "noun",
+    "definition": "A hotfix is an urgent software update released to fix a critical issue or bug in a live production environment without going through the regular release cycle.",
+    "example": "After discovering a security vulnerability, the team deployed a hotfix to patch the system immediately before the next scheduled release.",
+    "date": "2025-11-20",
+    "hash": 275085631
   }
 ]
