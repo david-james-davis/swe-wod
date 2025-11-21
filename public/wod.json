@@ -190,5 +190,13 @@
     "example": "After discovering a security vulnerability, the team deployed a hotfix to patch the system immediately before the next scheduled release.",
     "date": "2025-11-20",
     "hash": 275085631
+  },
+  {
+    "word": "feature flag",
+    "partOfSpeech": "noun",
+    "definition": "A feature flag is a conditional toggle in software that allows developers to enable or disable functionality without deploying new code, enabling controlled feature rollouts and testing.",
+    "example": "By using a feature flag, the team gradually enabled the new search algorithm for 10% of users before a full rollout.",
+    "date": "2025-11-21",
+    "hash": 275085632
   }
 ]
