@@ -198,5 +198,13 @@
     "example": "By using a feature flag, the team gradually enabled the new search algorithm for 10% of users before a full rollout.",
     "date": "2025-11-21",
     "hash": 275085632
+  },
+  {
+    "word": "containerization",
+    "partOfSpeech": "noun",
+    "definition": "The process of encapsulating or packaging software code and its dependencies so that it can run uniformly and consistently on any infrastructure.",
+    "example": "Developers use containerization tools like Docker to ensure their application runs the same way on a developer's laptop and in production servers.",
+    "date": "2025-11-22",
+    "hash": 275085633
   }
 ]
