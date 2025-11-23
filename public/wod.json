@@ -206,5 +206,13 @@
     "example": "Developers use containerization tools like Docker to ensure their application runs the same way on a developer's laptop and in production servers.",
     "date": "2025-11-22",
     "hash": 275085633
+  },
+  {
+    "word": "backpressure",
+    "partOfSpeech": "noun",
+    "definition": "A mechanism to handle overload in data processing by controlling the flow of data, preventing systems from being overwhelmed by too much input at once.",
+    "example": "In a reactive stream, backpressure is used to signal the producer to slow down when the consumer can't process data fast enough.",
+    "date": "2025-11-23",
+    "hash": 275085634
   }
 ]
