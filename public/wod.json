@@ -214,5 +214,13 @@
     "example": "In a reactive stream, backpressure is used to signal the producer to slow down when the consumer can't process data fast enough.",
     "date": "2025-11-23",
     "hash": 275085634
+  },
+  {
+    "word": "virtual DOM",
+    "partOfSpeech": "noun",
+    "definition": "A lightweight, in-memory representation of the real DOM used to optimize UI rendering by minimizing direct manipulations of the actual DOM elements.",
+    "example": "React uses a virtual DOM to efficiently update only the changed parts of the UI instead of re-rendering the entire page.",
+    "date": "2025-11-24",
+    "hash": 275085635
   }
 ]
