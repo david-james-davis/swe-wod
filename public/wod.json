@@ -222,5 +222,13 @@
     "example": "React uses a virtual DOM to efficiently update only the changed parts of the UI instead of re-rendering the entire page.",
     "date": "2025-11-24",
     "hash": 275085635
+  },
+  {
+    "word": "stateless",
+    "partOfSpeech": "adjective",
+    "definition": "Refers to a system or component that does not retain any state information between requests, making each request independent.",
+    "example": "RESTful APIs are typically stateless, meaning each API call contains all necessary information without relying on previous interactions.",
+    "date": "2025-11-25",
+    "hash": 275085636
   }
 ]
