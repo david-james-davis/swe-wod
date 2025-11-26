@@ -230,5 +230,13 @@
     "example": "RESTful APIs are typically stateless, meaning each API call contains all necessary information without relying on previous interactions.",
     "date": "2025-11-25",
     "hash": 275085636
+  },
+  {
+    "word": "microservices",
+    "partOfSpeech": "noun",
+    "definition": "An architectural style where an application is composed of small, independent services that communicate over a network.",
+    "example": "By decomposing the monolithic application into microservices, the team was able to deploy features independently and scale specific components as needed.",
+    "date": "2025-11-26",
+    "hash": 275085637
   }
 ]
