@@ -246,5 +246,13 @@
     "example": "During unit testing, developers often use mocking to replace database calls with mock objects that return preset data, ensuring tests run quickly and reliably.",
     "date": "2025-11-27",
     "hash": 275085638
+  },
+  {
+    "word": "debounce",
+    "partOfSpeech": "verb",
+    "definition": "To limit the rate at which a function is called by ensuring it only executes after a specified idle period, often used to improve performance and avoid excessive calls in response to rapid events.",
+    "example": "In a search input field, debounce is used to trigger the API call only after the user stops typing for 300 milliseconds, reducing unnecessary requests.",
+    "date": "2025-11-28",
+    "hash": 275085639
   }
 ]
