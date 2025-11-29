@@ -254,5 +254,13 @@
     "example": "In a search input field, debounce is used to trigger the API call only after the user stops typing for 300 milliseconds, reducing unnecessary requests.",
     "date": "2025-11-28",
     "hash": 275085639
+  },
+  {
+    "word": "monorepo",
+    "partOfSpeech": "noun",
+    "definition": "A monorepo is a software development strategy where code for many projects is stored in a single repository, allowing easier code sharing and unified version control.",
+    "example": "Google uses a monorepo to house most of its codebase, enabling consistent code standards and simplifying dependency management across teams.",
+    "date": "2025-11-29",
+    "hash": 275085640
   }
 ]
