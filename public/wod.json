@@ -262,5 +262,13 @@
     "example": "Google uses a monorepo to house most of its codebase, enabling consistent code standards and simplifying dependency management across teams.",
     "date": "2025-11-29",
     "hash": 275085640
+  },
+  {
+    "word": "fan-out",
+    "partOfSpeech": "noun",
+    "definition": "The number of downstream components or processes to which a single component sends requests or messages, often impacting system performance and complexity.",
+    "example": "In a microservices architecture, a service with high fan-out may call many other services, increasing the risk of cascading failures.",
+    "date": "2025-11-30",
+    "hash": 275085662
   }
 ]
