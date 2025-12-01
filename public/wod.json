@@ -270,5 +270,13 @@
     "example": "In a microservices architecture, a service with high fan-out may call many other services, increasing the risk of cascading failures.",
     "date": "2025-11-30",
     "hash": 275085662
+  },
+  {
+    "word": "circuit breaker",
+    "partOfSpeech": "noun",
+    "definition": "A design pattern used in software systems to detect failures and encapsulate the logic of preventing a failure from constantly recurring during maintenance or temporary external system failure.",
+    "example": "Implementing a circuit breaker in the payment service stops calls to the downstream API after multiple failures, preventing system overload and allowing recovery.",
+    "date": "2025-12-01",
+    "hash": 275115361
   }
 ]
