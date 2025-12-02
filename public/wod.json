@@ -278,5 +278,13 @@
     "example": "Implementing a circuit breaker in the payment service stops calls to the downstream API after multiple failures, preventing system overload and allowing recovery.",
     "date": "2025-12-01",
     "hash": 275115361
+  },
+  {
+    "word": "mutex",
+    "partOfSpeech": "noun",
+    "definition": "A mutual exclusion object used to prevent multiple threads from accessing a shared resource simultaneously, thus avoiding race conditions.",
+    "example": "In a multi-threaded program, a mutex locks access to a shared counter variable so that only one thread can increment it at a time.",
+    "date": "2025-12-02",
+    "hash": 275115362
   }
 ]
