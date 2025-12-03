@@ -286,5 +286,13 @@
     "example": "In a multi-threaded program, a mutex locks access to a shared counter variable so that only one thread can increment it at a time.",
     "date": "2025-12-02",
     "hash": 275115362
+  },
+  {
+    "word": "hot reload",
+    "partOfSpeech": "noun",
+    "definition": "A development feature that allows code changes to be applied to a running application immediately without restarting the entire system, speeding up iteration cycles.",
+    "example": "Using hot reload in the React Native app, the developer was able to see UI changes instantly without rebuilding the app.",
+    "date": "2025-12-03",
+    "hash": 275115363
   }
 ]
