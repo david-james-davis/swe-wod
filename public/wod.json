@@ -294,5 +294,13 @@
     "example": "Using hot reload in the React Native app, the developer was able to see UI changes instantly without rebuilding the app.",
     "date": "2025-12-03",
     "hash": 275115363
+  },
+  {
+    "word": "polyfill",
+    "partOfSpeech": "noun",
+    "definition": "A piece of code (usually JavaScript) used to provide modern functionality on older browsers that do not natively support it.",
+    "example": "We used a polyfill to enable the Fetch API in older versions of Internet Explorer.",
+    "date": "2025-12-04",
+    "hash": 275115364
   }
 ]
