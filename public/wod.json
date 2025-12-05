@@ -302,5 +302,13 @@
     "example": "We used a polyfill to enable the Fetch API in older versions of Internet Explorer.",
     "date": "2025-12-04",
     "hash": 275115364
+  },
+  {
+    "word": "cache miss",
+    "partOfSpeech": "noun",
+    "definition": "An event where requested data is not found in the cache, causing the system to retrieve it from a slower memory or storage layer.",
+    "example": "When the user requested the profile info, a cache miss occurred, so the server fetched the data from the database.",
+    "date": "2025-12-05",
+    "hash": 275115365
   }
 ]
