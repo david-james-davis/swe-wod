@@ -310,5 +310,13 @@
     "example": "When the user requested the profile info, a cache miss occurred, so the server fetched the data from the database.",
     "date": "2025-12-05",
     "hash": 275115365
+  },
+  {
+    "word": "deadlock",
+    "partOfSpeech": "noun",
+    "definition": "A situation in concurrent programming where two or more processes are unable to proceed because each is waiting for the other to release resources.",
+    "example": "Two threads each hold a lock the other needs, causing a deadlock that halts the entire program.",
+    "date": "2025-12-06",
+    "hash": 275115366
   }
 ]
