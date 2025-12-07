@@ -318,5 +318,13 @@
     "example": "Two threads each hold a lock the other needs, causing a deadlock that halts the entire program.",
     "date": "2025-12-06",
     "hash": 275115366
+  },
+  {
+    "word": "throttling",
+    "partOfSpeech": "noun",
+    "definition": "The process of limiting the rate at which a system or component processes requests to prevent overload or ensure quality of service.",
+    "example": "The API implements throttling by allowing only 100 requests per minute per user to avoid server overload.",
+    "date": "2025-12-07",
+    "hash": 275115367
   }
 ]
