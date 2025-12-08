@@ -326,5 +326,13 @@
     "example": "The API implements throttling by allowing only 100 requests per minute per user to avoid server overload.",
     "date": "2025-12-07",
     "hash": 275115367
+  },
+  {
+    "word": "race condition",
+    "partOfSpeech": "noun",
+    "definition": "A race condition occurs when the behavior of software depends on the sequence or timing of uncontrollable events, often leading to unpredictable bugs.",
+    "example": "Two threads updating a shared variable simultaneously without proper synchronization can cause a race condition, resulting in incorrect final values.",
+    "date": "2025-12-08",
+    "hash": 275115368
   }
 ]
