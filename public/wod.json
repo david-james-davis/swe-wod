@@ -334,5 +334,13 @@
     "example": "Two threads updating a shared variable simultaneously without proper synchronization can cause a race condition, resulting in incorrect final values.",
     "date": "2025-12-08",
     "hash": 275115368
+  },
+  {
+    "word": "sandbox",
+    "partOfSpeech": "noun",
+    "definition": "An isolated environment where code or applications can be executed safely without affecting the production system or other resources.",
+    "example": "Developers often test new features in a sandbox to ensure they work correctly before deployment to the live server.",
+    "date": "2025-12-09",
+    "hash": 275115369
   }
 ]
