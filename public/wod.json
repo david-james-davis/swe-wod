@@ -342,5 +342,13 @@
     "example": "Developers often test new features in a sandbox to ensure they work correctly before deployment to the live server.",
     "date": "2025-12-09",
     "hash": 275115369
+  },
+  {
+    "word": "memoization",
+    "partOfSpeech": "noun",
+    "definition": "An optimization technique that stores the results of expensive function calls and returns the cached result when the same inputs occur again.",
+    "example": "Using memoization in a recursive Fibonacci function reduces exponential time complexity to linear by caching previously computed values.",
+    "date": "2025-12-10",
+    "hash": 275115391
   }
 ]
