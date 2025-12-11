@@ -350,5 +350,13 @@
     "example": "Using memoization in a recursive Fibonacci function reduces exponential time complexity to linear by caching previously computed values.",
     "date": "2025-12-10",
     "hash": 275115391
+  },
+  {
+    "word": "bulkhead",
+    "partOfSpeech": "noun",
+    "definition": "An architectural pattern that isolates components or subsystems so failures in one do not cascade to others, improving system resilience.",
+    "example": "Using bulkheads in a microservice architecture ensures that if the payment service fails, it doesn't bring down the entire checkout process.",
+    "date": "2025-12-11",
+    "hash": 275115392
   }
 ]
