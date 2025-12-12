@@ -358,5 +358,13 @@
     "example": "Using bulkheads in a microservice architecture ensures that if the payment service fails, it doesn't bring down the entire checkout process.",
     "date": "2025-12-11",
     "hash": 275115392
+  },
+  {
+    "word": "load balancing",
+    "partOfSpeech": "noun",
+    "definition": "The process of distributing incoming network traffic or computing tasks across multiple servers or resources to ensure reliability and optimal performance.",
+    "example": "Using a load balancer, web requests are evenly distributed among several backend servers to prevent any single server from becoming a bottleneck during high traffic periods.",
+    "date": "2025-12-12",
+    "hash": 275115393
   }
 ]
