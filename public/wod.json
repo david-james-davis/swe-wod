@@ -366,5 +366,13 @@
     "example": "Using a load balancer, web requests are evenly distributed among several backend servers to prevent any single server from becoming a bottleneck during high traffic periods.",
     "date": "2025-12-12",
     "hash": 275115393
+  },
+  {
+    "word": "atomic operation",
+    "partOfSpeech": "noun",
+    "definition": "An atomic operation is a sequence of instructions that appears indivisible and uninterruptible from the perspective of other threads, ensuring data consistency during concurrent programming.",
+    "example": "Using an atomic increment operation on a shared counter prevents race conditions in a multi-threaded environment.",
+    "date": "2025-12-13",
+    "hash": 275115394
   }
 ]
