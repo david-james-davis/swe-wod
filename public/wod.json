@@ -374,5 +374,13 @@
     "example": "Using an atomic increment operation on a shared counter prevents race conditions in a multi-threaded environment.",
     "date": "2025-12-13",
     "hash": 275115394
+  },
+  {
+    "word": "idempotent",
+    "partOfSpeech": "adjective",
+    "definition": "An operation that can be applied multiple times without changing the result beyond the initial application.",
+    "example": "An HTTP PUT request to update a user profile is idempotent because sending the same update multiple times results in the same user profile state.",
+    "date": "2025-12-14",
+    "hash": 275115395
   }
 ]
