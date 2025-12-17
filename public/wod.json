@@ -398,5 +398,13 @@
     "example": "In a web application, images below the fold are loaded only when the user scrolls down to them, implementing lazy loading to speed up the initial page load.",
     "date": "2025-12-16",
     "hash": 275115397
+  },
+  {
+    "word": "singleton",
+    "partOfSpeech": "noun",
+    "definition": "A design pattern that restricts the instantiation of a class to a single object, ensuring a single shared instance throughout the application.",
+    "example": "In a logging system, the singleton pattern ensures that all modules write to the same log instance to prevent conflicts and duplication.",
+    "date": "2025-12-17",
+    "hash": 275115398
   }
 ]
