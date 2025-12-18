@@ -406,5 +406,13 @@
     "example": "In a logging system, the singleton pattern ensures that all modules write to the same log instance to prevent conflicts and duplication.",
     "date": "2025-12-17",
     "hash": 275115398
+  },
+  {
+    "word": "commit",
+    "partOfSpeech": "verb",
+    "definition": "To save changes made in the source code to a version control system, creating a checkpoint in the project’s history.",
+    "example": "After fixing the bug, she committed the changes to the Git repository with a descriptive message.",
+    "date": "2025-12-18",
+    "hash": 275115399
   }
 ]
