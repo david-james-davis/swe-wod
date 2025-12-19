@@ -414,5 +414,13 @@
     "example": "After fixing the bug, she committed the changes to the Git repository with a descriptive message.",
     "date": "2025-12-18",
     "hash": 275115399
+  },
+  {
+    "word": "integration testing",
+    "partOfSpeech": "noun",
+    "definition": "A phase of software testing where individual modules are combined and tested as a group to detect interface defects between modules.",
+    "example": "After unit tests passed, the team ran integration testing to ensure that the payment gateway correctly communicated with the order processing system.",
+    "date": "2025-12-19",
+    "hash": 275115400
   }
 ]
