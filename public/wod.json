@@ -422,5 +422,13 @@
     "example": "After unit tests passed, the team ran integration testing to ensure that the payment gateway correctly communicated with the order processing system.",
     "date": "2025-12-19",
     "hash": 275115400
+  },
+  {
+    "word": "shadow copy",
+    "partOfSpeech": "noun",
+    "definition": "A snapshot of computer data or a file at a specific point in time, allowing backup or recovery without interrupting ongoing processes.",
+    "example": "The backup system created a shadow copy of the database to ensure data consistency during the nightly save operation.",
+    "date": "2025-12-20",
+    "hash": 275115422
   }
 ]
