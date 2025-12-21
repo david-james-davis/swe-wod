@@ -430,5 +430,13 @@
     "example": "The backup system created a shadow copy of the database to ensure data consistency during the nightly save operation.",
     "date": "2025-12-20",
     "hash": 275115422
+  },
+  {
+    "word": "blue-green deployment",
+    "partOfSpeech": "noun",
+    "definition": "A deployment strategy that reduces downtime and risk by running two identical production environments, where one (blue) is live and the other (green) is updated and tested before switching traffic to it.",
+    "example": "We used blue-green deployment to release the new version so users experienced zero downtime while we switched from the old version to the new one.",
+    "date": "2025-12-21",
+    "hash": 275115423
   }
 ]
