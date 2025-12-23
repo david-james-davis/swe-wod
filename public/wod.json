@@ -446,5 +446,13 @@
     "example": "After discovering a security flaw in the authentication module, the team deployed a hotfix directly to the live environment to prevent unauthorized access.",
     "date": "2025-12-22",
     "hash": 275115424
+  },
+  {
+    "word": "event sourcing",
+    "partOfSpeech": "noun",
+    "definition": "An architectural pattern in which changes to application state are stored as a sequence of immutable events rather than overwriting the current state directly.",
+    "example": "Instead of updating the user's profile directly, the system records events like 'NameChanged' and 'EmailUpdated' which can be replayed to reconstruct the current profile state.",
+    "date": "2025-12-23",
+    "hash": 275115425
   }
 ]
