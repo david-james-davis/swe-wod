@@ -454,5 +454,13 @@
     "example": "Instead of updating the user's profile directly, the system records events like 'NameChanged' and 'EmailUpdated' which can be replayed to reconstruct the current profile state.",
     "date": "2025-12-23",
     "hash": 275115425
+  },
+  {
+    "word": "rollback",
+    "partOfSpeech": "noun/verb",
+    "definition": "The process of reverting a system or database to a previous stable state after an error or failure occurs, ensuring data integrity and system stability.",
+    "example": "After the faulty update caused several errors, the team performed a rollback to the previous database snapshot to restore normal operations.",
+    "date": "2025-12-24",
+    "hash": 275115426
   }
 ]
