@@ -470,5 +470,13 @@
     "example": "We used a canary release to deploy the new search feature to 5% of users and monitored for errors before completing the full rollout.",
     "date": "2025-12-25",
     "hash": 275115427
+  },
+  {
+    "word": "backpressure",
+    "partOfSpeech": "noun",
+    "definition": "A mechanism to prevent system overload by controlling the rate of data flow between components, ensuring that producers do not overwhelm consumers.",
+    "example": "In a streaming application, backpressure is applied when the consumer signals the producer to slow down because it cannot process incoming data fast enough.",
+    "date": "2025-12-26",
+    "hash": 275115428
   }
 ]
