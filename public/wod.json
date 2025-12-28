@@ -486,5 +486,13 @@
     "example": "The API uses rate limiting to restrict each user to 100 requests per minute to avoid server overload.",
     "date": "2025-12-27",
     "hash": 275115429
+  },
+  {
+    "word": "caching",
+    "partOfSpeech": "noun",
+    "definition": "A technique to store frequently accessed data in a faster storage layer to reduce latency and improve performance.",
+    "example": "Web browsers use caching to save images and scripts locally, so returning to a website loads faster without downloading all resources again.",
+    "date": "2025-12-28",
+    "hash": 275115430
   }
 ]
