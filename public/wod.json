@@ -494,5 +494,13 @@
     "example": "Web browsers use caching to save images and scripts locally, so returning to a website loads faster without downloading all resources again.",
     "date": "2025-12-28",
     "hash": 275115430
+  },
+  {
+    "word": "edge computing",
+    "partOfSpeech": "noun",
+    "definition": "A distributed computing paradigm that brings computation and data storage closer to the sources of data, reducing latency and bandwidth use.",
+    "example": "Processing sensor data locally on devices at a factory floor instead of sending it all to a centralized cloud server is an example of edge computing.",
+    "date": "2025-12-29",
+    "hash": 275115431
   }
 ]
