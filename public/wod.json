@@ -502,5 +502,13 @@
     "example": "Processing sensor data locally on devices at a factory floor instead of sending it all to a centralized cloud server is an example of edge computing.",
     "date": "2025-12-29",
     "hash": 275115431
+  },
+  {
+    "word": "namespace",
+    "partOfSpeech": "noun",
+    "definition": "A container that holds a set of identifiers (names) and allows the disambiguation of homonym identifiers in different contexts.",
+    "example": "In C++, the std namespace encapsulates standard library functions to prevent name conflicts with user-defined functions.",
+    "date": "2025-12-30",
+    "hash": 275115453
   }
 ]
