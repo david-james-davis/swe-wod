@@ -510,5 +510,13 @@
     "example": "In C++, the std namespace encapsulates standard library functions to prevent name conflicts with user-defined functions.",
     "date": "2025-12-30",
     "hash": 275115453
+  },
+  {
+    "word": "debounce",
+    "partOfSpeech": "verb",
+    "definition": "To limit the rate at which a function is executed by ensuring it only runs after a specified delay has passed since the last call, commonly used to control rapid or repeated events like user input.",
+    "example": "In a search input field, you can debounce the API call so it only triggers 300ms after the user stops typing, reducing unnecessary requests.",
+    "date": "2025-12-31",
+    "hash": 275115454
   }
 ]
