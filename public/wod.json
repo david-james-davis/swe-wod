@@ -518,5 +518,13 @@
     "example": "In a search input field, you can debounce the API call so it only triggers 300ms after the user stops typing, reducing unnecessary requests.",
     "date": "2025-12-31",
     "hash": 275115454
+  },
+  {
+    "word": "circuit breaker",
+    "partOfSpeech": "noun",
+    "definition": "A design pattern used in software to detect failures and encapsulate the logic of preventing a failure from constantly recurring during maintenance or temporary external system failure.",
+    "example": "When an external payment API fails repeatedly, the circuit breaker trips to stop further calls for a specified timeout period, improving overall system resilience.",
+    "date": "2026-01-01",
+    "hash": 1161665730
   }
 ]
