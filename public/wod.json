@@ -526,5 +526,13 @@
     "example": "When an external payment API fails repeatedly, the circuit breaker trips to stop further calls for a specified timeout period, improving overall system resilience.",
     "date": "2026-01-01",
     "hash": 1161665730
+  },
+  {
+    "word": "serialization",
+    "partOfSpeech": "noun",
+    "definition": "The process of converting an object or data structure into a format that can be easily stored or transmitted and later reconstructed.",
+    "example": "In a distributed system, data objects are serialized to JSON before being sent over the network and deserialized on the receiving end.",
+    "date": "2026-01-02",
+    "hash": 1161665731
   }
 ]
