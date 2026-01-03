@@ -534,5 +534,13 @@
     "example": "In a distributed system, data objects are serialized to JSON before being sent over the network and deserialized on the receiving end.",
     "date": "2026-01-02",
     "hash": 1161665731
+  },
+  {
+    "word": "fail fast",
+    "partOfSpeech": "verb phrase",
+    "definition": "A design principle that encourages a system or component to immediately report any failure, rather than continuing to operate in a potentially faulty state.",
+    "example": "By implementing fail fast validations on user input, the application promptly notifies users about errors without processing invalid data further.",
+    "date": "2026-01-03",
+    "hash": 1161665732
   }
 ]
