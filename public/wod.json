@@ -542,5 +542,13 @@
     "example": "By implementing fail fast validations on user input, the application promptly notifies users about errors without processing invalid data further.",
     "date": "2026-01-03",
     "hash": 1161665732
+  },
+  {
+    "word": "feature flag",
+    "partOfSpeech": "noun",
+    "definition": "A technique that allows developers to enable or disable features dynamically without deploying new code, facilitating controlled rollouts and testing.",
+    "example": "By using a feature flag, the team rolled out the new search algorithm to 10% of users before a full deployment.",
+    "date": "2026-01-04",
+    "hash": 1161665733
   }
 ]
