@@ -550,5 +550,13 @@
     "example": "By using a feature flag, the team rolled out the new search algorithm to 10% of users before a full deployment.",
     "date": "2026-01-04",
     "hash": 1161665733
+  },
+  {
+    "word": "duck typing",
+    "partOfSpeech": "noun",
+    "definition": "A programming concept where an object's suitability is determined by the presence of certain methods and properties rather than the object's actual type.",
+    "example": "In Python, a function expecting an object with a 'quack()' method will work with any object that has quack(), regardless of its class - that's duck typing.",
+    "date": "2026-01-05",
+    "hash": 1161665734
   }
 ]
