@@ -558,5 +558,13 @@
     "example": "In Python, a function expecting an object with a 'quack()' method will work with any object that has quack(), regardless of its class - that's duck typing.",
     "date": "2026-01-05",
     "hash": 1161665734
+  },
+  {
+    "word": "hotspot",
+    "partOfSpeech": "noun",
+    "definition": "A section of code or system component that consumes a disproportionately large amount of resources or time, often a target for optimization.",
+    "example": "Profiling the application revealed a hotspot in the data parsing function that slowed down the entire process.",
+    "date": "2026-01-06",
+    "hash": 1161665735
   }
 ]
