@@ -566,5 +566,13 @@
     "example": "Profiling the application revealed a hotspot in the data parsing function that slowed down the entire process.",
     "date": "2026-01-06",
     "hash": 1161665735
+  },
+  {
+    "word": "throttling",
+    "partOfSpeech": "noun",
+    "definition": "A technique used to control the rate at which an operation or request is allowed to proceed, usually to prevent resource exhaustion or system overload.",
+    "example": "The API implements throttling to limit users to 100 requests per minute, ensuring fair usage and stable performance.",
+    "date": "2026-01-07",
+    "hash": 1161665736
   }
 ]
