@@ -574,5 +574,13 @@
     "example": "The API implements throttling to limit users to 100 requests per minute, ensuring fair usage and stable performance.",
     "date": "2026-01-07",
     "hash": 1161665736
+  },
+  {
+    "word": "deadlock",
+    "partOfSpeech": "noun",
+    "definition": "A situation in concurrent programming where two or more processes are each waiting for the other to release resources, causing all to be stuck indefinitely.",
+    "example": "Thread A holds Lock 1 and waits for Lock 2, while Thread B holds Lock 2 and waits for Lock 1, resulting in a deadlock.",
+    "date": "2026-01-08",
+    "hash": 1161665737
   }
 ]
