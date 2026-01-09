@@ -582,5 +582,13 @@
     "example": "Thread A holds Lock 1 and waits for Lock 2, while Thread B holds Lock 2 and waits for Lock 1, resulting in a deadlock.",
     "date": "2026-01-08",
     "hash": 1161665737
+  },
+  {
+    "word": "continuous integration",
+    "partOfSpeech": "noun",
+    "definition": "A development practice where developers frequently merge their code changes into a shared repository, triggering automated builds and tests to detect integration errors early.",
+    "example": "The team uses continuous integration to automatically run tests whenever a developer pushes changes, ensuring that new code doesn't break existing functionality.",
+    "date": "2026-01-09",
+    "hash": 1161665738
   }
 ]
