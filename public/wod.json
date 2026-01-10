@@ -590,5 +590,13 @@
     "example": "The team uses continuous integration to automatically run tests whenever a developer pushes changes, ensuring that new code doesn't break existing functionality.",
     "date": "2026-01-09",
     "hash": 1161665738
+  },
+  {
+    "word": "memoization",
+    "partOfSpeech": "noun",
+    "definition": "An optimization technique that stores the results of expensive function calls and returns the cached result when the same inputs occur again.",
+    "example": "Using memoization in a Fibonacci sequence calculation avoids redundant computations by caching previously computed values.",
+    "date": "2026-01-10",
+    "hash": 1161665760
   }
 ]
