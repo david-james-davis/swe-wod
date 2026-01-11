@@ -598,5 +598,13 @@
     "example": "Using memoization in a Fibonacci sequence calculation avoids redundant computations by caching previously computed values.",
     "date": "2026-01-10",
     "hash": 1161665760
+  },
+  {
+    "word": "race condition",
+    "partOfSpeech": "noun",
+    "definition": "A flaw that occurs when the behavior of software depends on the relative timing or sequence of uncontrollable events, leading to unpredictable results.",
+    "example": "Two threads updating the same variable without proper synchronization can cause a race condition, resulting in corrupted data.",
+    "date": "2026-01-11",
+    "hash": 1161665761
   }
 ]
