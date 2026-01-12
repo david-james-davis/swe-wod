@@ -606,5 +606,13 @@
     "example": "Two threads updating the same variable without proper synchronization can cause a race condition, resulting in corrupted data.",
     "date": "2026-01-11",
     "hash": 1161665761
+  },
+  {
+    "word": "dependency injection",
+    "partOfSpeech": "noun",
+    "definition": "A software design pattern where an object's dependencies are provided externally rather than the object creating them internally, promoting loose coupling and easier testing.",
+    "example": "In a web application, a service class receives its database connection through dependency injection, allowing the connection to be mocked during unit tests.",
+    "date": "2026-01-12",
+    "hash": 1161665762
   }
 ]
