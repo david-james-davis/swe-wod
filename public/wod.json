@@ -614,5 +614,13 @@
     "example": "In a web application, a service class receives its database connection through dependency injection, allowing the connection to be mocked during unit tests.",
     "date": "2026-01-12",
     "hash": 1161665762
+  },
+  {
+    "word": "load balancing",
+    "partOfSpeech": "noun",
+    "definition": "The process of distributing network or application traffic evenly across multiple servers to ensure reliability and optimal resource use.",
+    "example": "A load balancer routes incoming user requests to different web servers to prevent any single server from becoming a bottleneck during peak traffic.",
+    "date": "2026-01-13",
+    "hash": 1161665763
   }
 ]
