@@ -622,5 +622,13 @@
     "example": "A load balancer routes incoming user requests to different web servers to prevent any single server from becoming a bottleneck during peak traffic.",
     "date": "2026-01-13",
     "hash": 1161665763
+  },
+  {
+    "word": "idempotent",
+    "partOfSpeech": "adjective",
+    "definition": "An operation that can be applied multiple times without changing the result beyond the initial application.",
+    "example": "HTTP GET requests are idempotent because making the same GET request multiple times will always return the same result without side effects.",
+    "date": "2026-01-14",
+    "hash": 1161665764
   }
 ]
