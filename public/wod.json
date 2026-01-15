@@ -630,5 +630,13 @@
     "example": "HTTP GET requests are idempotent because making the same GET request multiple times will always return the same result without side effects.",
     "date": "2026-01-14",
     "hash": 1161665764
+  },
+  {
+    "word": "heatmap",
+    "partOfSpeech": "noun",
+    "definition": "A visual representation of data where individual values are represented as colors, often used to identify patterns or hotspots in large datasets.",
+    "example": "Developers used a heatmap to analyze user interactions on the webpage, identifying the most frequently clicked areas for UI improvements.",
+    "date": "2026-01-15",
+    "hash": 1161665765
   }
 ]
