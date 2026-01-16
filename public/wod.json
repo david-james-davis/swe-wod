@@ -638,5 +638,13 @@
     "example": "Developers used a heatmap to analyze user interactions on the webpage, identifying the most frequently clicked areas for UI improvements.",
     "date": "2026-01-15",
     "hash": 1161665765
+  },
+  {
+    "word": "sharding",
+    "partOfSpeech": "noun",
+    "definition": "A database partitioning technique where a large dataset is horizontally split into smaller, more manageable pieces called shards, distributed across multiple servers to improve performance and scalability.",
+    "example": "To handle their rapidly growing user base, the company implemented sharding by distributing user data across multiple database servers based on geographic region.",
+    "date": "2026-01-16",
+    "hash": 1161665766
   }
 ]
