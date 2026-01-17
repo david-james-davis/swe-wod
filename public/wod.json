@@ -646,5 +646,13 @@
     "example": "To handle their rapidly growing user base, the company implemented sharding by distributing user data across multiple database servers based on geographic region.",
     "date": "2026-01-16",
     "hash": 1161665766
+  },
+  {
+    "word": "hot reload",
+    "partOfSpeech": "verb",
+    "definition": "To update a running application's code without restarting it, allowing developers to see changes instantly during development.",
+    "example": "Using hot reload, the developer modified the UI's styling and saw the changes reflect immediately on the app without a full restart.",
+    "date": "2026-01-17",
+    "hash": 1161665767
   }
 ]
