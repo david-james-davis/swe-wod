@@ -654,5 +654,13 @@
     "example": "Using hot reload, the developer modified the UI's styling and saw the changes reflect immediately on the app without a full restart.",
     "date": "2026-01-17",
     "hash": 1161665767
+  },
+  {
+    "word": "middleware",
+    "partOfSpeech": "noun",
+    "definition": "Software that acts as an intermediary layer between an operating system or database and applications, facilitating communication and data management.",
+    "example": "In a web application, middleware can process incoming HTTP requests to handle authentication before passing the request to the main application logic.",
+    "date": "2026-01-18",
+    "hash": 1161665768
   }
 ]
