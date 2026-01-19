@@ -662,5 +662,13 @@
     "example": "In a web application, middleware can process incoming HTTP requests to handle authentication before passing the request to the main application logic.",
     "date": "2026-01-18",
     "hash": 1161665768
+  },
+  {
+    "word": "refactoring",
+    "partOfSpeech": "noun",
+    "definition": "The process of restructuring existing computer code without changing its external behavior to improve readability, reduce complexity, and enhance maintainability.",
+    "example": "The development team spent a sprint refactoring the legacy authentication module to simplify the logic and improve test coverage.",
+    "date": "2026-01-19",
+    "hash": 1161665769
   }
 ]
