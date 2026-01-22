@@ -686,5 +686,13 @@
     "example": "We used blue-green deployment to switch users seamlessly to the updated web service without any downtime.",
     "date": "2026-01-21",
     "hash": 1161665792
+  },
+  {
+    "word": "hotfix",
+    "partOfSpeech": "noun",
+    "definition": "A hotfix is an urgent update or patch applied to a live software system to quickly fix a critical bug or vulnerability without going through the regular release cycle.",
+    "example": "After discovering a security flaw in production, the team released a hotfix overnight to prevent any data breaches.",
+    "date": "2026-01-22",
+    "hash": 1161665793
   }
 ]
