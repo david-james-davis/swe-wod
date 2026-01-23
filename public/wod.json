@@ -694,5 +694,13 @@
     "example": "After discovering a security flaw in production, the team released a hotfix overnight to prevent any data breaches.",
     "date": "2026-01-22",
     "hash": 1161665793
+  },
+  {
+    "word": "eventual consistency",
+    "partOfSpeech": "noun",
+    "definition": "A consistency model in distributed systems where updates to a data store are guaranteed to propagate and become consistent across all nodes after some undefined delay.",
+    "example": "In a distributed database, when a user updates a document on one server, other servers may still see the old version temporarily but will eventually reflect the update once synchronization completes.",
+    "date": "2026-01-23",
+    "hash": 1161665794
   }
 ]
