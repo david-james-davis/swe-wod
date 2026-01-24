@@ -702,5 +702,13 @@
     "example": "In a distributed database, when a user updates a document on one server, other servers may still see the old version temporarily but will eventually reflect the update once synchronization completes.",
     "date": "2026-01-23",
     "hash": 1161665794
+  },
+  {
+    "word": "immutability",
+    "partOfSpeech": "noun",
+    "definition": "The property of an object whose state cannot be modified after it is created, promoting safer concurrency and easier reasoning about code.",
+    "example": "In functional programming, strings are often immutable, meaning any operation that alters the string returns a new instance rather than changing the original.",
+    "date": "2026-01-24",
+    "hash": 1161665795
   }
 ]
