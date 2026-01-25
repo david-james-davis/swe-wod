@@ -710,5 +710,13 @@
     "example": "In functional programming, strings are often immutable, meaning any operation that alters the string returns a new instance rather than changing the original.",
     "date": "2026-01-24",
     "hash": 1161665795
+  },
+  {
+    "word": "profiling",
+    "partOfSpeech": "noun",
+    "definition": "The process of measuring a program's resource usage, such as CPU or memory consumption, to identify bottlenecks and optimize performance.",
+    "example": "Using a CPU profiler, the engineer identified the slow function causing the app to lag and optimized it, improving overall response time.",
+    "date": "2026-01-25",
+    "hash": 1161665796
   }
 ]
