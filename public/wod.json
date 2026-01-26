@@ -718,5 +718,13 @@
     "example": "Using a CPU profiler, the engineer identified the slow function causing the app to lag and optimized it, improving overall response time.",
     "date": "2026-01-25",
     "hash": 1161665796
+  },
+  {
+    "word": "containerization",
+    "partOfSpeech": "noun",
+    "definition": "A lightweight virtualization method that packages an application and its dependencies into a single container, ensuring consistent environments across development, testing, and production.",
+    "example": "Using Docker for containerization, the development team was able to deploy the web app quickly and reliably across multiple cloud platforms without environment conflicts.",
+    "date": "2026-01-26",
+    "hash": 1161665797
   }
 ]
