@@ -726,5 +726,13 @@
     "example": "Using Docker for containerization, the development team was able to deploy the web app quickly and reliably across multiple cloud platforms without environment conflicts.",
     "date": "2026-01-26",
     "hash": 1161665797
+  },
+  {
+    "word": "rollback",
+    "partOfSpeech": "noun/verb",
+    "definition": "The process of reverting a software system to a previous stable state after a failed update or deployment to minimize disruption and errors.",
+    "example": "After deploying the new release caused critical errors, the team initiated a rollback to the previous version to restore system stability.",
+    "date": "2026-01-27",
+    "hash": 1161665798
   }
 ]
