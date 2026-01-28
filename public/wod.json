@@ -734,5 +734,13 @@
     "example": "After deploying the new release caused critical errors, the team initiated a rollback to the previous version to restore system stability.",
     "date": "2026-01-27",
     "hash": 1161665798
+  },
+  {
+    "word": "backpressure",
+    "partOfSpeech": "noun",
+    "definition": "A mechanism to control the flow of data by slowing down the data producer when the consumer is overwhelmed, preventing resource exhaustion and ensuring system stability.",
+    "example": "In a streaming pipeline, backpressure signals the upstream system to reduce data emission rate when the downstream components cannot process the events fast enough.",
+    "date": "2026-01-28",
+    "hash": 1161665799
   }
 ]
