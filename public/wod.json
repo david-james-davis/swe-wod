@@ -742,5 +742,13 @@
     "example": "In a streaming pipeline, backpressure signals the upstream system to reduce data emission rate when the downstream components cannot process the events fast enough.",
     "date": "2026-01-28",
     "hash": 1161665799
+  },
+  {
+    "word": "caching",
+    "partOfSpeech": "noun",
+    "definition": "A technique to store copies of data or computations temporarily to speed up subsequent access by avoiding repeated processing or fetching from slower sources.",
+    "example": "A web application uses caching to store frequently accessed database query results in memory, reducing latency and lowering database load.",
+    "date": "2026-01-29",
+    "hash": 1161665800
   }
 ]
