@@ -750,5 +750,13 @@
     "example": "A web application uses caching to store frequently accessed database query results in memory, reducing latency and lowering database load.",
     "date": "2026-01-29",
     "hash": 1161665800
+  },
+  {
+    "word": "pivot",
+    "partOfSpeech": "verb",
+    "definition": "To fundamentally change the direction or approach of a project or product based on new information or user feedback, while leveraging existing resources or technology.",
+    "example": "The development team decided to pivot from creating a mobile-only app to a cross-platform solution after user surveys showed a significant demand for desktop access.",
+    "date": "2026-01-30",
+    "hash": 1161665822
   }
 ]
