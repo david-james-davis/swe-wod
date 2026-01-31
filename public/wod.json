@@ -758,5 +758,13 @@
     "example": "The development team decided to pivot from creating a mobile-only app to a cross-platform solution after user surveys showed a significant demand for desktop access.",
     "date": "2026-01-30",
     "hash": 1161665822
+  },
+  {
+    "word": "sandbox",
+    "partOfSpeech": "noun",
+    "definition": "An isolated environment used for testing or experimenting with code or applications without affecting the main system or production environment.",
+    "example": "Developers deployed the new feature in a sandbox environment to test its performance before releasing it to users.",
+    "date": "2026-01-31",
+    "hash": 1161665823
   }
 ]
