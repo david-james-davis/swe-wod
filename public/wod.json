@@ -766,5 +766,13 @@
     "example": "Developers deployed the new feature in a sandbox environment to test its performance before releasing it to users.",
     "date": "2026-01-31",
     "hash": 1161665823
+  },
+  {
+    "word": "circuit breaker",
+    "partOfSpeech": "noun",
+    "definition": "A design pattern used in distributed systems to detect failures and encapsulate the logic of preventing continuous request attempts to a failing service, thus improving system stability.",
+    "example": "When the payment service starts timing out, the circuit breaker trips to stop sending requests temporarily, allowing the service to recover.",
+    "date": "2026-02-01",
+    "hash": 1161695521
   }
 ]
