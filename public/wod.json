@@ -774,5 +774,13 @@
     "example": "When the payment service starts timing out, the circuit breaker trips to stop sending requests temporarily, allowing the service to recover.",
     "date": "2026-02-01",
     "hash": 1161695521
+  },
+  {
+    "word": "debounce",
+    "partOfSpeech": "verb",
+    "definition": "To limit the rate at which a function is executed by delaying its execution until a certain pause has occurred in a series of rapid events, commonly used to improve performance and user experience in event handling.",
+    "example": "In a search input field, debounce prevents sending a request to the server on every keystroke by waiting until the user stops typing for 300 milliseconds before triggering the search function.",
+    "date": "2026-02-02",
+    "hash": 1161695522
   }
 ]
