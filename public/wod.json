@@ -790,5 +790,13 @@
     "example": "The API applies rate limiting by allowing each user only 100 requests per minute to ensure fair usage and prevent server strain.",
     "date": "2026-02-03",
     "hash": 1161695523
+  },
+  {
+    "word": "feature flag",
+    "partOfSpeech": "noun",
+    "definition": "A technique that allows developers to enable or disable software features dynamically without deploying new code, facilitating gradual rollouts and A/B testing.",
+    "example": "By using a feature flag, the team was able to test the new search functionality with a small group of users before releasing it to everyone.",
+    "date": "2026-02-04",
+    "hash": 1161695524
   }
 ]
