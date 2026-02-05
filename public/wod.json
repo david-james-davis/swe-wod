@@ -798,5 +798,13 @@
     "example": "By using a feature flag, the team was able to test the new search functionality with a small group of users before releasing it to everyone.",
     "date": "2026-02-04",
     "hash": 1161695524
+  },
+  {
+    "word": "write-ahead log",
+    "partOfSpeech": "noun",
+    "definition": "A write-ahead log (WAL) is a technique in databases where changes are first recorded in a log before updating the main data store, ensuring durability and enabling recovery after a crash.",
+    "example": "Before modifying the database records, the system writes the intended changes to the write-ahead log to prevent data loss in case of a sudden power failure.",
+    "date": "2026-02-05",
+    "hash": 1161695525
   }
 ]
