@@ -92,6 +92,15 @@ export default {
       return jsonResponse(res, {}, origin);
     }
 
+    // 4.5) invalidate all subscriptions (auth protected)
+    if (url.pathname === "/invalidate" && request.method === "POST") {
+      if (request.headers.get("Authorization") !== `Bearer ${env.BROADCAST_TOKEN}`) {
+        return withCors(new Response("Unauthorized", { status: 401 }), origin);
+      }
+      const res = await invalidateAll(env);
+      return jsonResponse(res, {}, origin);
+    }
+
     // 5) debug
     if (url.pathname === "/debug") {
       const subs = await env.WOD_SUBS.list();
@@ -204,6 +213,25 @@ async function broadcast(env, data) {
   };
   try {
     await env.WOD_META.put(LAST_BROADCAST_KEY, JSON.stringify(summary));
+  } catch {}
+  return summary;
+}
+
+async function invalidateAll(env) {
+  let removed = 0;
+  let cursor;
+  do {
+    const page = await env.WOD_SUBS.list({ cursor });
+    for (const { name } of page.keys) {
+      await env.WOD_SUBS.delete(name);
+      removed++;
+    }
+    cursor = page.list_complete ? undefined : page.cursor;
+  } while (cursor);
+
+  const summary = { removed, at: new Date().toISOString() };
+  try {
+    await env.WOD_META.put("lastInvalidateAll", JSON.stringify(summary));
   } catch {}
   return summary;
 }

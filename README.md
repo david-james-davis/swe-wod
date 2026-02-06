@@ -38,5 +38,6 @@ Set these in Cloudflare (and in local dev):
 ### Useful Endpoints
 - `POST /subscribe` (stores subscription)
 - `POST /broadcast` (auth with `BROADCAST_TOKEN`)
+- `POST /invalidate` (auth with `BROADCAST_TOKEN`, deletes all subscriptions)
 - `GET /debug` (subscription + last broadcast metadata)
 - `GET /vapid` (public key for client)
