@@ -1,0 +1,16 @@
+{
+  "name": "SWE Word of the Day",
+  "short_name": "SWE WOD",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0d0d0d",
+  "theme_color": "#0d0d0d",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "gcm_sender_id": "103953800507"
+}

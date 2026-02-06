@@ -13,6 +13,7 @@ const CORS_HEADERS = {
   "Access-Control-Allow-Headers": "Content-Type, Authorization",
   "Access-Control-Max-Age": "86400"
 };
+const LAST_BROADCAST_KEY = "lastBroadcast";
 
 function withCors(res) {
   const headers = new Headers(res.headers || {});
@@ -66,10 +67,12 @@ export default {
     if (url.pathname === "/debug") {
       const subs = await env.WOD_SUBS.list();
       const meta = await env.WOD_META.list();
+      const lastBroadcast = await env.WOD_META.get(LAST_BROADCAST_KEY);
       return jsonResponse({
         totalSubscriptions: subs.keys.length,
         subscriptions: subs.keys.map(k => k.name),
         metaKeys: meta.keys.map(k => k.name),
+        lastBroadcast: lastBroadcast ? JSON.parse(lastBroadcast) : null,
       });
     }
 
@@ -117,7 +120,8 @@ async function sendOne(env, subscription, payload) {
 }
 
 async function broadcast(env, data) {
-  let delivered = 0, removed = 0, total = 0;
+  let delivered = 0, removed = 0, total = 0, failed = 0;
+  const statusCounts = {};
   let cursor;
 
   do {
@@ -135,9 +139,16 @@ async function broadcast(env, data) {
         // @negrel/webpush returns a Response-like object.
         if (res && res.ok) {
           delivered++;
-        } else if (res && (res.status === 404 || res.status === 410)) {
-          await env.WOD_SUBS.delete(endpoint);
-          removed++;
+        } else if (res) {
+          statusCounts[res.status] = (statusCounts[res.status] || 0) + 1;
+          if (res.status === 404 || res.status === 410) {
+            await env.WOD_SUBS.delete(endpoint);
+            removed++;
+          } else {
+            failed++;
+          }
+        } else {
+          failed++;
         }
       } catch {
         // Malformed/expired sub: clean it up
@@ -149,7 +160,18 @@ async function broadcast(env, data) {
     cursor = page.list_complete ? undefined : page.cursor;
   } while (cursor);
 
-  return { delivered, removed, total };
+  const summary = {
+    delivered,
+    removed,
+    failed,
+    total,
+    statusCounts,
+    sentAt: new Date().toISOString()
+  };
+  try {
+    await env.WOD_META.put(LAST_BROADCAST_KEY, JSON.stringify(summary));
+  } catch {}
+  return summary;
 }
 
 function json(obj) {
