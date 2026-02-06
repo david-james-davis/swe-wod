@@ -38,5 +38,781 @@
     "example": "In a recursive Fibonacci function, using memoization can store previously computed Fibonacci numbers to avoid repeated calculation and significantly speed up the execution.",
     "date": "2025-11-01",
     "hash": 275085570
+  },
+  {
+    "word": "race condition",
+    "partOfSpeech": "noun",
+    "definition": "A flaw that occurs when the behavior of software depends on the timing or sequence of uncontrollable events, often leading to unpredictable or erroneous results.",
+    "example": "Two threads incrementing the same counter without synchronization can cause a race condition, resulting in incorrect counts.",
+    "date": "2025-11-02",
+    "hash": 275085571
+  },
+  {
+    "word": "refactoring",
+    "partOfSpeech": "noun",
+    "definition": "The process of restructuring existing computer code without changing its external behavior to improve readability, reduce complexity, or enhance maintainability.",
+    "example": "The developer spent the afternoon refactoring the authentication module to simplify the code and remove duplicated logic.",
+    "date": "2025-11-03",
+    "hash": 275085572
+  },
+  {
+    "word": "cache",
+    "partOfSpeech": "noun",
+    "definition": "A hardware or software component that stores data so future requests for that data can be served faster.",
+    "example": "The application uses an in-memory cache to store user session data, reducing database queries and improving response time.",
+    "date": "2025-11-04",
+    "hash": 275085573
+  },
+  {
+    "word": "deadlock",
+    "partOfSpeech": "noun",
+    "definition": "A situation in concurrent programming where two or more threads are blocked forever, each waiting for the other to release a resource.",
+    "example": "Thread A holds Lock 1 and waits for Lock 2, while Thread B holds Lock 2 and waits for Lock 1, resulting in a deadlock.",
+    "date": "2025-11-05",
+    "hash": 275085574
+  },
+  {
+    "word": "throttling",
+    "partOfSpeech": "noun",
+    "definition": "A technique used to limit the number of operations or requests to a system within a given time frame to prevent overload and ensure stability.",
+    "example": "The API server implements throttling to restrict clients to 100 requests per minute to avoid performance degradation during traffic spikes.",
+    "date": "2025-11-06",
+    "hash": 275085575
+  },
+  {
+    "word": "dependency injection",
+    "partOfSpeech": "noun",
+    "definition": "A design pattern where an object's dependencies are supplied by an external entity rather than the object creating them itself, promoting loose coupling and easier testing.",
+    "example": "In a web application, a logging service is injected into a controller class through its constructor instead of the controller instantiating the logger directly.",
+    "date": "2025-11-07",
+    "hash": 275085576
+  },
+  {
+    "word": "latency",
+    "partOfSpeech": "noun",
+    "definition": "The time delay between a request and the corresponding response in a system, network, or application.",
+    "example": "Reducing latency in the API response improved the user experience by delivering data faster.",
+    "date": "2025-11-08",
+    "hash": 275085577
+  },
+  {
+    "word": "rollback",
+    "partOfSpeech": "noun/verb",
+    "definition": "The process of reverting a system or database to a previous stable state, typically after a failed deployment or error to prevent system downtime or data corruption.",
+    "example": "After the latest update caused several critical bugs, the engineering team performed a rollback to the previous stable version to restore service quickly.",
+    "date": "2025-11-09",
+    "hash": 275085578
+  },
+  {
+    "word": "singleton",
+    "partOfSpeech": "noun",
+    "definition": "A design pattern that restricts the instantiation of a class to one single instance, ensuring controlled access to shared resources.",
+    "example": "In an application, a singleton logger ensures all components write logs to the same file instance without creating multiple logger objects.",
+    "date": "2025-11-10",
+    "hash": 275085600
+  },
+  {
+    "word": "load balancer",
+    "partOfSpeech": "noun",
+    "definition": "A load balancer is a device or software that distributes incoming network traffic across multiple servers to ensure reliability and optimal resource use.",
+    "example": "Using a load balancer, the web application can handle more users by evenly distributing requests to several backend servers.",
+    "date": "2025-11-11",
+    "hash": 275085601
+  },
+  {
+    "word": "event-driven",
+    "partOfSpeech": "adjective",
+    "definition": "A programming paradigm in which the flow of the program is determined by events such as user actions, sensor outputs, or message passing between components.",
+    "example": "In an event-driven architecture, a server might respond to a user's click by triggering a chain of asynchronous functions instead of executing a fixed sequence of instructions.",
+    "date": "2025-11-12",
+    "hash": 275085602
+  },
+  {
+    "word": "idempotency",
+    "partOfSpeech": "noun",
+    "definition": "The property of an operation wherein performing it multiple times has the same effect as performing it once.",
+    "example": "An HTTP PUT request is idempotent because updating a resource multiple times with the same data doesn't change the result beyond the initial update.",
+    "date": "2025-11-13",
+    "hash": 275085603
+  },
+  {
+    "word": "middleware",
+    "partOfSpeech": "noun",
+    "definition": "Software that acts as an intermediary layer between different systems or components, enabling communication and data management.",
+    "example": "In a web application, middleware can process incoming HTTP requests to authenticate users before passing the request to the main logic.",
+    "date": "2025-11-14",
+    "hash": 275085604
+  },
+  {
+    "word": "pagination",
+    "partOfSpeech": "noun",
+    "definition": "A technique used in software to divide large sets of data into discrete pages to improve performance and user experience.",
+    "example": "The API implements pagination by returning only 20 records per response along with tokens to fetch the next page.",
+    "date": "2025-11-15",
+    "hash": 275085605
+  },
+  {
+    "word": "sharding",
+    "partOfSpeech": "noun",
+    "definition": "A database partitioning technique that splits large datasets into smaller, more manageable pieces called shards, each stored on separate database servers to improve performance and scalability.",
+    "example": "To handle millions of user records efficiently, the application employs sharding by distributing data across multiple databases based on user region.",
+    "date": "2025-11-16",
+    "hash": 275085606
+  },
+  {
+    "word": "immutability",
+    "partOfSpeech": "noun",
+    "definition": "The property of an object whose state cannot be modified after it is created, often used to avoid side effects and improve predictability in programs.",
+    "example": "In functional programming, strings are immutable, so methods like toUpperCase() return a new string without changing the original.",
+    "date": "2025-11-17",
+    "hash": 275085607
+  },
+  {
+    "word": "blue-green deployment",
+    "partOfSpeech": "noun",
+    "definition": "A deployment technique that reduces downtime and risk by running two identical production environments, switching traffic from the old to the new environment after validation.",
+    "example": "We used blue-green deployment to release the new version of our API, directing user traffic to the green environment once testing was complete, ensuring zero downtime.",
+    "date": "2025-11-18",
+    "hash": 275085608
+  },
+  {
+    "word": "callback",
+    "partOfSpeech": "noun",
+    "definition": "A function passed as an argument to another function, intended to be executed after a certain event or operation completes.",
+    "example": "In JavaScript, you can use a callback function to handle the response after fetching data asynchronously from an API.",
+    "date": "2025-11-19",
+    "hash": 275085609
+  },
+  {
+    "word": "hotfix",
+    "partOfSpeech": "noun",
+    "definition": "A hotfix is an urgent software update released to fix a critical issue or bug in a live production environment without going through the regular release cycle.",
+    "example": "After discovering a security vulnerability, the team deployed a hotfix to patch the system immediately before the next scheduled release.",
+    "date": "2025-11-20",
+    "hash": 275085631
+  },
+  {
+    "word": "feature flag",
+    "partOfSpeech": "noun",
+    "definition": "A feature flag is a conditional toggle in software that allows developers to enable or disable functionality without deploying new code, enabling controlled feature rollouts and testing.",
+    "example": "By using a feature flag, the team gradually enabled the new search algorithm for 10% of users before a full rollout.",
+    "date": "2025-11-21",
+    "hash": 275085632
+  },
+  {
+    "word": "containerization",
+    "partOfSpeech": "noun",
+    "definition": "The process of encapsulating or packaging software code and its dependencies so that it can run uniformly and consistently on any infrastructure.",
+    "example": "Developers use containerization tools like Docker to ensure their application runs the same way on a developer's laptop and in production servers.",
+    "date": "2025-11-22",
+    "hash": 275085633
+  },
+  {
+    "word": "backpressure",
+    "partOfSpeech": "noun",
+    "definition": "A mechanism to handle overload in data processing by controlling the flow of data, preventing systems from being overwhelmed by too much input at once.",
+    "example": "In a reactive stream, backpressure is used to signal the producer to slow down when the consumer can't process data fast enough.",
+    "date": "2025-11-23",
+    "hash": 275085634
+  },
+  {
+    "word": "virtual DOM",
+    "partOfSpeech": "noun",
+    "definition": "A lightweight, in-memory representation of the real DOM used to optimize UI rendering by minimizing direct manipulations of the actual DOM elements.",
+    "example": "React uses a virtual DOM to efficiently update only the changed parts of the UI instead of re-rendering the entire page.",
+    "date": "2025-11-24",
+    "hash": 275085635
+  },
+  {
+    "word": "stateless",
+    "partOfSpeech": "adjective",
+    "definition": "Refers to a system or component that does not retain any state information between requests, making each request independent.",
+    "example": "RESTful APIs are typically stateless, meaning each API call contains all necessary information without relying on previous interactions.",
+    "date": "2025-11-25",
+    "hash": 275085636
+  },
+  {
+    "word": "microservices",
+    "partOfSpeech": "noun",
+    "definition": "An architectural style where an application is composed of small, independent services that communicate over a network.",
+    "example": "By decomposing the monolithic application into microservices, the team was able to deploy features independently and scale specific components as needed.",
+    "date": "2025-11-26",
+    "hash": 275085637
+  },
+  {
+    "word": "mocking",
+    "partOfSpeech": "noun",
+    "definition": "The practice of creating simulated objects or functions that mimic the behavior of real components in order to isolate and test specific parts of a software system.",
+    "example": "During unit testing, developers often use mocking to replace database calls with mock objects that return preset data, ensuring tests run quickly and reliably.",
+    "date": "2025-11-27",
+    "hash": 275085638
+  },
+  {
+    "word": "debounce",
+    "partOfSpeech": "verb",
+    "definition": "To limit the rate at which a function is called by ensuring it only executes after a specified idle period, often used to improve performance and avoid excessive calls in response to rapid events.",
+    "example": "In a search input field, debounce is used to trigger the API call only after the user stops typing for 300 milliseconds, reducing unnecessary requests.",
+    "date": "2025-11-28",
+    "hash": 275085639
+  },
+  {
+    "word": "monorepo",
+    "partOfSpeech": "noun",
+    "definition": "A monorepo is a software development strategy where code for many projects is stored in a single repository, allowing easier code sharing and unified version control.",
+    "example": "Google uses a monorepo to house most of its codebase, enabling consistent code standards and simplifying dependency management across teams.",
+    "date": "2025-11-29",
+    "hash": 275085640
+  },
+  {
+    "word": "fan-out",
+    "partOfSpeech": "noun",
+    "definition": "The number of downstream components or processes to which a single component sends requests or messages, often impacting system performance and complexity.",
+    "example": "In a microservices architecture, a service with high fan-out may call many other services, increasing the risk of cascading failures.",
+    "date": "2025-11-30",
+    "hash": 275085662
+  },
+  {
+    "word": "circuit breaker",
+    "partOfSpeech": "noun",
+    "definition": "A design pattern used in software systems to detect failures and encapsulate the logic of preventing a failure from constantly recurring during maintenance or temporary external system failure.",
+    "example": "Implementing a circuit breaker in the payment service stops calls to the downstream API after multiple failures, preventing system overload and allowing recovery.",
+    "date": "2025-12-01",
+    "hash": 275115361
+  },
+  {
+    "word": "mutex",
+    "partOfSpeech": "noun",
+    "definition": "A mutual exclusion object used to prevent multiple threads from accessing a shared resource simultaneously, thus avoiding race conditions.",
+    "example": "In a multi-threaded program, a mutex locks access to a shared counter variable so that only one thread can increment it at a time.",
+    "date": "2025-12-02",
+    "hash": 275115362
+  },
+  {
+    "word": "hot reload",
+    "partOfSpeech": "noun",
+    "definition": "A development feature that allows code changes to be applied to a running application immediately without restarting the entire system, speeding up iteration cycles.",
+    "example": "Using hot reload in the React Native app, the developer was able to see UI changes instantly without rebuilding the app.",
+    "date": "2025-12-03",
+    "hash": 275115363
+  },
+  {
+    "word": "polyfill",
+    "partOfSpeech": "noun",
+    "definition": "A piece of code (usually JavaScript) used to provide modern functionality on older browsers that do not natively support it.",
+    "example": "We used a polyfill to enable the Fetch API in older versions of Internet Explorer.",
+    "date": "2025-12-04",
+    "hash": 275115364
+  },
+  {
+    "word": "cache miss",
+    "partOfSpeech": "noun",
+    "definition": "An event where requested data is not found in the cache, causing the system to retrieve it from a slower memory or storage layer.",
+    "example": "When the user requested the profile info, a cache miss occurred, so the server fetched the data from the database.",
+    "date": "2025-12-05",
+    "hash": 275115365
+  },
+  {
+    "word": "deadlock",
+    "partOfSpeech": "noun",
+    "definition": "A situation in concurrent programming where two or more processes are unable to proceed because each is waiting for the other to release resources.",
+    "example": "Two threads each hold a lock the other needs, causing a deadlock that halts the entire program.",
+    "date": "2025-12-06",
+    "hash": 275115366
+  },
+  {
+    "word": "throttling",
+    "partOfSpeech": "noun",
+    "definition": "The process of limiting the rate at which a system or component processes requests to prevent overload or ensure quality of service.",
+    "example": "The API implements throttling by allowing only 100 requests per minute per user to avoid server overload.",
+    "date": "2025-12-07",
+    "hash": 275115367
+  },
+  {
+    "word": "race condition",
+    "partOfSpeech": "noun",
+    "definition": "A race condition occurs when the behavior of software depends on the sequence or timing of uncontrollable events, often leading to unpredictable bugs.",
+    "example": "Two threads updating a shared variable simultaneously without proper synchronization can cause a race condition, resulting in incorrect final values.",
+    "date": "2025-12-08",
+    "hash": 275115368
+  },
+  {
+    "word": "sandbox",
+    "partOfSpeech": "noun",
+    "definition": "An isolated environment where code or applications can be executed safely without affecting the production system or other resources.",
+    "example": "Developers often test new features in a sandbox to ensure they work correctly before deployment to the live server.",
+    "date": "2025-12-09",
+    "hash": 275115369
+  },
+  {
+    "word": "memoization",
+    "partOfSpeech": "noun",
+    "definition": "An optimization technique that stores the results of expensive function calls and returns the cached result when the same inputs occur again.",
+    "example": "Using memoization in a recursive Fibonacci function reduces exponential time complexity to linear by caching previously computed values.",
+    "date": "2025-12-10",
+    "hash": 275115391
+  },
+  {
+    "word": "bulkhead",
+    "partOfSpeech": "noun",
+    "definition": "An architectural pattern that isolates components or subsystems so failures in one do not cascade to others, improving system resilience.",
+    "example": "Using bulkheads in a microservice architecture ensures that if the payment service fails, it doesn't bring down the entire checkout process.",
+    "date": "2025-12-11",
+    "hash": 275115392
+  },
+  {
+    "word": "load balancing",
+    "partOfSpeech": "noun",
+    "definition": "The process of distributing incoming network traffic or computing tasks across multiple servers or resources to ensure reliability and optimal performance.",
+    "example": "Using a load balancer, web requests are evenly distributed among several backend servers to prevent any single server from becoming a bottleneck during high traffic periods.",
+    "date": "2025-12-12",
+    "hash": 275115393
+  },
+  {
+    "word": "atomic operation",
+    "partOfSpeech": "noun",
+    "definition": "An atomic operation is a sequence of instructions that appears indivisible and uninterruptible from the perspective of other threads, ensuring data consistency during concurrent programming.",
+    "example": "Using an atomic increment operation on a shared counter prevents race conditions in a multi-threaded environment.",
+    "date": "2025-12-13",
+    "hash": 275115394
+  },
+  {
+    "word": "idempotent",
+    "partOfSpeech": "adjective",
+    "definition": "An operation that can be applied multiple times without changing the result beyond the initial application.",
+    "example": "An HTTP PUT request to update a user profile is idempotent because sending the same update multiple times results in the same user profile state.",
+    "date": "2025-12-14",
+    "hash": 275115395
+  },
+  {
+    "word": "refactoring",
+    "partOfSpeech": "verb",
+    "definition": "The process of restructuring existing code without changing its external behavior to improve readability, reduce complexity, or enhance maintainability.",
+    "example": "The team spent a sprint refactoring the legacy payment module to improve code clarity and ease future feature additions.",
+    "date": "2025-12-15",
+    "hash": 275115396
+  },
+  {
+    "word": "lazy loading",
+    "partOfSpeech": "noun",
+    "definition": "A design pattern that delays the initialization of an object or the loading of data until it is needed to improve performance and reduce resource usage.",
+    "example": "In a web application, images below the fold are loaded only when the user scrolls down to them, implementing lazy loading to speed up the initial page load.",
+    "date": "2025-12-16",
+    "hash": 275115397
+  },
+  {
+    "word": "singleton",
+    "partOfSpeech": "noun",
+    "definition": "A design pattern that restricts the instantiation of a class to a single object, ensuring a single shared instance throughout the application.",
+    "example": "In a logging system, the singleton pattern ensures that all modules write to the same log instance to prevent conflicts and duplication.",
+    "date": "2025-12-17",
+    "hash": 275115398
+  },
+  {
+    "word": "commit",
+    "partOfSpeech": "verb",
+    "definition": "To save changes made in the source code to a version control system, creating a checkpoint in the project’s history.",
+    "example": "After fixing the bug, she committed the changes to the Git repository with a descriptive message.",
+    "date": "2025-12-18",
+    "hash": 275115399
+  },
+  {
+    "word": "integration testing",
+    "partOfSpeech": "noun",
+    "definition": "A phase of software testing where individual modules are combined and tested as a group to detect interface defects between modules.",
+    "example": "After unit tests passed, the team ran integration testing to ensure that the payment gateway correctly communicated with the order processing system.",
+    "date": "2025-12-19",
+    "hash": 275115400
+  },
+  {
+    "word": "shadow copy",
+    "partOfSpeech": "noun",
+    "definition": "A snapshot of computer data or a file at a specific point in time, allowing backup or recovery without interrupting ongoing processes.",
+    "example": "The backup system created a shadow copy of the database to ensure data consistency during the nightly save operation.",
+    "date": "2025-12-20",
+    "hash": 275115422
+  },
+  {
+    "word": "blue-green deployment",
+    "partOfSpeech": "noun",
+    "definition": "A deployment strategy that reduces downtime and risk by running two identical production environments, where one (blue) is live and the other (green) is updated and tested before switching traffic to it.",
+    "example": "We used blue-green deployment to release the new version so users experienced zero downtime while we switched from the old version to the new one.",
+    "date": "2025-12-21",
+    "hash": 275115423
+  },
+  {
+    "word": "hotfix",
+    "partOfSpeech": "noun",
+    "definition": "A hotfix is a quick, targeted software update issued to address a critical bug or security vulnerability in production without going through the usual release cycle.",
+    "example": "After discovering a security flaw in the authentication module, the team deployed a hotfix directly to the live environment to prevent unauthorized access.",
+    "date": "2025-12-22",
+    "hash": 275115424
+  },
+  {
+    "word": "event sourcing",
+    "partOfSpeech": "noun",
+    "definition": "An architectural pattern in which changes to application state are stored as a sequence of immutable events rather than overwriting the current state directly.",
+    "example": "Instead of updating the user's profile directly, the system records events like 'NameChanged' and 'EmailUpdated' which can be replayed to reconstruct the current profile state.",
+    "date": "2025-12-23",
+    "hash": 275115425
+  },
+  {
+    "word": "rollback",
+    "partOfSpeech": "noun/verb",
+    "definition": "The process of reverting a system or database to a previous stable state after an error or failure occurs, ensuring data integrity and system stability.",
+    "example": "After the faulty update caused several errors, the team performed a rollback to the previous database snapshot to restore normal operations.",
+    "date": "2025-12-24",
+    "hash": 275115426
+  },
+  {
+    "word": "canary release",
+    "partOfSpeech": "noun",
+    "definition": "A deployment strategy that releases a new software version to a small subset of users before rolling it out to the entire user base, minimizing risk by monitoring performance and behavior.",
+    "example": "We used a canary release to deploy the new search feature to 5% of users and monitored for errors before completing the full rollout.",
+    "date": "2025-12-25",
+    "hash": 275115427
+  },
+  {
+    "word": "backpressure",
+    "partOfSpeech": "noun",
+    "definition": "A mechanism to prevent system overload by controlling the rate of data flow between components, ensuring that producers do not overwhelm consumers.",
+    "example": "In a streaming application, backpressure is applied when the consumer signals the producer to slow down because it cannot process incoming data fast enough.",
+    "date": "2025-12-26",
+    "hash": 275115428
+  },
+  {
+    "word": "rate limiting",
+    "partOfSpeech": "noun",
+    "definition": "A technique used to control the amount of incoming or outgoing requests to a system within a given time frame to prevent overload or abuse.",
+    "example": "The API uses rate limiting to restrict each user to 100 requests per minute to avoid server overload.",
+    "date": "2025-12-27",
+    "hash": 275115429
+  },
+  {
+    "word": "caching",
+    "partOfSpeech": "noun",
+    "definition": "A technique to store frequently accessed data in a faster storage layer to reduce latency and improve performance.",
+    "example": "Web browsers use caching to save images and scripts locally, so returning to a website loads faster without downloading all resources again.",
+    "date": "2025-12-28",
+    "hash": 275115430
+  },
+  {
+    "word": "edge computing",
+    "partOfSpeech": "noun",
+    "definition": "A distributed computing paradigm that brings computation and data storage closer to the sources of data, reducing latency and bandwidth use.",
+    "example": "Processing sensor data locally on devices at a factory floor instead of sending it all to a centralized cloud server is an example of edge computing.",
+    "date": "2025-12-29",
+    "hash": 275115431
+  },
+  {
+    "word": "namespace",
+    "partOfSpeech": "noun",
+    "definition": "A container that holds a set of identifiers (names) and allows the disambiguation of homonym identifiers in different contexts.",
+    "example": "In C++, the std namespace encapsulates standard library functions to prevent name conflicts with user-defined functions.",
+    "date": "2025-12-30",
+    "hash": 275115453
+  },
+  {
+    "word": "debounce",
+    "partOfSpeech": "verb",
+    "definition": "To limit the rate at which a function is executed by ensuring it only runs after a specified delay has passed since the last call, commonly used to control rapid or repeated events like user input.",
+    "example": "In a search input field, you can debounce the API call so it only triggers 300ms after the user stops typing, reducing unnecessary requests.",
+    "date": "2025-12-31",
+    "hash": 275115454
+  },
+  {
+    "word": "circuit breaker",
+    "partOfSpeech": "noun",
+    "definition": "A design pattern used in software to detect failures and encapsulate the logic of preventing a failure from constantly recurring during maintenance or temporary external system failure.",
+    "example": "When an external payment API fails repeatedly, the circuit breaker trips to stop further calls for a specified timeout period, improving overall system resilience.",
+    "date": "2026-01-01",
+    "hash": 1161665730
+  },
+  {
+    "word": "serialization",
+    "partOfSpeech": "noun",
+    "definition": "The process of converting an object or data structure into a format that can be easily stored or transmitted and later reconstructed.",
+    "example": "In a distributed system, data objects are serialized to JSON before being sent over the network and deserialized on the receiving end.",
+    "date": "2026-01-02",
+    "hash": 1161665731
+  },
+  {
+    "word": "fail fast",
+    "partOfSpeech": "verb phrase",
+    "definition": "A design principle that encourages a system or component to immediately report any failure, rather than continuing to operate in a potentially faulty state.",
+    "example": "By implementing fail fast validations on user input, the application promptly notifies users about errors without processing invalid data further.",
+    "date": "2026-01-03",
+    "hash": 1161665732
+  },
+  {
+    "word": "feature flag",
+    "partOfSpeech": "noun",
+    "definition": "A technique that allows developers to enable or disable features dynamically without deploying new code, facilitating controlled rollouts and testing.",
+    "example": "By using a feature flag, the team rolled out the new search algorithm to 10% of users before a full deployment.",
+    "date": "2026-01-04",
+    "hash": 1161665733
+  },
+  {
+    "word": "duck typing",
+    "partOfSpeech": "noun",
+    "definition": "A programming concept where an object's suitability is determined by the presence of certain methods and properties rather than the object's actual type.",
+    "example": "In Python, a function expecting an object with a 'quack()' method will work with any object that has quack(), regardless of its class - that's duck typing.",
+    "date": "2026-01-05",
+    "hash": 1161665734
+  },
+  {
+    "word": "hotspot",
+    "partOfSpeech": "noun",
+    "definition": "A section of code or system component that consumes a disproportionately large amount of resources or time, often a target for optimization.",
+    "example": "Profiling the application revealed a hotspot in the data parsing function that slowed down the entire process.",
+    "date": "2026-01-06",
+    "hash": 1161665735
+  },
+  {
+    "word": "throttling",
+    "partOfSpeech": "noun",
+    "definition": "A technique used to control the rate at which an operation or request is allowed to proceed, usually to prevent resource exhaustion or system overload.",
+    "example": "The API implements throttling to limit users to 100 requests per minute, ensuring fair usage and stable performance.",
+    "date": "2026-01-07",
+    "hash": 1161665736
+  },
+  {
+    "word": "deadlock",
+    "partOfSpeech": "noun",
+    "definition": "A situation in concurrent programming where two or more processes are each waiting for the other to release resources, causing all to be stuck indefinitely.",
+    "example": "Thread A holds Lock 1 and waits for Lock 2, while Thread B holds Lock 2 and waits for Lock 1, resulting in a deadlock.",
+    "date": "2026-01-08",
+    "hash": 1161665737
+  },
+  {
+    "word": "continuous integration",
+    "partOfSpeech": "noun",
+    "definition": "A development practice where developers frequently merge their code changes into a shared repository, triggering automated builds and tests to detect integration errors early.",
+    "example": "The team uses continuous integration to automatically run tests whenever a developer pushes changes, ensuring that new code doesn't break existing functionality.",
+    "date": "2026-01-09",
+    "hash": 1161665738
+  },
+  {
+    "word": "memoization",
+    "partOfSpeech": "noun",
+    "definition": "An optimization technique that stores the results of expensive function calls and returns the cached result when the same inputs occur again.",
+    "example": "Using memoization in a Fibonacci sequence calculation avoids redundant computations by caching previously computed values.",
+    "date": "2026-01-10",
+    "hash": 1161665760
+  },
+  {
+    "word": "race condition",
+    "partOfSpeech": "noun",
+    "definition": "A flaw that occurs when the behavior of software depends on the relative timing or sequence of uncontrollable events, leading to unpredictable results.",
+    "example": "Two threads updating the same variable without proper synchronization can cause a race condition, resulting in corrupted data.",
+    "date": "2026-01-11",
+    "hash": 1161665761
+  },
+  {
+    "word": "dependency injection",
+    "partOfSpeech": "noun",
+    "definition": "A software design pattern where an object's dependencies are provided externally rather than the object creating them internally, promoting loose coupling and easier testing.",
+    "example": "In a web application, a service class receives its database connection through dependency injection, allowing the connection to be mocked during unit tests.",
+    "date": "2026-01-12",
+    "hash": 1161665762
+  },
+  {
+    "word": "load balancing",
+    "partOfSpeech": "noun",
+    "definition": "The process of distributing network or application traffic evenly across multiple servers to ensure reliability and optimal resource use.",
+    "example": "A load balancer routes incoming user requests to different web servers to prevent any single server from becoming a bottleneck during peak traffic.",
+    "date": "2026-01-13",
+    "hash": 1161665763
+  },
+  {
+    "word": "idempotent",
+    "partOfSpeech": "adjective",
+    "definition": "An operation that can be applied multiple times without changing the result beyond the initial application.",
+    "example": "HTTP GET requests are idempotent because making the same GET request multiple times will always return the same result without side effects.",
+    "date": "2026-01-14",
+    "hash": 1161665764
+  },
+  {
+    "word": "heatmap",
+    "partOfSpeech": "noun",
+    "definition": "A visual representation of data where individual values are represented as colors, often used to identify patterns or hotspots in large datasets.",
+    "example": "Developers used a heatmap to analyze user interactions on the webpage, identifying the most frequently clicked areas for UI improvements.",
+    "date": "2026-01-15",
+    "hash": 1161665765
+  },
+  {
+    "word": "sharding",
+    "partOfSpeech": "noun",
+    "definition": "A database partitioning technique where a large dataset is horizontally split into smaller, more manageable pieces called shards, distributed across multiple servers to improve performance and scalability.",
+    "example": "To handle their rapidly growing user base, the company implemented sharding by distributing user data across multiple database servers based on geographic region.",
+    "date": "2026-01-16",
+    "hash": 1161665766
+  },
+  {
+    "word": "hot reload",
+    "partOfSpeech": "verb",
+    "definition": "To update a running application's code without restarting it, allowing developers to see changes instantly during development.",
+    "example": "Using hot reload, the developer modified the UI's styling and saw the changes reflect immediately on the app without a full restart.",
+    "date": "2026-01-17",
+    "hash": 1161665767
+  },
+  {
+    "word": "middleware",
+    "partOfSpeech": "noun",
+    "definition": "Software that acts as an intermediary layer between an operating system or database and applications, facilitating communication and data management.",
+    "example": "In a web application, middleware can process incoming HTTP requests to handle authentication before passing the request to the main application logic.",
+    "date": "2026-01-18",
+    "hash": 1161665768
+  },
+  {
+    "word": "refactoring",
+    "partOfSpeech": "noun",
+    "definition": "The process of restructuring existing computer code without changing its external behavior to improve readability, reduce complexity, and enhance maintainability.",
+    "example": "The development team spent a sprint refactoring the legacy authentication module to simplify the logic and improve test coverage.",
+    "date": "2026-01-19",
+    "hash": 1161665769
+  },
+  {
+    "word": "singleton",
+    "partOfSpeech": "noun",
+    "definition": "A design pattern that restricts the instantiation of a class to one single instance, ensuring a single point of access.",
+    "example": "Using a singleton for the database connection manager ensures that all parts of the application share the same connection pool.",
+    "date": "2026-01-20",
+    "hash": 1161665791
+  },
+  {
+    "word": "blue-green deployment",
+    "partOfSpeech": "noun",
+    "definition": "A release technique that reduces downtime and risk by running two identical production environments, switching traffic from the old to the new version once it is verified.",
+    "example": "We used blue-green deployment to switch users seamlessly to the updated web service without any downtime.",
+    "date": "2026-01-21",
+    "hash": 1161665792
+  },
+  {
+    "word": "hotfix",
+    "partOfSpeech": "noun",
+    "definition": "A hotfix is an urgent update or patch applied to a live software system to quickly fix a critical bug or vulnerability without going through the regular release cycle.",
+    "example": "After discovering a security flaw in production, the team released a hotfix overnight to prevent any data breaches.",
+    "date": "2026-01-22",
+    "hash": 1161665793
+  },
+  {
+    "word": "eventual consistency",
+    "partOfSpeech": "noun",
+    "definition": "A consistency model in distributed systems where updates to a data store are guaranteed to propagate and become consistent across all nodes after some undefined delay.",
+    "example": "In a distributed database, when a user updates a document on one server, other servers may still see the old version temporarily but will eventually reflect the update once synchronization completes.",
+    "date": "2026-01-23",
+    "hash": 1161665794
+  },
+  {
+    "word": "immutability",
+    "partOfSpeech": "noun",
+    "definition": "The property of an object whose state cannot be modified after it is created, promoting safer concurrency and easier reasoning about code.",
+    "example": "In functional programming, strings are often immutable, meaning any operation that alters the string returns a new instance rather than changing the original.",
+    "date": "2026-01-24",
+    "hash": 1161665795
+  },
+  {
+    "word": "profiling",
+    "partOfSpeech": "noun",
+    "definition": "The process of measuring a program's resource usage, such as CPU or memory consumption, to identify bottlenecks and optimize performance.",
+    "example": "Using a CPU profiler, the engineer identified the slow function causing the app to lag and optimized it, improving overall response time.",
+    "date": "2026-01-25",
+    "hash": 1161665796
+  },
+  {
+    "word": "containerization",
+    "partOfSpeech": "noun",
+    "definition": "A lightweight virtualization method that packages an application and its dependencies into a single container, ensuring consistent environments across development, testing, and production.",
+    "example": "Using Docker for containerization, the development team was able to deploy the web app quickly and reliably across multiple cloud platforms without environment conflicts.",
+    "date": "2026-01-26",
+    "hash": 1161665797
+  },
+  {
+    "word": "rollback",
+    "partOfSpeech": "noun/verb",
+    "definition": "The process of reverting a software system to a previous stable state after a failed update or deployment to minimize disruption and errors.",
+    "example": "After deploying the new release caused critical errors, the team initiated a rollback to the previous version to restore system stability.",
+    "date": "2026-01-27",
+    "hash": 1161665798
+  },
+  {
+    "word": "backpressure",
+    "partOfSpeech": "noun",
+    "definition": "A mechanism to control the flow of data by slowing down the data producer when the consumer is overwhelmed, preventing resource exhaustion and ensuring system stability.",
+    "example": "In a streaming pipeline, backpressure signals the upstream system to reduce data emission rate when the downstream components cannot process the events fast enough.",
+    "date": "2026-01-28",
+    "hash": 1161665799
+  },
+  {
+    "word": "caching",
+    "partOfSpeech": "noun",
+    "definition": "A technique to store copies of data or computations temporarily to speed up subsequent access by avoiding repeated processing or fetching from slower sources.",
+    "example": "A web application uses caching to store frequently accessed database query results in memory, reducing latency and lowering database load.",
+    "date": "2026-01-29",
+    "hash": 1161665800
+  },
+  {
+    "word": "pivot",
+    "partOfSpeech": "verb",
+    "definition": "To fundamentally change the direction or approach of a project or product based on new information or user feedback, while leveraging existing resources or technology.",
+    "example": "The development team decided to pivot from creating a mobile-only app to a cross-platform solution after user surveys showed a significant demand for desktop access.",
+    "date": "2026-01-30",
+    "hash": 1161665822
+  },
+  {
+    "word": "sandbox",
+    "partOfSpeech": "noun",
+    "definition": "An isolated environment used for testing or experimenting with code or applications without affecting the main system or production environment.",
+    "example": "Developers deployed the new feature in a sandbox environment to test its performance before releasing it to users.",
+    "date": "2026-01-31",
+    "hash": 1161665823
+  },
+  {
+    "word": "circuit breaker",
+    "partOfSpeech": "noun",
+    "definition": "A design pattern used in distributed systems to detect failures and encapsulate the logic of preventing continuous request attempts to a failing service, thus improving system stability.",
+    "example": "When the payment service starts timing out, the circuit breaker trips to stop sending requests temporarily, allowing the service to recover.",
+    "date": "2026-02-01",
+    "hash": 1161695521
+  },
+  {
+    "word": "debounce",
+    "partOfSpeech": "verb",
+    "definition": "To limit the rate at which a function is executed by delaying its execution until a certain pause has occurred in a series of rapid events, commonly used to improve performance and user experience in event handling.",
+    "example": "In a search input field, debounce prevents sending a request to the server on every keystroke by waiting until the user stops typing for 300 milliseconds before triggering the search function.",
+    "date": "2026-02-02",
+    "hash": 1161695522
+  },
+  {
+    "word": "rate limiting",
+    "partOfSpeech": "noun",
+    "definition": "A technique used to control the amount of incoming or outgoing traffic to or from a system to prevent overload or abuse by restricting the number of operations within a specified time frame.",
+    "example": "The API applies rate limiting by allowing each user only 100 requests per minute to ensure fair usage and prevent server strain.",
+    "date": "2026-02-03",
+    "hash": 1161695523
+  },
+  {
+    "word": "feature flag",
+    "partOfSpeech": "noun",
+    "definition": "A technique that allows developers to enable or disable software features dynamically without deploying new code, facilitating gradual rollouts and A/B testing.",
+    "example": "By using a feature flag, the team was able to test the new search functionality with a small group of users before releasing it to everyone.",
+    "date": "2026-02-04",
+    "hash": 1161695524
+  },
+  {
+    "word": "write-ahead log",
+    "partOfSpeech": "noun",
+    "definition": "A write-ahead log (WAL) is a technique in databases where changes are first recorded in a log before updating the main data store, ensuring durability and enabling recovery after a crash.",
+    "example": "Before modifying the database records, the system writes the intended changes to the write-ahead log to prevent data loss in case of a sudden power failure.",
+    "date": "2026-02-05",
+    "hash": 1161695525
+  },
+  {
+    "word": "callback",
+    "partOfSpeech": "noun",
+    "definition": "A function passed as an argument to another function, which is invoked after a certain event or operation completes, enabling asynchronous programming.",
+    "example": "In JavaScript, you can pass a callback to an API request function, so once the data is fetched, the callback processes the response.",
+    "date": "2026-02-06",
+    "hash": 1161695526
   }
 ]
