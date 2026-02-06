@@ -806,5 +806,13 @@
     "example": "Before modifying the database records, the system writes the intended changes to the write-ahead log to prevent data loss in case of a sudden power failure.",
     "date": "2026-02-05",
     "hash": 1161695525
+  },
+  {
+    "word": "callback",
+    "partOfSpeech": "noun",
+    "definition": "A function passed as an argument to another function, which is invoked after a certain event or operation completes, enabling asynchronous programming.",
+    "example": "In JavaScript, you can pass a callback to an API request function, so once the data is fetched, the callback processes the response.",
+    "date": "2026-02-06",
+    "hash": 1161695526
   }
 ]
