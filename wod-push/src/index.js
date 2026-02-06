@@ -6,35 +6,45 @@ import {
 } from "@jsr/negrel__webpush";
 
 const WOD_URL = "https://swe-wod.com/wod.json";
-const CORS_HEADERS = {
-  // if you want to be strict, use "https://swe-wod.com" instead of "*"
-  "Access-Control-Allow-Origin": "https://swe-wod.com",
+const ALLOWED_ORIGINS = new Set([
+  "https://swe-wod.com",
+  "https://www.swe-wod.com"
+]);
+const BASE_CORS_HEADERS = {
   "Access-Control-Allow-Methods": "POST, OPTIONS",
   "Access-Control-Allow-Headers": "Content-Type, Authorization",
-  "Access-Control-Max-Age": "86400"
+  "Access-Control-Max-Age": "86400",
+  "Vary": "Origin"
 };
 const LAST_BROADCAST_KEY = "lastBroadcast";
+const LAST_SUBSCRIBE_KEY = "lastSubscribe";
 
-function withCors(res) {
+function corsHeaders(origin) {
+  const allowOrigin = ALLOWED_ORIGINS.has(origin) ? origin : "https://swe-wod.com";
+  return { ...BASE_CORS_HEADERS, "Access-Control-Allow-Origin": allowOrigin };
+}
+
+function withCors(res, origin = "") {
   const headers = new Headers(res.headers || {});
-  for (const [k, v] of Object.entries(CORS_HEADERS)) headers.set(k, v);
+  for (const [k, v] of Object.entries(corsHeaders(origin))) headers.set(k, v);
   return new Response(res.body, { ...res, headers });
 }
 
-function jsonResponse(obj, init = {}) {
+function jsonResponse(obj, init = {}, origin = "") {
   const headers = new Headers(init.headers || {});
   headers.set("Content-Type", "application/json");
-  for (const [k, v] of Object.entries(CORS_HEADERS)) headers.set(k, v);
+  for (const [k, v] of Object.entries(corsHeaders(origin))) headers.set(k, v);
   return new Response(JSON.stringify(obj), { ...init, headers });
 }
 
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
+    const origin = request.headers.get("Origin") || "";
 
     // 1) CORS preflight
     if (request.method === "OPTIONS") {
-      return new Response(null, { status: 204, headers: CORS_HEADERS });
+      return new Response(null, { status: 204, headers: corsHeaders(origin) });
     }
 
     // 2) subscribe
@@ -42,7 +52,15 @@ export default {
         const sub = await request.json(); // { endpoint, keys: { p256dh, auth } }
         // Key by endpoint for idempotency
         await env.WOD_SUBS.put(sub.endpoint, JSON.stringify(sub));
-        return jsonResponse({ ok: true });
+        const endpoint = typeof sub?.endpoint === "string" ? sub.endpoint : "";
+        const suffix = endpoint ? endpoint.slice(-16) : "";
+        await env.WOD_META.put(LAST_SUBSCRIBE_KEY, JSON.stringify({
+          at: new Date().toISOString(),
+          origin,
+          ua: request.headers.get("User-Agent") || "",
+          endpointSuffix: suffix
+        }));
+        return jsonResponse({ ok: true }, {}, origin);
     }
 
 
@@ -50,17 +68,17 @@ export default {
     if (url.pathname === "/unsubscribe" && request.method === "POST") {
       const { endpoint } = await request.json();
       if (endpoint) await env.WOD_SUBS.delete(endpoint);
-      return jsonResponse({ ok: true });
+      return jsonResponse({ ok: true }, {}, origin);
     }
 
     // 4) broadcast (auth protected)
     if (url.pathname === "/broadcast" && request.method === "POST") {
       if (request.headers.get("Authorization") !== `Bearer ${env.BROADCAST_TOKEN}`) {
-        return withCors(new Response("Unauthorized", { status: 401 }));
+        return withCors(new Response("Unauthorized", { status: 401 }), origin);
       }
       const payload = await request.json();
       const res = await broadcast(env, payload);
-      return jsonResponse(res);
+      return jsonResponse(res, {}, origin);
     }
 
     // 5) debug
@@ -68,15 +86,17 @@ export default {
       const subs = await env.WOD_SUBS.list();
       const meta = await env.WOD_META.list();
       const lastBroadcast = await env.WOD_META.get(LAST_BROADCAST_KEY);
+      const lastSubscribe = await env.WOD_META.get(LAST_SUBSCRIBE_KEY);
       return jsonResponse({
         totalSubscriptions: subs.keys.length,
         subscriptions: subs.keys.map(k => k.name),
         metaKeys: meta.keys.map(k => k.name),
         lastBroadcast: lastBroadcast ? JSON.parse(lastBroadcast) : null,
-      });
+        lastSubscribe: lastSubscribe ? JSON.parse(lastSubscribe) : null,
+      }, {}, origin);
     }
 
-    return withCors(new Response("OK"));
+    return withCors(new Response("OK"), origin);
   },
 
   // Cron: send once/day (we schedule two UTC slots and dedupe by date)
