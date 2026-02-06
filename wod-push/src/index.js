@@ -2,6 +2,7 @@ import {
   ApplicationServer,
   importVapidKeys,
   PushSubscriber,
+  PushMessageError,
   Urgency,
 } from "@jsr/negrel__webpush";
 
@@ -131,9 +132,9 @@ function makeApp(env) {
 
 async function sendOne(env, subscription, payload) {
   const app = makeApp(env);
-  const sub = PushSubscriber.as(subscription);
+  const sub = app.subscribe(subscription);
   // JSON payload; use pushTextMessage for plain text
-  return sub.pushMessage(app, JSON.stringify(payload), {
+  await sub.pushMessage(new TextEncoder().encode(JSON.stringify(payload)), {
     ttl: 3600,
     urgency: Urgency.Normal,
   });
@@ -155,24 +156,19 @@ async function broadcast(env, data) {
 
       try {
         const subscription = JSON.parse(subJSON);
-        const res = await sendOne(env, subscription, data);
-
-        // @negrel/webpush returns a Response-like object.
-        if (res && res.ok) {
-          delivered++;
-        } else if (res) {
-          statusCounts[res.status] = (statusCounts[res.status] || 0) + 1;
-          if (res.status === 404 || res.status === 410) {
-            await env.WOD_SUBS.delete(endpoint);
-            removed++;
-          } else {
-            failed++;
-          }
-        } else {
-          failed++;
-        }
+        await sendOne(env, subscription, data);
+        delivered++;
       } catch (err) {
         failed++;
+        if (err instanceof PushMessageError) {
+          if (err.isGone?.()) {
+            await env.WOD_SUBS.delete(endpoint);
+            removed++;
+          }
+          if (err.response?.status) {
+            statusCounts[err.response.status] = (statusCounts[err.response.status] || 0) + 1;
+          }
+        }
         if (errorSamples.length < 5) {
           const name = err?.name || "Error";
           const message = err?.message || String(err);
