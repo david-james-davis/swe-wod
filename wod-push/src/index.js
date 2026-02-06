@@ -1,5 +1,6 @@
 import {
   ApplicationServer,
+  exportApplicationServerKey,
   importVapidKeys,
   PushSubscriber,
   PushMessageError,
@@ -12,13 +13,15 @@ const ALLOWED_ORIGINS = new Set([
   "https://www.swe-wod.com"
 ]);
 const BASE_CORS_HEADERS = {
-  "Access-Control-Allow-Methods": "POST, OPTIONS",
+  "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
   "Access-Control-Allow-Headers": "Content-Type, Authorization",
   "Access-Control-Max-Age": "86400",
   "Vary": "Origin"
 };
 const LAST_BROADCAST_KEY = "lastBroadcast";
 const LAST_SUBSCRIBE_KEY = "lastSubscribe";
+
+let appPromise;
 
 function corsHeaders(origin) {
   const allowOrigin = ALLOWED_ORIGINS.has(origin) ? origin : "https://swe-wod.com";
@@ -46,6 +49,13 @@ export default {
     // 1) CORS preflight
     if (request.method === "OPTIONS") {
       return new Response(null, { status: 204, headers: corsHeaders(origin) });
+    }
+
+    // 1.5) public VAPID key
+    if (url.pathname === "/vapid" && request.method === "GET") {
+      const app = await getApp(env);
+      const publicKey = await exportApplicationServerKey(app.vapidKeys);
+      return jsonResponse({ publicKey }, {}, origin);
     }
 
     // 2) subscribe
@@ -121,17 +131,19 @@ export default {
 };
 
 function makeApp(env) {
-  return new ApplicationServer({
+  return ApplicationServer.new({
     contactInformation: "mailto:davidjamesdavis.djd@gmail.com",
-    vapidKeys: importVapidKeys({
-      publicKey: env.VAPID_PUBLIC_KEY,
-      privateKey: env.VAPID_PRIVATE_KEY,
-    }),
+    vapidKeys: importVapidKeys(getVapidJwk(env)),
   });
 }
 
+async function getApp(env) {
+  if (!appPromise) appPromise = makeApp(env);
+  return appPromise;
+}
+
 async function sendOne(env, subscription, payload) {
-  const app = makeApp(env);
+  const app = await getApp(env);
   const sub = app.subscribe(subscription);
   // JSON payload; use pushTextMessage for plain text
   await sub.pushMessage(new TextEncoder().encode(JSON.stringify(payload)), {
@@ -193,6 +205,65 @@ async function broadcast(env, data) {
     await env.WOD_META.put(LAST_BROADCAST_KEY, JSON.stringify(summary));
   } catch {}
   return summary;
+}
+
+function getVapidJwk(env) {
+  if (env.VAPID_KEYS) {
+    return JSON.parse(env.VAPID_KEYS);
+  }
+  if (env.VAPID_PUBLIC_JWK && env.VAPID_PRIVATE_JWK) {
+    return {
+      publicKey: JSON.parse(env.VAPID_PUBLIC_JWK),
+      privateKey: JSON.parse(env.VAPID_PRIVATE_JWK),
+    };
+  }
+  if (env.VAPID_PUBLIC_KEY && env.VAPID_PRIVATE_KEY) {
+    if (env.VAPID_PUBLIC_KEY.trim().startsWith("{")) {
+      return {
+        publicKey: JSON.parse(env.VAPID_PUBLIC_KEY),
+        privateKey: JSON.parse(env.VAPID_PRIVATE_KEY),
+      };
+    }
+    return jwkFromBase64Keys(env.VAPID_PUBLIC_KEY, env.VAPID_PRIVATE_KEY);
+  }
+  throw new Error("Missing VAPID keys. Set VAPID_KEYS (JWK JSON) or VAPID_PUBLIC_KEY/VAPID_PRIVATE_KEY.");
+}
+
+function jwkFromBase64Keys(publicKeyB64, privateKeyB64) {
+  const pub = base64UrlToBytes(publicKeyB64);
+  if (pub.length !== 65 || pub[0] !== 4) {
+    throw new Error("Invalid VAPID public key format (expected 65-byte uncompressed P-256 key).");
+  }
+  const x = pub.slice(1, 33);
+  const y = pub.slice(33, 65);
+  const d = base64UrlToBytes(privateKeyB64);
+  if (d.length !== 32) {
+    throw new Error("Invalid VAPID private key format (expected 32-byte P-256 key).");
+  }
+  const jwkPublic = {
+    kty: "EC",
+    crv: "P-256",
+    x: bytesToBase64Url(x),
+    y: bytesToBase64Url(y),
+  };
+  const jwkPrivate = { ...jwkPublic, d: bytesToBase64Url(d) };
+  return { publicKey: jwkPublic, privateKey: jwkPrivate };
+}
+
+function base64UrlToBytes(b64url) {
+  const pad = "=".repeat((4 - b64url.length % 4) % 4);
+  const base64 = (b64url + pad).replace(/-/g, "+").replace(/_/g, "/");
+  const raw = atob(base64);
+  const out = new Uint8Array(raw.length);
+  for (let i = 0; i < raw.length; i++) out[i] = raw.charCodeAt(i);
+  return out;
+}
+
+function bytesToBase64Url(bytes) {
+  let binary = "";
+  for (let i = 0; i < bytes.length; i++) binary += String.fromCharCode(bytes[i]);
+  const base64 = btoa(binary).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
+  return base64;
 }
 
 function json(obj) {
