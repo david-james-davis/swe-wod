@@ -142,6 +142,7 @@ async function sendOne(env, subscription, payload) {
 async function broadcast(env, data) {
   let delivered = 0, removed = 0, total = 0, failed = 0;
   const statusCounts = {};
+  const errorSamples = [];
   let cursor;
 
   do {
@@ -170,10 +171,13 @@ async function broadcast(env, data) {
         } else {
           failed++;
         }
-      } catch {
-        // Malformed/expired sub: clean it up
-        await env.WOD_SUBS.delete(endpoint);
-        removed++;
+      } catch (err) {
+        failed++;
+        if (errorSamples.length < 5) {
+          const name = err?.name || "Error";
+          const message = err?.message || String(err);
+          errorSamples.push({ name, message });
+        }
       }
     }
 
@@ -186,6 +190,7 @@ async function broadcast(env, data) {
     failed,
     total,
     statusCounts,
+    errorSamples,
     sentAt: new Date().toISOString()
   };
   try {
