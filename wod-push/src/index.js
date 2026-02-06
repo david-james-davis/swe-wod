@@ -130,10 +130,11 @@ export default {
   }
 };
 
-function makeApp(env) {
+async function makeApp(env) {
+  const vapidKeys = await importVapidKeys(getVapidJwk(env));
   return ApplicationServer.new({
     contactInformation: "mailto:davidjamesdavis.djd@gmail.com",
-    vapidKeys: importVapidKeys(getVapidJwk(env)),
+    vapidKeys,
   });
 }
 
