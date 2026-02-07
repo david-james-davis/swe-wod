@@ -814,5 +814,13 @@
     "example": "In JavaScript, you can pass a callback to an API request function, so once the data is fetched, the callback processes the response.",
     "date": "2026-02-06",
     "hash": 1161695526
+  },
+  {
+    "word": "throttling",
+    "partOfSpeech": "noun",
+    "definition": "The process of limiting the number of requests or amount of data sent to a system within a given time frame to prevent overload and ensure stability.",
+    "example": "The API uses throttling to restrict each user to 100 requests per minute, avoiding server crashes during high traffic.",
+    "date": "2026-02-07",
+    "hash": 1161695527
   }
 ]
