@@ -838,5 +838,13 @@
     "example": "The profiler identified the database querying function as a hotspot causing slow page loads, so optimizing its indexes improved our response times.",
     "date": "2026-02-09",
     "hash": 1161695529
+  },
+  {
+    "word": "memoization",
+    "partOfSpeech": "noun",
+    "definition": "An optimization technique where function results are cached to avoid redundant computations for the same inputs.",
+    "example": "Using memoization in a Fibonacci sequence function can significantly reduce the time complexity by storing previously computed values.",
+    "date": "2026-02-10",
+    "hash": 1161695551
   }
 ]
