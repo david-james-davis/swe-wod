@@ -846,5 +846,13 @@
     "example": "Using memoization in a Fibonacci sequence function can significantly reduce the time complexity by storing previously computed values.",
     "date": "2026-02-10",
     "hash": 1161695551
+  },
+  {
+    "word": "tokenization",
+    "partOfSpeech": "noun",
+    "definition": "The process of breaking down data, typically text or code, into smaller units called tokens that can be analyzed or processed individually.",
+    "example": "In natural language processing, tokenization splits a sentence into words or punctuation marks to facilitate tasks like parsing and sentiment analysis.",
+    "date": "2026-02-11",
+    "hash": 1161695552
   }
 ]
