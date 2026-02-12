@@ -854,5 +854,13 @@
     "example": "In natural language processing, tokenization splits a sentence into words or punctuation marks to facilitate tasks like parsing and sentiment analysis.",
     "date": "2026-02-11",
     "hash": 1161695552
+  },
+  {
+    "word": "race condition",
+    "partOfSpeech": "noun",
+    "definition": "A race condition occurs when the behavior of software depends on the sequence or timing of uncontrollable events, often leading to unpredictable or erroneous results in concurrent environments.",
+    "example": "If two threads simultaneously increment a shared counter without synchronization, a race condition might cause missed increments and an incorrect final value.",
+    "date": "2026-02-12",
+    "hash": 1161695553
   }
 ]
