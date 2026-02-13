@@ -862,5 +862,13 @@
     "example": "If two threads simultaneously increment a shared counter without synchronization, a race condition might cause missed increments and an incorrect final value.",
     "date": "2026-02-12",
     "hash": 1161695553
+  },
+  {
+    "word": "load balancer",
+    "partOfSpeech": "noun",
+    "definition": "A system or device that distributes network or application traffic across multiple servers to ensure reliability and improved performance.",
+    "example": "Using a load balancer helps prevent any single server from becoming a bottleneck during high traffic periods.",
+    "date": "2026-02-13",
+    "hash": 1161695554
   }
 ]
