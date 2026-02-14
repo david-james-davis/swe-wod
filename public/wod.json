@@ -870,5 +870,13 @@
     "example": "Using a load balancer helps prevent any single server from becoming a bottleneck during high traffic periods.",
     "date": "2026-02-13",
     "hash": 1161695554
+  },
+  {
+    "word": "idempotent",
+    "partOfSpeech": "adjective",
+    "definition": "An operation that can be applied multiple times without changing the result beyond the initial application.",
+    "example": "HTTP PUT requests are typically idempotent because sending the same PUT request multiple times results in the same resource state.",
+    "date": "2026-02-14",
+    "hash": 1161695555
   }
 ]
