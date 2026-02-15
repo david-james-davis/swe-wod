@@ -878,5 +878,13 @@
     "example": "HTTP PUT requests are typically idempotent because sending the same PUT request multiple times results in the same resource state.",
     "date": "2026-02-14",
     "hash": 1161695555
+  },
+  {
+    "word": "namespace",
+    "partOfSpeech": "noun",
+    "definition": "A container or context that holds a set of identifiers, such as variables, functions, or classes, to prevent naming conflicts in codebases.",
+    "example": "In JavaScript, using modules creates namespaces to encapsulate functions and variables, avoiding collisions with other parts of the application.",
+    "date": "2026-02-15",
+    "hash": 1161695556
   }
 ]
