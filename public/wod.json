@@ -886,5 +886,13 @@
     "example": "In JavaScript, using modules creates namespaces to encapsulate functions and variables, avoiding collisions with other parts of the application.",
     "date": "2026-02-15",
     "hash": 1161695556
+  },
+  {
+    "word": "latency",
+    "partOfSpeech": "noun",
+    "definition": "The time delay between the initiation of a request and the moment a response begins to be received; a critical metric in system and network performance.",
+    "example": "Reducing API latency improved the user experience by making the app feel more responsive during data fetching.",
+    "date": "2026-02-16",
+    "hash": 1161695557
   }
 ]
