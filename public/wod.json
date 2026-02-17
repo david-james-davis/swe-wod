@@ -894,5 +894,13 @@
     "example": "Reducing API latency improved the user experience by making the app feel more responsive during data fetching.",
     "date": "2026-02-16",
     "hash": 1161695557
+  },
+  {
+    "word": "sharding",
+    "partOfSpeech": "noun",
+    "definition": "Sharding is a database partitioning technique that divides large datasets into smaller, more manageable pieces called shards, distributed across multiple servers to improve performance and scalability.",
+    "example": "To handle millions of users, the application uses sharding to split the user database by geographic region, ensuring queries are faster and load is balanced.",
+    "date": "2026-02-17",
+    "hash": 1161695558
   }
 ]
