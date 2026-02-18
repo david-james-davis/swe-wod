@@ -902,5 +902,13 @@
     "example": "To handle millions of users, the application uses sharding to split the user database by geographic region, ensuring queries are faster and load is balanced.",
     "date": "2026-02-17",
     "hash": 1161695558
+  },
+  {
+    "word": "middleware",
+    "partOfSpeech": "noun",
+    "definition": "Software that acts as an intermediary layer between an operating system and applications or between different applications, facilitating communication, data management, and input/output processes.",
+    "example": "In a web application, middleware can handle authentication by intercepting requests and verifying user credentials before the server processes them.",
+    "date": "2026-02-18",
+    "hash": 1161695559
   }
 ]
