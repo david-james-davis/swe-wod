@@ -910,5 +910,13 @@
     "example": "In a web application, middleware can handle authentication by intercepting requests and verifying user credentials before the server processes them.",
     "date": "2026-02-18",
     "hash": 1161695559
+  },
+  {
+    "word": "refactoring",
+    "partOfSpeech": "verb",
+    "definition": "The process of restructuring existing code without changing its external behavior to improve readability, reduce complexity, or enhance maintainability.",
+    "example": "The team spent a week refactoring the legacy codebase to make future feature additions easier and reduce bugs.",
+    "date": "2026-02-19",
+    "hash": 1161695560
   }
 ]
