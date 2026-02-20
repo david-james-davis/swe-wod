@@ -918,5 +918,13 @@
     "example": "The team spent a week refactoring the legacy codebase to make future feature additions easier and reduce bugs.",
     "date": "2026-02-19",
     "hash": 1161695560
+  },
+  {
+    "word": "singleton",
+    "partOfSpeech": "noun",
+    "definition": "A design pattern that restricts the instantiation of a class to exactly one object, ensuring a single shared instance throughout the application.",
+    "example": "Using a singleton for database connection management ensures all parts of the application reuse the same connection instance instead of creating multiple ones.",
+    "date": "2026-02-20",
+    "hash": 1161695582
   }
 ]
