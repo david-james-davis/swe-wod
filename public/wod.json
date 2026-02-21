@@ -926,5 +926,13 @@
     "example": "Using a singleton for database connection management ensures all parts of the application reuse the same connection instance instead of creating multiple ones.",
     "date": "2026-02-20",
     "hash": 1161695582
+  },
+  {
+    "word": "bulkhead",
+    "partOfSpeech": "noun",
+    "definition": "An architectural pattern that isolates different parts of a system to prevent failure in one component from cascading to others.",
+    "example": "By applying bulkheads between microservices, the failure of the payment service does not affect the user authentication service.",
+    "date": "2026-02-21",
+    "hash": 1161695583
   }
 ]
