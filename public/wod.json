@@ -934,5 +934,13 @@
     "example": "By applying bulkheads between microservices, the failure of the payment service does not affect the user authentication service.",
     "date": "2026-02-21",
     "hash": 1161695583
+  },
+  {
+    "word": "commit",
+    "partOfSpeech": "verb",
+    "definition": "To save changes to a version control system repository, creating a new snapshot of the codebase with a descriptive message.",
+    "example": "After fixing the bug, she committed the changes to the Git repository with a message explaining the issue and the solution.",
+    "date": "2026-02-22",
+    "hash": 1161695584
   }
 ]
