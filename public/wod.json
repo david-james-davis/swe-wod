@@ -942,5 +942,13 @@
     "example": "After fixing the bug, she committed the changes to the Git repository with a message explaining the issue and the solution.",
     "date": "2026-02-22",
     "hash": 1161695584
+  },
+  {
+    "word": "hotfix",
+    "partOfSpeech": "noun",
+    "definition": "A quick and urgent software update applied to fix a critical bug or security vulnerability in production without waiting for the next scheduled release cycle.",
+    "example": "After discovering a severe security flaw, the team deployed a hotfix immediately to patch the vulnerability and protect user data.",
+    "date": "2026-02-23",
+    "hash": 1161695585
   }
 ]
