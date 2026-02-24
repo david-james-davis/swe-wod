@@ -950,5 +950,13 @@
     "example": "After discovering a severe security flaw, the team deployed a hotfix immediately to patch the vulnerability and protect user data.",
     "date": "2026-02-23",
     "hash": 1161695585
+  },
+  {
+    "word": "eventual consistency",
+    "partOfSpeech": "noun",
+    "definition": "A consistency model in distributed systems where updates to a data store will propagate and become consistent across all nodes after some delay, rather than immediately.",
+    "example": "In a distributed database, a user's update to their profile might not be instantly visible on all servers, but with eventual consistency, all replicas will converge to the same data eventually.",
+    "date": "2026-02-24",
+    "hash": 1161695586
   }
 ]
