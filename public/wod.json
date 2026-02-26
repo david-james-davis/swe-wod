@@ -966,5 +966,13 @@
     "example": "An application uses a queue to hold incoming requests so workers can process them one by one without overload.",
     "date": "2026-02-25",
     "hash": 1161695587
+  },
+  {
+    "word": "containerization",
+    "partOfSpeech": "noun",
+    "definition": "The process of packaging an application and its dependencies into a container that can run consistently across different computing environments.",
+    "example": "Using Docker for containerization allows developers to ensure their applications run the same in development, testing, and production.",
+    "date": "2026-02-26",
+    "hash": 1161695588
   }
 ]
