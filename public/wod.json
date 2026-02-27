@@ -974,5 +974,13 @@
     "example": "Using Docker for containerization allows developers to ensure their applications run the same in development, testing, and production.",
     "date": "2026-02-26",
     "hash": 1161695588
+  },
+  {
+    "word": "blue-green deployment",
+    "partOfSpeech": "noun",
+    "definition": "A deployment strategy that reduces downtime by running two identical production environments (blue and green) and switching traffic between them for updates.",
+    "example": "To minimize service disruption, the team used blue-green deployment by routing users to the green environment while updating the blue one.",
+    "date": "2026-02-27",
+    "hash": 1161695589
   }
 ]
