@@ -814,5 +814,165 @@
     "example": "In JavaScript, you can pass a callback to an API request function, so once the data is fetched, the callback processes the response.",
     "date": "2026-02-06",
     "hash": 1161695526
+  },
+  {
+    "word": "throttling",
+    "partOfSpeech": "noun",
+    "definition": "The process of limiting the number of requests or amount of data sent to a system within a given time frame to prevent overload and ensure stability.",
+    "example": "The API uses throttling to restrict each user to 100 requests per minute, avoiding server crashes during high traffic.",
+    "date": "2026-02-07",
+    "hash": 1161695527
+  },
+  {
+    "word": "deadlock",
+    "partOfSpeech": "noun",
+    "definition": "A state in concurrent programming where two or more processes are each waiting for the other to release resources, causing all of them to be blocked indefinitely.",
+    "example": "Two threads entering a deadlock when Thread A locks Resource 1 and waits for Resource 2, while Thread B locks Resource 2 and waits for Resource 1.",
+    "date": "2026-02-08",
+    "hash": 1161695528
+  },
+  {
+    "word": "hotspot",
+    "partOfSpeech": "noun",
+    "definition": "A section of code or system that is a frequent source of performance bottlenecks or intensive resource usage.",
+    "example": "The profiler identified the database querying function as a hotspot causing slow page loads, so optimizing its indexes improved our response times.",
+    "date": "2026-02-09",
+    "hash": 1161695529
+  },
+  {
+    "word": "memoization",
+    "partOfSpeech": "noun",
+    "definition": "An optimization technique where function results are cached to avoid redundant computations for the same inputs.",
+    "example": "Using memoization in a Fibonacci sequence function can significantly reduce the time complexity by storing previously computed values.",
+    "date": "2026-02-10",
+    "hash": 1161695551
+  },
+  {
+    "word": "tokenization",
+    "partOfSpeech": "noun",
+    "definition": "The process of breaking down data, typically text or code, into smaller units called tokens that can be analyzed or processed individually.",
+    "example": "In natural language processing, tokenization splits a sentence into words or punctuation marks to facilitate tasks like parsing and sentiment analysis.",
+    "date": "2026-02-11",
+    "hash": 1161695552
+  },
+  {
+    "word": "race condition",
+    "partOfSpeech": "noun",
+    "definition": "A race condition occurs when the behavior of software depends on the sequence or timing of uncontrollable events, often leading to unpredictable or erroneous results in concurrent environments.",
+    "example": "If two threads simultaneously increment a shared counter without synchronization, a race condition might cause missed increments and an incorrect final value.",
+    "date": "2026-02-12",
+    "hash": 1161695553
+  },
+  {
+    "word": "load balancer",
+    "partOfSpeech": "noun",
+    "definition": "A system or device that distributes network or application traffic across multiple servers to ensure reliability and improved performance.",
+    "example": "Using a load balancer helps prevent any single server from becoming a bottleneck during high traffic periods.",
+    "date": "2026-02-13",
+    "hash": 1161695554
+  },
+  {
+    "word": "idempotent",
+    "partOfSpeech": "adjective",
+    "definition": "An operation that can be applied multiple times without changing the result beyond the initial application.",
+    "example": "HTTP PUT requests are typically idempotent because sending the same PUT request multiple times results in the same resource state.",
+    "date": "2026-02-14",
+    "hash": 1161695555
+  },
+  {
+    "word": "namespace",
+    "partOfSpeech": "noun",
+    "definition": "A container or context that holds a set of identifiers, such as variables, functions, or classes, to prevent naming conflicts in codebases.",
+    "example": "In JavaScript, using modules creates namespaces to encapsulate functions and variables, avoiding collisions with other parts of the application.",
+    "date": "2026-02-15",
+    "hash": 1161695556
+  },
+  {
+    "word": "latency",
+    "partOfSpeech": "noun",
+    "definition": "The time delay between the initiation of a request and the moment a response begins to be received; a critical metric in system and network performance.",
+    "example": "Reducing API latency improved the user experience by making the app feel more responsive during data fetching.",
+    "date": "2026-02-16",
+    "hash": 1161695557
+  },
+  {
+    "word": "sharding",
+    "partOfSpeech": "noun",
+    "definition": "Sharding is a database partitioning technique that divides large datasets into smaller, more manageable pieces called shards, distributed across multiple servers to improve performance and scalability.",
+    "example": "To handle millions of users, the application uses sharding to split the user database by geographic region, ensuring queries are faster and load is balanced.",
+    "date": "2026-02-17",
+    "hash": 1161695558
+  },
+  {
+    "word": "middleware",
+    "partOfSpeech": "noun",
+    "definition": "Software that acts as an intermediary layer between an operating system and applications or between different applications, facilitating communication, data management, and input/output processes.",
+    "example": "In a web application, middleware can handle authentication by intercepting requests and verifying user credentials before the server processes them.",
+    "date": "2026-02-18",
+    "hash": 1161695559
+  },
+  {
+    "word": "refactoring",
+    "partOfSpeech": "verb",
+    "definition": "The process of restructuring existing code without changing its external behavior to improve readability, reduce complexity, or enhance maintainability.",
+    "example": "The team spent a week refactoring the legacy codebase to make future feature additions easier and reduce bugs.",
+    "date": "2026-02-19",
+    "hash": 1161695560
+  },
+  {
+    "word": "singleton",
+    "partOfSpeech": "noun",
+    "definition": "A design pattern that restricts the instantiation of a class to exactly one object, ensuring a single shared instance throughout the application.",
+    "example": "Using a singleton for database connection management ensures all parts of the application reuse the same connection instance instead of creating multiple ones.",
+    "date": "2026-02-20",
+    "hash": 1161695582
+  },
+  {
+    "word": "bulkhead",
+    "partOfSpeech": "noun",
+    "definition": "An architectural pattern that isolates different parts of a system to prevent failure in one component from cascading to others.",
+    "example": "By applying bulkheads between microservices, the failure of the payment service does not affect the user authentication service.",
+    "date": "2026-02-21",
+    "hash": 1161695583
+  },
+  {
+    "word": "commit",
+    "partOfSpeech": "verb",
+    "definition": "To save changes to a version control system repository, creating a new snapshot of the codebase with a descriptive message.",
+    "example": "After fixing the bug, she committed the changes to the Git repository with a message explaining the issue and the solution.",
+    "date": "2026-02-22",
+    "hash": 1161695584
+  },
+  {
+    "word": "hotfix",
+    "partOfSpeech": "noun",
+    "definition": "A quick and urgent software update applied to fix a critical bug or security vulnerability in production without waiting for the next scheduled release cycle.",
+    "example": "After discovering a severe security flaw, the team deployed a hotfix immediately to patch the vulnerability and protect user data.",
+    "date": "2026-02-23",
+    "hash": 1161695585
+  },
+  {
+    "word": "eventual consistency",
+    "partOfSpeech": "noun",
+    "definition": "A consistency model in distributed systems where updates to a data store will propagate and become consistent across all nodes after some delay, rather than immediately.",
+    "example": "In a distributed database, a user's update to their profile might not be instantly visible on all servers, but with eventual consistency, all replicas will converge to the same data eventually.",
+    "date": "2026-02-24",
+    "hash": 1161695586
+  },
+  {
+    "word": "queue",
+    "partOfSpeech": "noun",
+    "definition": "A data structure that follows First-In-First-Out (FIFO) order, used to manage tasks or messages in processing pipelines or asynchronous workflows.",
+    "example": "An application uses a queue to hold incoming requests so workers can process them one by one without overload.",
+    "date": "2026-02-25",
+    "hash": 1161695587
+  },
+  {
+    "word": "containerization",
+    "partOfSpeech": "noun",
+    "definition": "The process of packaging an application and its dependencies into a container that can run consistently across different computing environments.",
+    "example": "Using Docker for containerization allows developers to ensure their applications run the same in development, testing, and production.",
+    "date": "2026-02-26",
+    "hash": 1161695588
   }
 ]
