@@ -7,11 +7,44 @@
 <link rel="manifest" href="/manifest.json" />
 <link rel="icon" href="data:;base64,=">
 <style>
-  :root { color-scheme: light dark; }
+  :root {
+    color-scheme: light dark;
+    --cta-bg: linear-gradient(135deg, #0ea5e9 0%, #2563eb 55%, #1d4ed8 100%);
+    --cta-text: #f8fbff;
+    --cta-shadow: 0 12px 28px rgba(29, 78, 216, 0.28);
+    --cta-shadow-hover: 0 16px 34px rgba(29, 78, 216, 0.35);
+    --cta-ring: #60a5fa;
+  }
   body { font: 16px/1.5 system-ui, sans-serif; margin: 2rem; }
   .card { max-width: 720px; margin: 0 auto; padding: 1.25rem; border: 1px solid #ddd; border-radius: 12px; }
   .muted { color: #666; }
   code { background: color-mix(in oklab, canvas 80%, black 5%); padding: .1rem .3rem; border-radius: .35rem; }
+  .subscribe-btn {
+    margin-top: 0.75rem;
+    border: 0;
+    border-radius: 999px;
+    padding: 0.72rem 1.2rem;
+    background: var(--cta-bg);
+    color: var(--cta-text);
+    font: 600 0.96rem/1.1 system-ui, sans-serif;
+    letter-spacing: 0.01em;
+    box-shadow: var(--cta-shadow);
+    cursor: pointer;
+    transition: transform 160ms ease, box-shadow 160ms ease, filter 160ms ease;
+  }
+  .subscribe-btn:hover {
+    transform: translateY(-1px);
+    filter: saturate(1.08);
+    box-shadow: var(--cta-shadow-hover);
+  }
+  .subscribe-btn:active {
+    transform: translateY(0);
+    box-shadow: 0 8px 20px rgba(29, 78, 216, 0.3);
+  }
+  .subscribe-btn:focus-visible {
+    outline: 3px solid var(--cta-ring);
+    outline-offset: 3px;
+  }
 </style>
 <body>
   <div class="card">
@@ -23,7 +56,7 @@
     <p id="definition"></p>
     <p><em id="example"></em></p>
     <p class="muted" style="margin-top:1rem">Source: OpenAI (auto-updated daily)</p>
-    <button id="enablePush">🔔 Enable daily notifications</button>
+    <button id="enablePush" class="subscribe-btn">🔔 Enable daily notifications</button>
     <!-- <button id="disablePush">🔕 Disable notifications</button> -->
   </div>
 
