@@ -982,5 +982,13 @@
     "example": "To minimize service disruption, the team used blue-green deployment by routing users to the green environment while updating the blue one.",
     "date": "2026-02-27",
     "hash": 1161695589
+  },
+  {
+    "word": "rollback",
+    "partOfSpeech": "noun",
+    "definition": "A rollback is the process of reverting a system or database to a previous stable state, typically used to undo faulty updates or deployments.",
+    "example": "After the latest software update caused crashes, the team performed a rollback to the previous version to restore service.",
+    "date": "2026-02-28",
+    "hash": 1161695590
   }
 ]
