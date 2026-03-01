@@ -990,5 +990,13 @@
     "example": "After the latest software update caused crashes, the team performed a rollback to the previous version to restore service.",
     "date": "2026-02-28",
     "hash": 1161695590
+  },
+  {
+    "word": "cache",
+    "partOfSpeech": "noun",
+    "definition": "A cache is a high-speed storage layer that stores a subset of data, typically temporary, to provide faster data retrieval than accessing the main storage or computation.",
+    "example": "A web application uses an in-memory cache to store frequently accessed user session data, reducing database load and improving response time.",
+    "date": "2026-03-01",
+    "hash": 1161725312
   }
 ]
