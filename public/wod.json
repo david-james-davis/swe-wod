@@ -998,5 +998,13 @@
     "example": "A web application uses an in-memory cache to store frequently accessed user session data, reducing database load and improving response time.",
     "date": "2026-03-01",
     "hash": 1161725312
+  },
+  {
+    "word": "atomic operation",
+    "partOfSpeech": "noun",
+    "definition": "An operation that completes in a single step relative to other threads, ensuring it is indivisible and prevents inconsistent states in concurrent environments.",
+    "example": "Incrementing a shared counter using an atomic operation ensures that no two threads can update the value simultaneously, avoiding race conditions.",
+    "date": "2026-03-02",
+    "hash": 1161725313
   }
 ]
