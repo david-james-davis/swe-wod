@@ -1006,5 +1006,13 @@
     "example": "Incrementing a shared counter using an atomic operation ensures that no two threads can update the value simultaneously, avoiding race conditions.",
     "date": "2026-03-02",
     "hash": 1161725313
+  },
+  {
+    "word": "hot reload",
+    "partOfSpeech": "noun",
+    "definition": "A development feature that allows code changes to be applied to a running application without restarting it, enabling faster testing and iteration.",
+    "example": "Using hot reload in the React Native app allowed the developer to see UI changes instantly without rebuilding the entire app.",
+    "date": "2026-03-03",
+    "hash": 1161725314
   }
 ]
