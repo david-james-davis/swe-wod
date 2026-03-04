@@ -1014,5 +1014,13 @@
     "example": "Using hot reload in the React Native app allowed the developer to see UI changes instantly without rebuilding the entire app.",
     "date": "2026-03-03",
     "hash": 1161725314
+  },
+  {
+    "word": "circuit breaker",
+    "partOfSpeech": "noun",
+    "definition": "A design pattern used to detect failures and encapsulate the logic of preventing an operation from repeatedly failing, improving system stability by 'tripping' to stop calls to a failing service.",
+    "example": "If the payment service is down, the circuit breaker trips to quickly return an error instead of making repeated requests that may cause cascading failures.",
+    "date": "2026-03-04",
+    "hash": 1161725315
   }
 ]
