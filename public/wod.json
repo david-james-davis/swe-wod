@@ -1022,5 +1022,13 @@
     "example": "If the payment service is down, the circuit breaker trips to quickly return an error instead of making repeated requests that may cause cascading failures.",
     "date": "2026-03-04",
     "hash": 1161725315
+  },
+  {
+    "word": "debounce",
+    "partOfSpeech": "verb",
+    "definition": "To limit the rate at which a function is executed by ensuring it only runs after a specified delay following the last call, commonly used to optimize handling of rapid or repeated events.",
+    "example": "In a search box, debounce is used to delay sending queries to the server until the user stops typing for 300ms, reducing the number of requests.",
+    "date": "2026-03-05",
+    "hash": 1161725316
   }
 ]
