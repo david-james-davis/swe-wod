@@ -1030,5 +1030,13 @@
     "example": "In a search box, debounce is used to delay sending queries to the server until the user stops typing for 300ms, reducing the number of requests.",
     "date": "2026-03-05",
     "hash": 1161725316
+  },
+  {
+    "word": "pagination",
+    "partOfSpeech": "noun",
+    "definition": "A technique used to divide a large set of data into discrete pages, making it easier to load and navigate content incrementally.",
+    "example": "In a web application, using pagination to display 20 user comments per page improves performance and user experience instead of loading all comments at once.",
+    "date": "2026-03-06",
+    "hash": 1161725317
   }
 ]
