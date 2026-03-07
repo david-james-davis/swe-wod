@@ -1038,5 +1038,13 @@
     "example": "In a web application, using pagination to display 20 user comments per page improves performance and user experience instead of loading all comments at once.",
     "date": "2026-03-06",
     "hash": 1161725317
+  },
+  {
+    "word": "feature toggle",
+    "partOfSpeech": "noun",
+    "definition": "A technique in software development that enables or disables features dynamically without deploying new code, allowing safer experimentation and gradual rollouts.",
+    "example": "Using a feature toggle, the team activated the new search functionality only for beta users without affecting the entire user base.",
+    "date": "2026-03-07",
+    "hash": 1161725318
   }
 ]
