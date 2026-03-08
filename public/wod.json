@@ -1046,5 +1046,13 @@
     "example": "Using a feature toggle, the team activated the new search functionality only for beta users without affecting the entire user base.",
     "date": "2026-03-07",
     "hash": 1161725318
+  },
+  {
+    "word": "serialization",
+    "partOfSpeech": "noun",
+    "definition": "The process of converting an object or data structure into a format that can be easily stored or transmitted and later reconstructed.",
+    "example": "In a web application, user session data is serialized to JSON format before being stored in a database for persistence.",
+    "date": "2026-03-08",
+    "hash": 1161725319
   }
 ]
