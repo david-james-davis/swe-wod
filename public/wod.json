@@ -1054,5 +1054,13 @@
     "example": "In a web application, user session data is serialized to JSON format before being stored in a database for persistence.",
     "date": "2026-03-08",
     "hash": 1161725319
+  },
+  {
+    "word": "mutex",
+    "partOfSpeech": "noun",
+    "definition": "A mutex (mutual exclusion) is a synchronization primitive used to prevent multiple threads from accessing a shared resource concurrently, ensuring data consistency.",
+    "example": "In a multithreaded program, a mutex is used to lock a shared variable before updating it, preventing race conditions.",
+    "date": "2026-03-09",
+    "hash": 1161725320
   }
 ]
