@@ -1062,5 +1062,13 @@
     "example": "In a multithreaded program, a mutex is used to lock a shared variable before updating it, preventing race conditions.",
     "date": "2026-03-09",
     "hash": 1161725320
+  },
+  {
+    "word": "throttling",
+    "partOfSpeech": "noun",
+    "definition": "A mechanism used to control the amount of resources or requests allowed within a certain time to prevent system overload or ensure fair usage.",
+    "example": "The API server implemented throttling to limit each user to 100 requests per minute, thus preventing excessive load and potential downtime.",
+    "date": "2026-03-10",
+    "hash": 1161725342
   }
 ]
