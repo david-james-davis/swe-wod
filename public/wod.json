@@ -1070,5 +1070,13 @@
     "example": "The API server implemented throttling to limit each user to 100 requests per minute, thus preventing excessive load and potential downtime.",
     "date": "2026-03-10",
     "hash": 1161725342
+  },
+  {
+    "word": "feature flag",
+    "partOfSpeech": "noun",
+    "definition": "A feature flag is a conditional toggle in code that enables or disables functionality without deploying new code, allowing gradual rollouts or testing in production.",
+    "example": "Using a feature flag, the team deployed the new search algorithm to 10% of users before fully releasing it.",
+    "date": "2026-03-11",
+    "hash": 1161725343
   }
 ]
