@@ -1078,5 +1078,13 @@
     "example": "Using a feature flag, the team deployed the new search algorithm to 10% of users before fully releasing it.",
     "date": "2026-03-11",
     "hash": 1161725343
+  },
+  {
+    "word": "deadlock",
+    "partOfSpeech": "noun",
+    "definition": "A situation in concurrent programming where two or more processes are unable to proceed because each is waiting for the other to release a resource.",
+    "example": "In a multithreaded application, thread A holds lock 1 and waits for lock 2, while thread B holds lock 2 and waits for lock 1, causing a deadlock where neither thread can continue.",
+    "date": "2026-03-12",
+    "hash": 1161725344
   }
 ]
