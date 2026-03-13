@@ -1086,5 +1086,13 @@
     "example": "In a multithreaded application, thread A holds lock 1 and waits for lock 2, while thread B holds lock 2 and waits for lock 1, causing a deadlock where neither thread can continue.",
     "date": "2026-03-12",
     "hash": 1161725344
+  },
+  {
+    "word": "idempotence",
+    "partOfSpeech": "noun",
+    "definition": "The property of certain operations in programming and distributed systems where performing the operation multiple times has the same effect as performing it once.",
+    "example": "An HTTP PUT request is idempotent because updating a resource with the same data repeatedly does not change the final state beyond the initial update.",
+    "date": "2026-03-13",
+    "hash": 1161725345
   }
 ]
