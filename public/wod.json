@@ -1094,5 +1094,13 @@
     "example": "An HTTP PUT request is idempotent because updating a resource with the same data repeatedly does not change the final state beyond the initial update.",
     "date": "2026-03-13",
     "hash": 1161725345
+  },
+  {
+    "word": "hotspot",
+    "partOfSpeech": "noun",
+    "definition": "A section of code or system component where performance bottlenecks or high resource usage occurs, frequently targeted for optimization.",
+    "example": "The profiler identified a hotspot in the image-processing module, which was causing slow response times; optimizing the algorithm improved overall throughput.",
+    "date": "2026-03-14",
+    "hash": 1161725346
   }
 ]
