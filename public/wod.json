@@ -1102,5 +1102,13 @@
     "example": "The profiler identified a hotspot in the image-processing module, which was causing slow response times; optimizing the algorithm improved overall throughput.",
     "date": "2026-03-14",
     "hash": 1161725346
+  },
+  {
+    "word": "backpressure",
+    "partOfSpeech": "noun",
+    "definition": "A mechanism to prevent overwhelming a system by controlling the flow of data or requests, ensuring downstream components can handle the input rate.",
+    "example": "In a message queue system, backpressure is applied by slowing down message production when consumers cannot process messages quickly enough.",
+    "date": "2026-03-15",
+    "hash": 1161725347
   }
 ]
