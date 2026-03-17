@@ -1118,5 +1118,13 @@
     "example": "If two threads try to update the same bank account balance without proper synchronization, a race condition might cause incorrect final balance values.",
     "date": "2026-03-16",
     "hash": 1161725348
+  },
+  {
+    "word": "monorepo",
+    "partOfSpeech": "noun",
+    "definition": "A software development strategy where code for many projects is stored in a single, shared repository to simplify dependency management and encourage code reuse.",
+    "example": "The engineering team adopted a monorepo approach to manage multiple related services, enabling easier refactoring and unified version control.",
+    "date": "2026-03-17",
+    "hash": 1161725349
   }
 ]
