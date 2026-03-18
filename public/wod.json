@@ -1126,5 +1126,13 @@
     "example": "The engineering team adopted a monorepo approach to manage multiple related services, enabling easier refactoring and unified version control.",
     "date": "2026-03-17",
     "hash": 1161725349
+  },
+  {
+    "word": "immutability",
+    "partOfSpeech": "noun",
+    "definition": "The property of an object whose state cannot be modified after it is created, ensuring predictability and avoiding side effects in programs.",
+    "example": "In functional programming, strings are often immutable, meaning any modification creates a new string instead of changing the original.",
+    "date": "2026-03-18",
+    "hash": 1161725350
   }
 ]
