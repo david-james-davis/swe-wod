@@ -1142,5 +1142,13 @@
     "example": "Using a load balancer improved our app's availability by routing user requests evenly between servers during traffic spikes.",
     "date": "2026-03-19",
     "hash": 1161725351
+  },
+  {
+    "word": "memoization",
+    "partOfSpeech": "noun",
+    "definition": "An optimization technique that stores the results of expensive function calls and returns the cached result when the same inputs occur again.",
+    "example": "Using memoization, the Fibonacci function avoids redundant calculations by caching previously computed values in a lookup table.",
+    "date": "2026-03-20",
+    "hash": 1161725373
   }
 ]
