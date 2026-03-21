@@ -1150,5 +1150,13 @@
     "example": "Using memoization, the Fibonacci function avoids redundant calculations by caching previously computed values in a lookup table.",
     "date": "2026-03-20",
     "hash": 1161725373
+  },
+  {
+    "word": "shadowing",
+    "partOfSpeech": "noun",
+    "definition": "A programming practice where a variable declared within a certain scope has the same name as a variable declared in an outer scope, effectively 'shadowing' the outer variable within the inner scope.",
+    "example": "In JavaScript, declaring a variable inside a function with the same name as a global variable causes the inner one to shadow the outer, preventing access to the global variable inside that function.",
+    "date": "2026-03-21",
+    "hash": 1161725374
   }
 ]
