@@ -1158,5 +1158,13 @@
     "example": "In JavaScript, declaring a variable inside a function with the same name as a global variable causes the inner one to shadow the outer, preventing access to the global variable inside that function.",
     "date": "2026-03-21",
     "hash": 1161725374
+  },
+  {
+    "word": "refactoring",
+    "partOfSpeech": "verb",
+    "definition": "The process of restructuring existing computer code without changing its external behavior to improve readability, reduce complexity, and enhance maintainability.",
+    "example": "We refactored the authentication module to remove duplicated code and simplify the login logic.",
+    "date": "2026-03-22",
+    "hash": 1161725375
   }
 ]
