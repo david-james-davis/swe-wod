@@ -1166,5 +1166,13 @@
     "example": "We refactored the authentication module to remove duplicated code and simplify the login logic.",
     "date": "2026-03-22",
     "hash": 1161725375
+  },
+  {
+    "word": "singleton",
+    "partOfSpeech": "noun",
+    "definition": "A design pattern that restricts the instantiation of a class to one single instance, ensuring controlled access to a shared resource.",
+    "example": "In a logging system, a singleton logger instance is used so that all parts of the application write to the same log file.",
+    "date": "2026-03-23",
+    "hash": 1161725376
   }
 ]
