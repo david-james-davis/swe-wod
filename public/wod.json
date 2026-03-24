@@ -1174,5 +1174,13 @@
     "example": "In a logging system, a singleton logger instance is used so that all parts of the application write to the same log file.",
     "date": "2026-03-23",
     "hash": 1161725376
+  },
+  {
+    "word": "dependency injection",
+    "partOfSpeech": "noun",
+    "definition": "A design pattern in which an object receives its dependencies from an external source rather than creating them internally, promoting modularity and testability.",
+    "example": "Using dependency injection, the service class receives a database connection object through its constructor instead of instantiating it, enabling easier unit testing and swapping of implementations.",
+    "date": "2026-03-24",
+    "hash": 1161725377
   }
 ]
