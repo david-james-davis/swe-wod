@@ -1182,5 +1182,13 @@
     "example": "Using dependency injection, the service class receives a database connection object through its constructor instead of instantiating it, enabling easier unit testing and swapping of implementations.",
     "date": "2026-03-24",
     "hash": 1161725377
+  },
+  {
+    "word": "middleware",
+    "partOfSpeech": "noun",
+    "definition": "Software that acts as an intermediary layer between different systems or components, facilitating communication and data management.",
+    "example": "In a web application, middleware can handle tasks like authentication, logging, and request routing before the request reaches the main business logic.",
+    "date": "2026-03-25",
+    "hash": 1161725378
   }
 ]
