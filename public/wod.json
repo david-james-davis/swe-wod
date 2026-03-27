@@ -1198,5 +1198,13 @@
     "example": "After discovering a severe login bug, the team deployed a hotfix to production within hours to ensure users could access the service without interruption.",
     "date": "2026-03-26",
     "hash": 1161725379
+  },
+  {
+    "word": "bulkhead",
+    "partOfSpeech": "noun",
+    "definition": "A design pattern in software architecture that isolates components or services to prevent failure in one area from cascading to others.",
+    "example": "In a microservices system, configuring bulkheads ensures that if one service overloads or fails, it doesn't bring down the entire application.",
+    "date": "2026-03-27",
+    "hash": 1161725380
   }
 ]
