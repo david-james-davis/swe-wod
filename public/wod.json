@@ -1206,5 +1206,13 @@
     "example": "In a microservices system, configuring bulkheads ensures that if one service overloads or fails, it doesn't bring down the entire application.",
     "date": "2026-03-27",
     "hash": 1161725380
+  },
+  {
+    "word": "idempotent",
+    "partOfSpeech": "adjective",
+    "definition": "Describes an operation that can be performed multiple times without changing the result beyond the initial application.",
+    "example": "An HTTP GET request is idempotent because calling it multiple times will always retrieve the same resource without side effects.",
+    "date": "2026-03-28",
+    "hash": 1161725381
   }
 ]
