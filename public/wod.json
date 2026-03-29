@@ -1214,5 +1214,13 @@
     "example": "An HTTP GET request is idempotent because calling it multiple times will always retrieve the same resource without side effects.",
     "date": "2026-03-28",
     "hash": 1161725381
+  },
+  {
+    "word": "heartbeat",
+    "partOfSpeech": "noun",
+    "definition": "A periodic signal sent between systems or components to indicate normal operation or to detect failures.",
+    "example": "The server sends a heartbeat to the monitoring system every five seconds to confirm it's still online.",
+    "date": "2026-03-29",
+    "hash": 1161725382
   }
 ]
