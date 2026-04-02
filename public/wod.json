@@ -1238,5 +1238,13 @@
     "example": "After the new deployment caused service outages, the DevOps team performed a rollback to the prior stable release to restore functionality.",
     "date": "2026-03-31",
     "hash": 1161725405
+  },
+  {
+    "word": "sharding",
+    "partOfSpeech": "noun",
+    "definition": "A database partitioning technique where a large dataset is horizontally split into smaller, more manageable pieces called shards, distributed across multiple servers to improve performance and scalability.",
+    "example": "To handle their rapidly growing user base, the company implemented sharding by distributing user data across multiple database servers based on geographic region.",
+    "date": "2026-04-02",
+    "hash": 1161755104
   }
 ]
