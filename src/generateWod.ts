@@ -1,6 +1,6 @@
 import fs from "node:fs/promises";
 import path from "node:path";
-import OpenAI from "openai";
+// import OpenAI from "openai";
 import "dotenv/config";
 
 type WodEntry = {
@@ -12,8 +12,8 @@ type WodEntry = {
   hash?: number;
 };
 
-const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
-const MODEL = "gpt-4.1-mini";
+// const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+// const MODEL = "gpt-4.1-mini";
 
 const todayISO = new Date().toISOString().slice(0, 10);
 const OUT_PATH = path.join(process.cwd(), "public", "wod.json");
@@ -66,44 +66,52 @@ function pickFallback(exclusions: Set<string>): string | null {
   return candidates[idx];
 }
 
-async function fetchEntry(exclusions: Set<string>): Promise<WodEntry> {
-  const excludedList = Array.from(exclusions).sort().join(", ");
-  const mustNot = excludedList
-    ? `You MUST NOT return any of these terms: ${excludedList}.`
-    : `Avoid repeating recent days.`;
+// async function fetchEntry(exclusions: Set<string>): Promise<WodEntry> {
+//   const excludedList = Array.from(exclusions).sort().join(", ");
+//   const mustNot = excludedList
+//     ? `You MUST NOT return any of these terms: ${excludedList}.`
+//     : `Avoid repeating recent days.`;
+//
+//   const system = `
+//     You generate ONE software engineering TERM OF THE DAY.
+//
+//     Constraints:
+//     - Useful, common engineering jargon only (e.g., "throughput", "idempotent", "circuit breaker", "debounce").
+//     - Concise, standard definition (1–2 sentences) and a short engineering example.
+//     - Include partOfSpeech if obvious (noun/verb/adjective). No brands, people, NSFW or political content.
+//     - Output STRICT JSON with keys: word, partOfSpeech, definition, example, date (YYYY-MM-DD).
+//     - Date must be ${todayISO}.
+//     - ${mustNot}
+//     `.trim();
+//
+//   const user = `Generate today's SWE term with definition & example.`;
+//
+//   const r = await client.chat.completions.create({
+//     model: MODEL,
+//     messages: [
+//       { role: "system", content: system },
+//       { role: "user", content: user },
+//     ],
+//     response_format: { type: "json_object" },
+//     // You could also add low temperature for consistency:
+//     // temperature: 0.2,
+//   });
+//
+//   const jsonText = r.choices[0]?.message?.content ?? "";
+//   if (!jsonText) throw new Error("No output from model");
+//   const entry = JSON.parse(jsonText) as WodEntry;
+//
+//   entry.date = todayISO;
+//   entry.hash = dayHash(todayISO);
+//   return entry;
+// }
 
-  const system = `
-    You generate ONE software engineering TERM OF THE DAY.
-
-    Constraints:
-    - Useful, common engineering jargon only (e.g., "throughput", "idempotent", "circuit breaker", "debounce").
-    - Concise, standard definition (1–2 sentences) and a short engineering example.
-    - Include partOfSpeech if obvious (noun/verb/adjective). No brands, people, NSFW or political content.
-    - Output STRICT JSON with keys: word, partOfSpeech, definition, example, date (YYYY-MM-DD).
-    - Date must be ${todayISO}.
-    - ${mustNot}
-    `.trim();
-
-  const user = `Generate today's SWE term with definition & example.`;
-
-  const r = await client.chat.completions.create({
-    model: MODEL,
-    messages: [
-      { role: "system", content: system },
-      { role: "user", content: user },
-    ],
-    response_format: { type: "json_object" },
-    // You could also add low temperature for consistency:
-    // temperature: 0.2,
-  });
-
-  const jsonText = r.choices[0]?.message?.content ?? "";
-  if (!jsonText) throw new Error("No output from model");
-  const entry = JSON.parse(jsonText) as WodEntry;
-
-  entry.date = todayISO;
-  entry.hash = dayHash(todayISO);
-  return entry;
+function pickFromHistory(history: WodEntry[], exclusions: Set<string>): WodEntry | null {
+  const candidates = history.filter(e => !exclusions.has(normalize(e.word)));
+  if (candidates.length === 0) return null;
+  const idx = dayHash(todayISO) % candidates.length;
+  const source = candidates[idx];
+  return { ...source, date: todayISO, hash: dayHash(todayISO) };
 }
 
 async function main() {
@@ -120,20 +128,22 @@ async function main() {
   const recent = history.slice(-NO_REPEAT_WINDOW_DAYS);
   const exclusions = new Set(recent.map(e => normalize(e.word)));
 
-  // Try the model a few times to avoid duplicates
-  let entry: WodEntry | null = null;
-  for (let attempt = 1; attempt <= MAX_MODEL_ATTEMPTS; attempt++) {
-    const candidate = await fetchEntry(exclusions);
-    if (!exclusions.has(normalize(candidate.word))) {
-      entry = candidate;
-      break;
-    }
-    console.warn(
-      `Attempt ${attempt}: model returned recent duplicate "${candidate.word}". Retrying...`
-    );
-  }
+  // Pick a random term from existing history (OpenAI fetch disabled)
+  let entry: WodEntry | null = pickFromHistory(history, exclusions);
 
-  // Fallback: pick from curated list if still duplicate after retries
+  // // Try the model a few times to avoid duplicates
+  // for (let attempt = 1; attempt <= MAX_MODEL_ATTEMPTS; attempt++) {
+  //   const candidate = await fetchEntry(exclusions);
+  //   if (!exclusions.has(normalize(candidate.word))) {
+  //     entry = candidate;
+  //     break;
+  //   }
+  //   console.warn(
+  //     `Attempt ${attempt}: model returned recent duplicate "${candidate.word}". Retrying...`
+  //   );
+  // }
+
+  // Fallback: pick from curated list if still no entry
   if (!entry) {
     const picked = pickFallback(exclusions);
     if (!picked) {
