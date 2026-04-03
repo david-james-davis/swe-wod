@@ -1246,5 +1246,13 @@
     "example": "To handle their rapidly growing user base, the company implemented sharding by distributing user data across multiple database servers based on geographic region.",
     "date": "2026-04-02",
     "hash": 1161755104
+  },
+  {
+    "word": "lazy loading",
+    "partOfSpeech": "noun",
+    "definition": "A design pattern that delays the initialization of an object or the loading of data until it is needed to improve performance and reduce resource usage.",
+    "example": "In a web application, images below the fold are loaded only when the user scrolls down to them, implementing lazy loading to speed up the initial page load.",
+    "date": "2026-04-03",
+    "hash": 1161755105
   }
 ]
