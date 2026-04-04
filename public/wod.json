@@ -1254,5 +1254,13 @@
     "example": "In a web application, images below the fold are loaded only when the user scrolls down to them, implementing lazy loading to speed up the initial page load.",
     "date": "2026-04-03",
     "hash": 1161755105
+  },
+  {
+    "word": "rate limiting",
+    "partOfSpeech": "noun",
+    "definition": "A technique used to control the amount of incoming or outgoing requests to a system within a given time frame to prevent overload or abuse.",
+    "example": "The API uses rate limiting to restrict each user to 100 requests per minute to avoid server overload.",
+    "date": "2026-04-04",
+    "hash": 1161755106
   }
 ]
