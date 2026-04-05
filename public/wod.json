@@ -1262,5 +1262,13 @@
     "example": "The API uses rate limiting to restrict each user to 100 requests per minute to avoid server overload.",
     "date": "2026-04-04",
     "hash": 1161755106
+  },
+  {
+    "word": "duck typing",
+    "partOfSpeech": "noun",
+    "definition": "A programming concept where an object's suitability is determined by the presence of certain methods and properties rather than the object's actual type.",
+    "example": "In Python, a function expecting an object with a 'quack()' method will work with any object that has quack(), regardless of its class - that's duck typing.",
+    "date": "2026-04-05",
+    "hash": 1161755107
   }
 ]
