@@ -1270,5 +1270,13 @@
     "example": "In Python, a function expecting an object with a 'quack()' method will work with any object that has quack(), regardless of its class - that's duck typing.",
     "date": "2026-04-05",
     "hash": 1161755107
+  },
+  {
+    "word": "pivot",
+    "partOfSpeech": "verb",
+    "definition": "To fundamentally change the direction or approach of a project or product based on new information or user feedback, while leveraging existing resources or technology.",
+    "example": "The development team decided to pivot from creating a mobile-only app to a cross-platform solution after user surveys showed a significant demand for desktop access.",
+    "date": "2026-04-06",
+    "hash": 1161755108
   }
 ]
