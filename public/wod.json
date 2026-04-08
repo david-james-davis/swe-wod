@@ -1286,5 +1286,13 @@
     "example": "We used blue-green deployment to switch users seamlessly to the updated web service without any downtime.",
     "date": "2026-04-07",
     "hash": 1161755109
+  },
+  {
+    "word": "load balancing",
+    "partOfSpeech": "noun",
+    "definition": "The process of distributing network or application traffic evenly across multiple servers to ensure reliability and optimal resource use.",
+    "example": "A load balancer routes incoming user requests to different web servers to prevent any single server from becoming a bottleneck during peak traffic.",
+    "date": "2026-04-08",
+    "hash": 1161755110
   }
 ]
