@@ -1294,5 +1294,13 @@
     "example": "A load balancer routes incoming user requests to different web servers to prevent any single server from becoming a bottleneck during peak traffic.",
     "date": "2026-04-08",
     "hash": 1161755110
+  },
+  {
+    "word": "hot reload",
+    "partOfSpeech": "verb",
+    "definition": "To update a running application's code without restarting it, allowing developers to see changes instantly during development.",
+    "example": "Using hot reload, the developer modified the UI's styling and saw the changes reflect immediately on the app without a full restart.",
+    "date": "2026-04-09",
+    "hash": 1161755111
   }
 ]
