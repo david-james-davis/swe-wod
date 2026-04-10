@@ -1302,5 +1302,13 @@
     "example": "Using hot reload, the developer modified the UI's styling and saw the changes reflect immediately on the app without a full restart.",
     "date": "2026-04-09",
     "hash": 1161755111
+  },
+  {
+    "word": "debounce",
+    "partOfSpeech": "verb",
+    "definition": "To limit the rate at which a function is executed by ensuring it only runs after a specified delay following the last call, commonly used to optimize handling of rapid or repeated events.",
+    "example": "In a search box, debounce is used to delay sending queries to the server until the user stops typing for 300ms, reducing the number of requests.",
+    "date": "2026-04-10",
+    "hash": 1161755133
   }
 ]
