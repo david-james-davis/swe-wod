@@ -1310,5 +1310,13 @@
     "example": "In a search box, debounce is used to delay sending queries to the server until the user stops typing for 300ms, reducing the number of requests.",
     "date": "2026-04-10",
     "hash": 1161755133
+  },
+  {
+    "word": "feature toggle",
+    "partOfSpeech": "noun",
+    "definition": "A technique in software development that enables or disables features dynamically without deploying new code, allowing safer experimentation and gradual rollouts.",
+    "example": "Using a feature toggle, the team activated the new search functionality only for beta users without affecting the entire user base.",
+    "date": "2026-04-11",
+    "hash": 1161755134
   }
 ]
