@@ -1318,5 +1318,13 @@
     "example": "Using a feature toggle, the team activated the new search functionality only for beta users without affecting the entire user base.",
     "date": "2026-04-11",
     "hash": 1161755134
+  },
+  {
+    "word": "containerization",
+    "partOfSpeech": "noun",
+    "definition": "The process of encapsulating or packaging software code and its dependencies so that it can run uniformly and consistently on any infrastructure.",
+    "example": "Developers use containerization tools like Docker to ensure their application runs the same way on a developer's laptop and in production servers.",
+    "date": "2026-04-12",
+    "hash": 1161755135
   }
 ]
