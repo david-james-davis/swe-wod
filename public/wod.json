@@ -1326,5 +1326,13 @@
     "example": "Developers use containerization tools like Docker to ensure their application runs the same way on a developer's laptop and in production servers.",
     "date": "2026-04-12",
     "hash": 1161755135
+  },
+  {
+    "word": "write-ahead log",
+    "partOfSpeech": "noun",
+    "definition": "A write-ahead log (WAL) is a technique in databases where changes are first recorded in a log before updating the main data store, ensuring durability and enabling recovery after a crash.",
+    "example": "Before modifying the database records, the system writes the intended changes to the write-ahead log to prevent data loss in case of a sudden power failure.",
+    "date": "2026-04-13",
+    "hash": 1161755136
   }
 ]
