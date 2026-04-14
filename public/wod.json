@@ -1334,5 +1334,13 @@
     "example": "Before modifying the database records, the system writes the intended changes to the write-ahead log to prevent data loss in case of a sudden power failure.",
     "date": "2026-04-13",
     "hash": 1161755136
+  },
+  {
+    "word": "throttling",
+    "partOfSpeech": "noun",
+    "definition": "The process of limiting the number of requests or amount of data sent to a system within a given time frame to prevent overload and ensure stability.",
+    "example": "The API uses throttling to restrict each user to 100 requests per minute, avoiding server crashes during high traffic.",
+    "date": "2026-04-14",
+    "hash": 1161755137
   }
 ]
