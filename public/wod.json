@@ -1342,5 +1342,13 @@
     "example": "The API uses throttling to restrict each user to 100 requests per minute, avoiding server crashes during high traffic.",
     "date": "2026-04-14",
     "hash": 1161755137
+  },
+  {
+    "word": "mocking",
+    "partOfSpeech": "noun",
+    "definition": "The practice of creating simulated objects or functions that mimic the behavior of real components in order to isolate and test specific parts of a software system.",
+    "example": "During unit testing, developers often use mocking to replace database calls with mock objects that return preset data, ensuring tests run quickly and reliably.",
+    "date": "2026-04-15",
+    "hash": 1161755138
   }
 ]
