@@ -1358,5 +1358,13 @@
     "example": "Thread A holds Lock 1 and waits for Lock 2, while Thread B holds Lock 2 and waits for Lock 1, resulting in a deadlock.",
     "date": "2026-04-16",
     "hash": 1161755139
+  },
+  {
+    "word": "event-driven",
+    "partOfSpeech": "adjective",
+    "definition": "A programming paradigm in which the flow of the program is determined by events such as user actions, sensor outputs, or message passing between components.",
+    "example": "In an event-driven architecture, a server might respond to a user's click by triggering a chain of asynchronous functions instead of executing a fixed sequence of instructions.",
+    "date": "2026-04-17",
+    "hash": 1161755140
   }
 ]
