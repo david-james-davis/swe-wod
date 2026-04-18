@@ -1366,5 +1366,13 @@
     "example": "In an event-driven architecture, a server might respond to a user's click by triggering a chain of asynchronous functions instead of executing a fixed sequence of instructions.",
     "date": "2026-04-17",
     "hash": 1161755140
+  },
+  {
+    "word": "circuit breaker",
+    "partOfSpeech": "noun",
+    "definition": "A design pattern used in software to detect failures and encapsulate the logic of preventing a failure from constantly recurring, typically by stopping requests to a failing service for a period of time.",
+    "example": "In a microservices architecture, a circuit breaker can stop calls to a service that's down to avoid overwhelming it and allow time for recovery.",
+    "date": "2026-04-18",
+    "hash": 1161755141
   }
 ]
