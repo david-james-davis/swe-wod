@@ -1374,5 +1374,13 @@
     "example": "In a microservices architecture, a circuit breaker can stop calls to a service that's down to avoid overwhelming it and allow time for recovery.",
     "date": "2026-04-18",
     "hash": 1161755141
+  },
+  {
+    "word": "cache",
+    "partOfSpeech": "noun",
+    "definition": "A cache is a high-speed storage layer that stores a subset of data, typically temporary, to provide faster data retrieval than accessing the main storage or computation.",
+    "example": "A web application uses an in-memory cache to store frequently accessed user session data, reducing database load and improving response time.",
+    "date": "2026-04-19",
+    "hash": 1161755142
   }
 ]
