@@ -1382,5 +1382,13 @@
     "example": "A web application uses an in-memory cache to store frequently accessed user session data, reducing database load and improving response time.",
     "date": "2026-04-19",
     "hash": 1161755142
+  },
+  {
+    "word": "namespace",
+    "partOfSpeech": "noun",
+    "definition": "A container that holds a set of identifiers (names) and allows the disambiguation of homonym identifiers in different contexts.",
+    "example": "In C++, the std namespace encapsulates standard library functions to prevent name conflicts with user-defined functions.",
+    "date": "2026-04-20",
+    "hash": 1161755164
   }
 ]
