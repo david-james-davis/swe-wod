@@ -1390,5 +1390,13 @@
     "example": "In C++, the std namespace encapsulates standard library functions to prevent name conflicts with user-defined functions.",
     "date": "2026-04-20",
     "hash": 1161755164
+  },
+  {
+    "word": "commit",
+    "partOfSpeech": "verb",
+    "definition": "To save changes made in the source code to a version control system, creating a checkpoint in the project’s history.",
+    "example": "After fixing the bug, she committed the changes to the Git repository with a descriptive message.",
+    "date": "2026-04-21",
+    "hash": 1161755165
   }
 ]
