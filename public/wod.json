@@ -1398,5 +1398,13 @@
     "example": "After fixing the bug, she committed the changes to the Git repository with a descriptive message.",
     "date": "2026-04-21",
     "hash": 1161755165
+  },
+  {
+    "word": "throughput",
+    "partOfSpeech": "noun",
+    "definition": "The amount of work or data processed by a system in a given amount of time, often used to measure system performance or capacity.",
+    "example": "Increasing the database throughput allowed the application to handle more user requests per second without slowing down.",
+    "date": "2026-04-22",
+    "hash": 1161755166
   }
 ]
