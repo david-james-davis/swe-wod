@@ -1406,5 +1406,13 @@
     "example": "Increasing the database throughput allowed the application to handle more user requests per second without slowing down.",
     "date": "2026-04-22",
     "hash": 1161755166
+  },
+  {
+    "word": "backpressure",
+    "partOfSpeech": "noun",
+    "definition": "A mechanism to prevent system overload by controlling the rate of data flow between components, ensuring that producers do not overwhelm consumers.",
+    "example": "In a streaming application, backpressure is applied when the consumer signals the producer to slow down because it cannot process incoming data fast enough.",
+    "date": "2026-04-23",
+    "hash": 1161755167
   }
 ]
