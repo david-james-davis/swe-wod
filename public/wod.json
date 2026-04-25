@@ -1422,5 +1422,13 @@
     "example": "Using a feature flag, the team deployed the new search algorithm to 10% of users before fully releasing it.",
     "date": "2026-04-24",
     "hash": 1161755168
+  },
+  {
+    "word": "edge computing",
+    "partOfSpeech": "noun",
+    "definition": "A distributed computing paradigm that brings computation and data storage closer to the sources of data, reducing latency and bandwidth use.",
+    "example": "Processing sensor data locally on devices at a factory floor instead of sending it all to a centralized cloud server is an example of edge computing.",
+    "date": "2026-04-25",
+    "hash": 1161755169
   }
 ]
