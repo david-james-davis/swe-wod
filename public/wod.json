@@ -1438,5 +1438,13 @@
     "example": "We used a canary release to deploy the new search feature to 5% of users and monitored for errors before completing the full rollout.",
     "date": "2026-04-26",
     "hash": 1161755170
+  },
+  {
+    "word": "heatmap",
+    "partOfSpeech": "noun",
+    "definition": "A visual representation of data where individual values are represented as colors, often used to identify patterns or hotspots in large datasets.",
+    "example": "Developers used a heatmap to analyze user interactions on the webpage, identifying the most frequently clicked areas for UI improvements.",
+    "date": "2026-04-27",
+    "hash": 1161755171
   }
 ]
