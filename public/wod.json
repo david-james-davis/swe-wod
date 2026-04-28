@@ -1446,5 +1446,13 @@
     "example": "Developers used a heatmap to analyze user interactions on the webpage, identifying the most frequently clicked areas for UI improvements.",
     "date": "2026-04-27",
     "hash": 1161755171
+  },
+  {
+    "word": "load balancer",
+    "partOfSpeech": "noun",
+    "definition": "A system or device that distributes network or application traffic across multiple servers to ensure reliability and improved performance.",
+    "example": "Using a load balancer helps prevent any single server from becoming a bottleneck during high traffic periods.",
+    "date": "2026-04-28",
+    "hash": 1161755172
   }
 ]
