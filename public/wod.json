@@ -1454,5 +1454,13 @@
     "example": "Using a load balancer helps prevent any single server from becoming a bottleneck during high traffic periods.",
     "date": "2026-04-28",
     "hash": 1161755172
+  },
+  {
+    "word": "memoization",
+    "partOfSpeech": "noun",
+    "definition": "An optimization technique that stores the results of expensive function calls and returns the cached result when the same inputs occur again.",
+    "example": "Using memoization in a Fibonacci sequence calculation avoids redundant computations by caching previously computed values.",
+    "date": "2026-04-29",
+    "hash": 1161755173
   }
 ]
