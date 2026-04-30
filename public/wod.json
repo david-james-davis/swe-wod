@@ -1462,5 +1462,13 @@
     "example": "Using memoization in a Fibonacci sequence calculation avoids redundant computations by caching previously computed values.",
     "date": "2026-04-29",
     "hash": 1161755173
+  },
+  {
+    "word": "mutex",
+    "partOfSpeech": "noun",
+    "definition": "A mutex (mutual exclusion) is a synchronization primitive used to prevent multiple threads from accessing a shared resource concurrently, ensuring data consistency.",
+    "example": "In a multithreaded program, a mutex is used to lock a shared variable before updating it, preventing race conditions.",
+    "date": "2026-04-30",
+    "hash": 1161755195
   }
 ]
