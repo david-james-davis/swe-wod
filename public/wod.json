@@ -1470,5 +1470,13 @@
     "example": "In a multithreaded program, a mutex is used to lock a shared variable before updating it, preventing race conditions.",
     "date": "2026-04-30",
     "hash": 1161755195
+  },
+  {
+    "word": "callback",
+    "partOfSpeech": "noun",
+    "definition": "A function passed as an argument to another function, intended to be executed after a certain event or operation completes.",
+    "example": "In JavaScript, you can use a callback function to handle the response after fetching data asynchronously from an API.",
+    "date": "2026-05-01",
+    "hash": 1161784894
   }
 ]
