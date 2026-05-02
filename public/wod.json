@@ -1478,5 +1478,13 @@
     "example": "In JavaScript, you can use a callback function to handle the response after fetching data asynchronously from an API.",
     "date": "2026-05-01",
     "hash": 1161784894
+  },
+  {
+    "word": "serialization",
+    "partOfSpeech": "noun",
+    "definition": "The process of converting an object or data structure into a format that can be easily stored or transmitted and later reconstructed.",
+    "example": "In a distributed system, data objects are serialized to JSON before being sent over the network and deserialized on the receiving end.",
+    "date": "2026-05-02",
+    "hash": 1161784895
   }
 ]
