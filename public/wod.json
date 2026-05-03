@@ -1486,5 +1486,13 @@
     "example": "In a distributed system, data objects are serialized to JSON before being sent over the network and deserialized on the receiving end.",
     "date": "2026-05-02",
     "hash": 1161784895
+  },
+  {
+    "word": "caching",
+    "partOfSpeech": "noun",
+    "definition": "A technique to store frequently accessed data in a faster storage layer to reduce latency and improve performance.",
+    "example": "Web browsers use caching to save images and scripts locally, so returning to a website loads faster without downloading all resources again.",
+    "date": "2026-05-03",
+    "hash": 1161784896
   }
 ]
