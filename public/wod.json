@@ -1494,5 +1494,13 @@
     "example": "Web browsers use caching to save images and scripts locally, so returning to a website loads faster without downloading all resources again.",
     "date": "2026-05-03",
     "hash": 1161784896
+  },
+  {
+    "word": "fail fast",
+    "partOfSpeech": "verb phrase",
+    "definition": "A design principle that encourages a system or component to immediately report any failure, rather than continuing to operate in a potentially faulty state.",
+    "example": "By implementing fail fast validations on user input, the application promptly notifies users about errors without processing invalid data further.",
+    "date": "2026-05-04",
+    "hash": 1161784897
   }
 ]
