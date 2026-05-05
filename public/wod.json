@@ -1502,5 +1502,13 @@
     "example": "By implementing fail fast validations on user input, the application promptly notifies users about errors without processing invalid data further.",
     "date": "2026-05-04",
     "hash": 1161784897
+  },
+  {
+    "word": "idempotent",
+    "partOfSpeech": "adjective",
+    "definition": "An operation that can be applied multiple times without changing the result beyond the initial application.",
+    "example": "HTTP PUT requests are typically idempotent because sending the same PUT request multiple times results in the same resource state.",
+    "date": "2026-05-05",
+    "hash": 1161784898
   }
 ]
