@@ -1510,5 +1510,13 @@
     "example": "HTTP PUT requests are typically idempotent because sending the same PUT request multiple times results in the same resource state.",
     "date": "2026-05-05",
     "hash": 1161784898
+  },
+  {
+    "word": "immutability",
+    "partOfSpeech": "noun",
+    "definition": "The property of an object whose state cannot be modified after it is created, promoting safer concurrency and easier reasoning about code.",
+    "example": "In functional programming, strings are often immutable, meaning any operation that alters the string returns a new instance rather than changing the original.",
+    "date": "2026-05-06",
+    "hash": 1161784899
   }
 ]
