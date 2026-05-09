@@ -1534,5 +1534,13 @@
     "example": "The development team decided to pivot from creating a mobile-only app to a cross-platform solution after user surveys showed a significant demand for desktop access.",
     "date": "2026-05-08",
     "hash": 1161784901
+  },
+  {
+    "word": "load balancing",
+    "partOfSpeech": "noun",
+    "definition": "The process of distributing network or application traffic evenly across multiple servers to ensure reliability and optimal resource use.",
+    "example": "A load balancer routes incoming user requests to different web servers to prevent any single server from becoming a bottleneck during peak traffic.",
+    "date": "2026-05-09",
+    "hash": 1161784902
   }
 ]
