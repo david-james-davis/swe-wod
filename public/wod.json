@@ -1542,5 +1542,13 @@
     "example": "A load balancer routes incoming user requests to different web servers to prevent any single server from becoming a bottleneck during peak traffic.",
     "date": "2026-05-09",
     "hash": 1161784902
+  },
+  {
+    "word": "latency",
+    "partOfSpeech": "noun",
+    "definition": "The delay between a request and the corresponding response or action in a system, often measured in milliseconds.",
+    "example": "High network latency caused slow page loads, so the team optimized queries to reduce the round-trip time.",
+    "date": "2026-05-10",
+    "hash": 1161784924
   }
 ]
