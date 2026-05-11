@@ -1550,5 +1550,13 @@
     "example": "High network latency caused slow page loads, so the team optimized queries to reduce the round-trip time.",
     "date": "2026-05-10",
     "hash": 1161784924
+  },
+  {
+    "word": "blue-green deployment",
+    "partOfSpeech": "noun",
+    "definition": "A deployment strategy that reduces downtime by running two identical production environments (blue and green) and switching traffic between them for updates.",
+    "example": "To minimize service disruption, the team used blue-green deployment by routing users to the green environment while updating the blue one.",
+    "date": "2026-05-11",
+    "hash": 1161784925
   }
 ]
