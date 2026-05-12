@@ -1558,5 +1558,13 @@
     "example": "To minimize service disruption, the team used blue-green deployment by routing users to the green environment while updating the blue one.",
     "date": "2026-05-11",
     "hash": 1161784925
+  },
+  {
+    "word": "lazy loading",
+    "partOfSpeech": "noun",
+    "definition": "A design pattern that delays the initialization of an object or the loading of data until it is needed to improve performance and reduce resource usage.",
+    "example": "In a web application, images below the fold are loaded only when the user scrolls down to them, implementing lazy loading to speed up the initial page load.",
+    "date": "2026-05-12",
+    "hash": 1161784926
   }
 ]
