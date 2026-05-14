@@ -1574,5 +1574,13 @@
     "example": "In an application, a singleton logger ensures all components write logs to the same file instance without creating multiple logger objects.",
     "date": "2026-05-13",
     "hash": 1161784927
+  },
+  {
+    "word": "idempotence",
+    "partOfSpeech": "noun",
+    "definition": "The property of certain operations in programming and distributed systems where performing the operation multiple times has the same effect as performing it once.",
+    "example": "An HTTP PUT request is idempotent because updating a resource with the same data repeatedly does not change the final state beyond the initial update.",
+    "date": "2026-05-14",
+    "hash": 1161784928
   }
 ]
