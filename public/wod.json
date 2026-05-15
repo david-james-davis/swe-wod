@@ -1582,5 +1582,13 @@
     "example": "An HTTP PUT request is idempotent because updating a resource with the same data repeatedly does not change the final state beyond the initial update.",
     "date": "2026-05-14",
     "hash": 1161784928
+  },
+  {
+    "word": "refactoring",
+    "partOfSpeech": "noun",
+    "definition": "The process of restructuring existing computer code without changing its external behavior to improve readability, reduce complexity, and enhance maintainability.",
+    "example": "The development team spent a sprint refactoring the legacy authentication module to simplify the logic and improve test coverage.",
+    "date": "2026-05-15",
+    "hash": 1161784929
   }
 ]
