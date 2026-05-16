@@ -1590,5 +1590,13 @@
     "example": "The development team spent a sprint refactoring the legacy authentication module to simplify the logic and improve test coverage.",
     "date": "2026-05-15",
     "hash": 1161784929
+  },
+  {
+    "word": "debounce",
+    "partOfSpeech": "verb",
+    "definition": "To limit the rate at which a function is invoked, ensuring it only runs after a specified period of inactivity to avoid excessive calls.",
+    "example": "We debounce the input event handler to prevent sending an API request on every keystroke, triggering it only after the user stops typing for 300ms.",
+    "date": "2026-05-16",
+    "hash": 1161784930
   }
 ]
