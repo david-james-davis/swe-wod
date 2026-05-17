@@ -1598,5 +1598,13 @@
     "example": "We debounce the input event handler to prevent sending an API request on every keystroke, triggering it only after the user stops typing for 300ms.",
     "date": "2026-05-16",
     "hash": 1161784930
+  },
+  {
+    "word": "deadlock",
+    "partOfSpeech": "noun",
+    "definition": "A situation in concurrent programming where two or more threads are blocked forever, each waiting for the other to release a resource.",
+    "example": "Thread A holds Lock 1 and waits for Lock 2, while Thread B holds Lock 2 and waits for Lock 1, resulting in a deadlock.",
+    "date": "2026-05-17",
+    "hash": 1161784931
   }
 ]
