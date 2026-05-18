@@ -1606,5 +1606,13 @@
     "example": "Thread A holds Lock 1 and waits for Lock 2, while Thread B holds Lock 2 and waits for Lock 1, resulting in a deadlock.",
     "date": "2026-05-17",
     "hash": 1161784931
+  },
+  {
+    "word": "heartbeat",
+    "partOfSpeech": "noun",
+    "definition": "A periodic signal sent between systems or components to indicate normal operation or to detect failures.",
+    "example": "The server sends a heartbeat to the monitoring system every five seconds to confirm it's still online.",
+    "date": "2026-05-18",
+    "hash": 1161784932
   }
 ]
