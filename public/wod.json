@@ -1614,5 +1614,13 @@
     "example": "The server sends a heartbeat to the monitoring system every five seconds to confirm it's still online.",
     "date": "2026-05-18",
     "hash": 1161784932
+  },
+  {
+    "word": "virtual DOM",
+    "partOfSpeech": "noun",
+    "definition": "A lightweight, in-memory representation of the real DOM used to optimize UI rendering by minimizing direct manipulations of the actual DOM elements.",
+    "example": "React uses a virtual DOM to efficiently update only the changed parts of the UI instead of re-rendering the entire page.",
+    "date": "2026-05-19",
+    "hash": 1161784933
   }
 ]
