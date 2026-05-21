@@ -1630,5 +1630,13 @@
     "example": "The API server implemented throttling to limit each user to 100 requests per minute, thus preventing excessive load and potential downtime.",
     "date": "2026-05-20",
     "hash": 1161784955
+  },
+  {
+    "word": "hotfix",
+    "partOfSpeech": "noun",
+    "definition": "A hotfix is a quick, targeted software update issued to address a critical bug or security vulnerability in production without going through the usual release cycle.",
+    "example": "After discovering a security flaw in the authentication module, the team deployed a hotfix directly to the live environment to prevent unauthorized access.",
+    "date": "2026-05-21",
+    "hash": 1161784956
   }
 ]
