@@ -1638,5 +1638,13 @@
     "example": "After discovering a security flaw in the authentication module, the team deployed a hotfix directly to the live environment to prevent unauthorized access.",
     "date": "2026-05-21",
     "hash": 1161784956
+  },
+  {
+    "word": "stateless",
+    "partOfSpeech": "adjective",
+    "definition": "Refers to a system or component that does not retain any state information between requests, making each request independent.",
+    "example": "RESTful APIs are typically stateless, meaning each API call contains all necessary information without relying on previous interactions.",
+    "date": "2026-05-22",
+    "hash": 1161784957
   }
 ]
