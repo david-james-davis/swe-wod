@@ -1646,5 +1646,13 @@
     "example": "RESTful APIs are typically stateless, meaning each API call contains all necessary information without relying on previous interactions.",
     "date": "2026-05-22",
     "hash": 1161784957
+  },
+  {
+    "word": "event sourcing",
+    "partOfSpeech": "noun",
+    "definition": "An architectural pattern in which changes to application state are stored as a sequence of immutable events rather than overwriting the current state directly.",
+    "example": "Instead of updating the user's profile directly, the system records events like 'NameChanged' and 'EmailUpdated' which can be replayed to reconstruct the current profile state.",
+    "date": "2026-05-23",
+    "hash": 1161784958
   }
 ]
