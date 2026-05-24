@@ -1654,5 +1654,13 @@
     "example": "Instead of updating the user's profile directly, the system records events like 'NameChanged' and 'EmailUpdated' which can be replayed to reconstruct the current profile state.",
     "date": "2026-05-23",
     "hash": 1161784958
+  },
+  {
+    "word": "bulkhead",
+    "partOfSpeech": "noun",
+    "definition": "A design pattern in software architecture that isolates components or services to prevent failure in one area from cascading to others.",
+    "example": "In a microservices system, configuring bulkheads ensures that if one service overloads or fails, it doesn't bring down the entire application.",
+    "date": "2026-05-24",
+    "hash": 1161784959
   }
 ]
