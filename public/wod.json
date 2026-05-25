@@ -1662,5 +1662,13 @@
     "example": "In a microservices system, configuring bulkheads ensures that if one service overloads or fails, it doesn't bring down the entire application.",
     "date": "2026-05-24",
     "hash": 1161784959
+  },
+  {
+    "word": "monorepo",
+    "partOfSpeech": "noun",
+    "definition": "A software development strategy where code for many projects is stored in a single, shared repository to simplify dependency management and encourage code reuse.",
+    "example": "The engineering team adopted a monorepo approach to manage multiple related services, enabling easier refactoring and unified version control.",
+    "date": "2026-05-25",
+    "hash": 1161784960
   }
 ]
