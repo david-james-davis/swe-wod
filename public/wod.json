@@ -1670,5 +1670,13 @@
     "example": "The engineering team adopted a monorepo approach to manage multiple related services, enabling easier refactoring and unified version control.",
     "date": "2026-05-25",
     "hash": 1161784960
+  },
+  {
+    "word": "rollback",
+    "partOfSpeech": "noun/verb",
+    "definition": "A rollback is the process of reverting a system or database to a previous stable state after a failed update or deployment, ensuring no partial changes remain.",
+    "example": "After the new deployment caused service outages, the DevOps team performed a rollback to the prior stable release to restore functionality.",
+    "date": "2026-05-27",
+    "hash": 1161784962
   }
 ]
