@@ -1678,5 +1678,13 @@
     "example": "After the new deployment caused service outages, the DevOps team performed a rollback to the prior stable release to restore functionality.",
     "date": "2026-05-27",
     "hash": 1161784962
+  },
+  {
+    "word": "mocking",
+    "partOfSpeech": "noun",
+    "definition": "The practice of creating simulated objects or functions that mimic the behavior of real components in order to isolate and test specific parts of a software system.",
+    "example": "During unit testing, developers often use mocking to replace database calls with mock objects that return preset data, ensuring tests run quickly and reliably.",
+    "date": "2026-05-28",
+    "hash": 1161784963
   }
 ]
