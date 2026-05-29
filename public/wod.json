@@ -1686,5 +1686,13 @@
     "example": "During unit testing, developers often use mocking to replace database calls with mock objects that return preset data, ensuring tests run quickly and reliably.",
     "date": "2026-05-28",
     "hash": 1161784963
+  },
+  {
+    "word": "circuit breaker",
+    "partOfSpeech": "noun",
+    "definition": "A design pattern used in software systems to detect failures and encapsulate the logic of preventing a failure from constantly recurring during maintenance or temporary external system failure.",
+    "example": "Implementing a circuit breaker in the payment service stops calls to the downstream API after multiple failures, preventing system overload and allowing recovery.",
+    "date": "2026-05-29",
+    "hash": 1161784964
   }
 ]
