@@ -1710,5 +1710,13 @@
     "example": "After fixing the bug, she committed the changes to the Git repository with a descriptive message.",
     "date": "2026-05-31",
     "hash": 1161784987
+  },
+  {
+    "word": "namespace",
+    "partOfSpeech": "noun",
+    "definition": "A container or context that holds a set of identifiers, such as variables, functions, or classes, to prevent naming conflicts in codebases.",
+    "example": "In JavaScript, using modules creates namespaces to encapsulate functions and variables, avoiding collisions with other parts of the application.",
+    "date": "2026-06-01",
+    "hash": 1161814685
   }
 ]
