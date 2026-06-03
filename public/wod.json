@@ -1726,5 +1726,13 @@
     "example": "To handle millions of users, the application uses sharding to split the user database by geographic region, ensuring queries are faster and load is balanced.",
     "date": "2026-06-02",
     "hash": 1161814686
+  },
+  {
+    "word": "cache",
+    "partOfSpeech": "noun",
+    "definition": "A cache is a high-speed storage layer that stores a subset of data, typically temporary, to provide faster data retrieval than accessing the main storage or computation.",
+    "example": "A web application uses an in-memory cache to store frequently accessed user session data, reducing database load and improving response time.",
+    "date": "2026-06-03",
+    "hash": 1161814687
   }
 ]
