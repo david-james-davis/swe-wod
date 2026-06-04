@@ -1734,5 +1734,13 @@
     "example": "A web application uses an in-memory cache to store frequently accessed user session data, reducing database load and improving response time.",
     "date": "2026-06-03",
     "hash": 1161814687
+  },
+  {
+    "word": "hot reload",
+    "partOfSpeech": "noun",
+    "definition": "A development feature that allows code changes to be applied to a running application without restarting it, enabling faster testing and iteration.",
+    "example": "Using hot reload in the React Native app allowed the developer to see UI changes instantly without rebuilding the entire app.",
+    "date": "2026-06-04",
+    "hash": 1161814688
   }
 ]
