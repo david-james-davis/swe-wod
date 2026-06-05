@@ -1742,5 +1742,13 @@
     "example": "Using hot reload in the React Native app allowed the developer to see UI changes instantly without rebuilding the entire app.",
     "date": "2026-06-04",
     "hash": 1161814688
+  },
+  {
+    "word": "backpressure",
+    "partOfSpeech": "noun",
+    "definition": "A mechanism to handle overload in data processing by controlling the flow of data, preventing systems from being overwhelmed by too much input at once.",
+    "example": "In a reactive stream, backpressure is used to signal the producer to slow down when the consumer can't process data fast enough.",
+    "date": "2026-06-05",
+    "hash": 1161814689
   }
 ]
