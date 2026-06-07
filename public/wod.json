@@ -1758,5 +1758,13 @@
     "example": "In an event-driven architecture, a server might respond to a user's click by triggering a chain of asynchronous functions instead of executing a fixed sequence of instructions.",
     "date": "2026-06-06",
     "hash": 1161814690
+  },
+  {
+    "word": "feature toggle",
+    "partOfSpeech": "noun",
+    "definition": "A technique in software development that enables or disables features dynamically without deploying new code, allowing safer experimentation and gradual rollouts.",
+    "example": "Using a feature toggle, the team activated the new search functionality only for beta users without affecting the entire user base.",
+    "date": "2026-06-07",
+    "hash": 1161814691
   }
 ]
