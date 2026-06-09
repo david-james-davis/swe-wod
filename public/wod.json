@@ -1774,5 +1774,13 @@
     "example": "In natural language processing, tokenization splits a sentence into words or punctuation marks to facilitate tasks like parsing and sentiment analysis.",
     "date": "2026-06-08",
     "hash": 1161814692
+  },
+  {
+    "word": "rate limiting",
+    "partOfSpeech": "noun",
+    "definition": "A technique used to control the amount of incoming or outgoing requests to a system within a given time frame to prevent overload or abuse.",
+    "example": "The API uses rate limiting to restrict each user to 100 requests per minute to avoid server overload.",
+    "date": "2026-06-09",
+    "hash": 1161814693
   }
 ]
