@@ -1790,5 +1790,13 @@
     "example": "HTTP PUT requests are typically idempotent because sending the same PUT request multiple times results in the same resource state.",
     "date": "2026-06-10",
     "hash": 1161814715
+  },
+  {
+    "word": "memoization",
+    "partOfSpeech": "noun",
+    "definition": "An optimization technique that stores the results of expensive function calls and returns the cached result when the same inputs occur again.",
+    "example": "Using memoization in a Fibonacci sequence calculation avoids redundant computations by caching previously computed values.",
+    "date": "2026-06-11",
+    "hash": 1161814716
   }
 ]
