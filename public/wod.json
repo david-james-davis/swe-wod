@@ -1798,5 +1798,13 @@
     "example": "Using memoization in a Fibonacci sequence calculation avoids redundant computations by caching previously computed values.",
     "date": "2026-06-11",
     "hash": 1161814716
+  },
+  {
+    "word": "dependency injection",
+    "partOfSpeech": "noun",
+    "definition": "A software design pattern where an object's dependencies are provided externally rather than the object creating them internally, promoting loose coupling and easier testing.",
+    "example": "In a web application, a service class receives its database connection through dependency injection, allowing the connection to be mocked during unit tests.",
+    "date": "2026-06-12",
+    "hash": 1161814717
   }
 ]
