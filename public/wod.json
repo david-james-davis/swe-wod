@@ -1806,5 +1806,13 @@
     "example": "In a web application, a service class receives its database connection through dependency injection, allowing the connection to be mocked during unit tests.",
     "date": "2026-06-12",
     "hash": 1161814717
+  },
+  {
+    "word": "heatmap",
+    "partOfSpeech": "noun",
+    "definition": "A visual representation of data where individual values are represented as colors, often used to identify patterns or hotspots in large datasets.",
+    "example": "Developers used a heatmap to analyze user interactions on the webpage, identifying the most frequently clicked areas for UI improvements.",
+    "date": "2026-06-13",
+    "hash": 1161814718
   }
 ]
