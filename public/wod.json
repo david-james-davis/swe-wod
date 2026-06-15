@@ -1822,5 +1822,13 @@
     "example": "In Python, a function expecting an object with a 'quack()' method will work with any object that has quack(), regardless of its class - that's duck typing.",
     "date": "2026-06-14",
     "hash": 1161814719
+  },
+  {
+    "word": "continuous integration",
+    "partOfSpeech": "noun",
+    "definition": "A development practice where developers frequently merge their code changes into a shared repository, triggering automated builds and tests to detect integration errors early.",
+    "example": "The team uses continuous integration to automatically run tests whenever a developer pushes changes, ensuring that new code doesn't break existing functionality.",
+    "date": "2026-06-15",
+    "hash": 1161814720
   }
 ]
