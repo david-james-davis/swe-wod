@@ -1830,5 +1830,13 @@
     "example": "The team uses continuous integration to automatically run tests whenever a developer pushes changes, ensuring that new code doesn't break existing functionality.",
     "date": "2026-06-15",
     "hash": 1161814720
+  },
+  {
+    "word": "eventual consistency",
+    "partOfSpeech": "noun",
+    "definition": "A consistency model in distributed systems where updates to a data store are guaranteed to propagate and become consistent across all nodes after some undefined delay.",
+    "example": "In a distributed database, when a user updates a document on one server, other servers may still see the old version temporarily but will eventually reflect the update once synchronization completes.",
+    "date": "2026-06-16",
+    "hash": 1161814721
   }
 ]
