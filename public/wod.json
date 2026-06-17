@@ -1838,5 +1838,13 @@
     "example": "In a distributed database, when a user updates a document on one server, other servers may still see the old version temporarily but will eventually reflect the update once synchronization completes.",
     "date": "2026-06-16",
     "hash": 1161814721
+  },
+  {
+    "word": "race condition",
+    "partOfSpeech": "noun",
+    "definition": "A race condition occurs when the behavior of software depends on the sequence or timing of uncontrollable events, often leading to unpredictable or erroneous results in concurrent environments.",
+    "example": "If two threads simultaneously increment a shared counter without synchronization, a race condition might cause missed increments and an incorrect final value.",
+    "date": "2026-06-17",
+    "hash": 1161814722
   }
 ]
