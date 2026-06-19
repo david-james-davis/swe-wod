@@ -1854,5 +1854,13 @@
     "example": "Using a load balancer improved our app's availability by routing user requests evenly between servers during traffic spikes.",
     "date": "2026-06-18",
     "hash": 1161814723
+  },
+  {
+    "word": "refactoring",
+    "partOfSpeech": "verb",
+    "definition": "The process of restructuring existing code without changing its external behavior to improve readability, reduce complexity, or enhance maintainability.",
+    "example": "The team spent a week refactoring the legacy codebase to make future feature additions easier and reduce bugs.",
+    "date": "2026-06-19",
+    "hash": 1161814724
   }
 ]
