@@ -1870,5 +1870,13 @@
     "example": "We used a canary release to deploy the new search feature to 5% of users and monitored for errors before completing the full rollout.",
     "date": "2026-06-20",
     "hash": 1161814746
+  },
+  {
+    "word": "debounce",
+    "partOfSpeech": "verb",
+    "definition": "To limit the rate at which a function is invoked, ensuring it only runs after a specified period of inactivity to avoid excessive calls.",
+    "example": "We debounce the input event handler to prevent sending an API request on every keystroke, triggering it only after the user stops typing for 300ms.",
+    "date": "2026-06-21",
+    "hash": 1161814747
   }
 ]
