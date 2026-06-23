@@ -1886,5 +1886,13 @@
     "example": "Developers use containerization tools like Docker to ensure their application runs the same way on a developer's laptop and in production servers.",
     "date": "2026-06-22",
     "hash": 1161814748
+  },
+  {
+    "word": "middleware",
+    "partOfSpeech": "noun",
+    "definition": "Software that acts as an intermediary layer between an operating system or database and applications, facilitating communication and data management.",
+    "example": "In a web application, middleware can process incoming HTTP requests to handle authentication before passing the request to the main application logic.",
+    "date": "2026-06-23",
+    "hash": 1161814749
   }
 ]
