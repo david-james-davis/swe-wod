@@ -1902,5 +1902,13 @@
     "example": "The server sends a heartbeat to the monitoring system every five seconds to confirm it's still online.",
     "date": "2026-06-24",
     "hash": 1161814750
+  },
+  {
+    "word": "hotfix",
+    "partOfSpeech": "noun",
+    "definition": "A hotfix is an urgent, small-scale update applied directly to a live system to quickly resolve a critical bug or security vulnerability without going through the full release cycle.",
+    "example": "After discovering a severe login bug, the team deployed a hotfix to production within hours to ensure users could access the service without interruption.",
+    "date": "2026-06-25",
+    "hash": 1161814751
   }
 ]
