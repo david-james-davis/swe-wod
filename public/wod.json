@@ -1910,5 +1910,13 @@
     "example": "After discovering a severe login bug, the team deployed a hotfix to production within hours to ensure users could access the service without interruption.",
     "date": "2026-06-25",
     "hash": 1161814751
+  },
+  {
+    "word": "throttling",
+    "partOfSpeech": "noun",
+    "definition": "A technique used to control the rate at which an operation or request is allowed to proceed, usually to prevent resource exhaustion or system overload.",
+    "example": "The API implements throttling to limit users to 100 requests per minute, ensuring fair usage and stable performance.",
+    "date": "2026-06-26",
+    "hash": 1161814752
   }
 ]
