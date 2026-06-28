@@ -1926,5 +1926,13 @@
     "example": "By applying bulkheads between microservices, the failure of the payment service does not affect the user authentication service.",
     "date": "2026-06-27",
     "hash": 1161814753
+  },
+  {
+    "word": "pagination",
+    "partOfSpeech": "noun",
+    "definition": "A technique used to divide a large set of data into discrete pages, making it easier to load and navigate content incrementally.",
+    "example": "In a web application, using pagination to display 20 user comments per page improves performance and user experience instead of loading all comments at once.",
+    "date": "2026-06-28",
+    "hash": 1161814754
   }
 ]
