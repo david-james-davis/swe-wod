@@ -1942,5 +1942,13 @@
     "example": "A load balancer routes incoming user requests to different web servers to prevent any single server from becoming a bottleneck during peak traffic.",
     "date": "2026-06-29",
     "hash": 1161814755
+  },
+  {
+    "word": "stateless",
+    "partOfSpeech": "adjective",
+    "definition": "Refers to a system or component that does not retain any state information between requests, making each request independent.",
+    "example": "RESTful APIs are typically stateless, meaning each API call contains all necessary information without relying on previous interactions.",
+    "date": "2026-06-30",
+    "hash": 1161814777
   }
 ]
