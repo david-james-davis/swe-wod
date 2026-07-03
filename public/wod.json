@@ -1966,5 +1966,13 @@
     "example": "Google uses a monorepo to house most of its codebase, enabling consistent code standards and simplifying dependency management across teams.",
     "date": "2026-07-02",
     "hash": 1161844477
+  },
+  {
+    "word": "singleton",
+    "partOfSpeech": "noun",
+    "definition": "A design pattern that restricts the instantiation of a class to exactly one object, ensuring a single shared instance throughout the application.",
+    "example": "Using a singleton for database connection management ensures all parts of the application reuse the same connection instance instead of creating multiple ones.",
+    "date": "2026-07-03",
+    "hash": 1161844478
   }
 ]
