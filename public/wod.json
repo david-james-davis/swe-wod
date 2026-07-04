@@ -1974,5 +1974,13 @@
     "example": "Using a singleton for database connection management ensures all parts of the application reuse the same connection instance instead of creating multiple ones.",
     "date": "2026-07-03",
     "hash": 1161844478
+  },
+  {
+    "word": "circuit breaker",
+    "partOfSpeech": "noun",
+    "definition": "A design pattern used in software systems to detect failures and encapsulate the logic of preventing a failure from constantly recurring during maintenance or temporary external system failure.",
+    "example": "Implementing a circuit breaker in the payment service stops calls to the downstream API after multiple failures, preventing system overload and allowing recovery.",
+    "date": "2026-07-04",
+    "hash": 1161844479
   }
 ]
