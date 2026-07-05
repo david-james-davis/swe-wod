@@ -1982,5 +1982,13 @@
     "example": "Implementing a circuit breaker in the payment service stops calls to the downstream API after multiple failures, preventing system overload and allowing recovery.",
     "date": "2026-07-04",
     "hash": 1161844479
+  },
+  {
+    "word": "callback",
+    "partOfSpeech": "noun",
+    "definition": "A function passed as an argument to another function, intended to be executed after a certain event or operation completes.",
+    "example": "In JavaScript, you can use a callback function to handle the response after fetching data asynchronously from an API.",
+    "date": "2026-07-05",
+    "hash": 1161844480
   }
 ]
