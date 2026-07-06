@@ -1990,5 +1990,13 @@
     "example": "In JavaScript, you can use a callback function to handle the response after fetching data asynchronously from an API.",
     "date": "2026-07-05",
     "hash": 1161844480
+  },
+  {
+    "word": "queue",
+    "partOfSpeech": "noun",
+    "definition": "A data structure that follows First-In-First-Out (FIFO) order, used to manage tasks or messages in processing pipelines or asynchronous workflows.",
+    "example": "An application uses a queue to hold incoming requests so workers can process them one by one without overload.",
+    "date": "2026-07-06",
+    "hash": 1161844481
   }
 ]
