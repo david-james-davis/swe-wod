@@ -1998,5 +1998,13 @@
     "example": "An application uses a queue to hold incoming requests so workers can process them one by one without overload.",
     "date": "2026-07-06",
     "hash": 1161844481
+  },
+  {
+    "word": "hot reload",
+    "partOfSpeech": "noun",
+    "definition": "A development feature that allows code changes to be applied to a running application without restarting it, enabling faster testing and iteration.",
+    "example": "Using hot reload in the React Native app allowed the developer to see UI changes instantly without rebuilding the entire app.",
+    "date": "2026-07-07",
+    "hash": 1161844482
   }
 ]
