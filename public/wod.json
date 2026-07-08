@@ -2006,5 +2006,13 @@
     "example": "Using hot reload in the React Native app allowed the developer to see UI changes instantly without rebuilding the entire app.",
     "date": "2026-07-07",
     "hash": 1161844482
+  },
+  {
+    "word": "atomic operation",
+    "partOfSpeech": "noun",
+    "definition": "An operation that completes in a single step relative to other threads, ensuring it is indivisible and prevents inconsistent states in concurrent environments.",
+    "example": "Incrementing a shared counter using an atomic operation ensures that no two threads can update the value simultaneously, avoiding race conditions.",
+    "date": "2026-07-08",
+    "hash": 1161844483
   }
 ]
