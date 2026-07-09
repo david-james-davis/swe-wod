@@ -2014,5 +2014,13 @@
     "example": "Incrementing a shared counter using an atomic operation ensures that no two threads can update the value simultaneously, avoiding race conditions.",
     "date": "2026-07-08",
     "hash": 1161844483
+  },
+  {
+    "word": "commit",
+    "partOfSpeech": "verb",
+    "definition": "To save changes made in the source code to a version control system, creating a checkpoint in the project’s history.",
+    "example": "After fixing the bug, she committed the changes to the Git repository with a descriptive message.",
+    "date": "2026-07-09",
+    "hash": 1161844484
   }
 ]
