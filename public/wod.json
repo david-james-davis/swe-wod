@@ -2022,5 +2022,13 @@
     "example": "After fixing the bug, she committed the changes to the Git repository with a descriptive message.",
     "date": "2026-07-09",
     "hash": 1161844484
+  },
+  {
+    "word": "sandbox",
+    "partOfSpeech": "noun",
+    "definition": "An isolated environment used for testing or experimenting with code or applications without affecting the main system or production environment.",
+    "example": "Developers deployed the new feature in a sandbox environment to test its performance before releasing it to users.",
+    "date": "2026-07-10",
+    "hash": 1161844506
   }
 ]
