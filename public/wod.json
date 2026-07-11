@@ -2030,5 +2030,13 @@
     "example": "Developers deployed the new feature in a sandbox environment to test its performance before releasing it to users.",
     "date": "2026-07-10",
     "hash": 1161844506
+  },
+  {
+    "word": "virtual DOM",
+    "partOfSpeech": "noun",
+    "definition": "A lightweight, in-memory representation of the real DOM used to optimize UI rendering by minimizing direct manipulations of the actual DOM elements.",
+    "example": "React uses a virtual DOM to efficiently update only the changed parts of the UI instead of re-rendering the entire page.",
+    "date": "2026-07-11",
+    "hash": 1161844507
   }
 ]
