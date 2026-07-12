@@ -2038,5 +2038,13 @@
     "example": "React uses a virtual DOM to efficiently update only the changed parts of the UI instead of re-rendering the entire page.",
     "date": "2026-07-11",
     "hash": 1161844507
+  },
+  {
+    "word": "blue-green deployment",
+    "partOfSpeech": "noun",
+    "definition": "A release technique that reduces downtime and risk by running two identical production environments, switching traffic from the old to the new version once it is verified.",
+    "example": "We used blue-green deployment to switch users seamlessly to the updated web service without any downtime.",
+    "date": "2026-07-12",
+    "hash": 1161844508
   }
 ]
