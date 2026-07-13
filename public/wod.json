@@ -2046,5 +2046,13 @@
     "example": "We used blue-green deployment to switch users seamlessly to the updated web service without any downtime.",
     "date": "2026-07-12",
     "hash": 1161844508
+  },
+  {
+    "word": "fail fast",
+    "partOfSpeech": "verb phrase",
+    "definition": "A design principle that encourages a system or component to immediately report any failure, rather than continuing to operate in a potentially faulty state.",
+    "example": "By implementing fail fast validations on user input, the application promptly notifies users about errors without processing invalid data further.",
+    "date": "2026-07-13",
+    "hash": 1161844509
   }
 ]
