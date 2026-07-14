@@ -2054,5 +2054,13 @@
     "example": "By implementing fail fast validations on user input, the application promptly notifies users about errors without processing invalid data further.",
     "date": "2026-07-13",
     "hash": 1161844509
+  },
+  {
+    "word": "rate limiting",
+    "partOfSpeech": "noun",
+    "definition": "A technique used to control the amount of incoming or outgoing requests to a system within a given time frame to prevent overload or abuse.",
+    "example": "The API uses rate limiting to restrict each user to 100 requests per minute to avoid server overload.",
+    "date": "2026-07-14",
+    "hash": 1161844510
   }
 ]
