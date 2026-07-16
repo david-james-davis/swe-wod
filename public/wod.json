@@ -2070,5 +2070,13 @@
     "example": "The development team decided to pivot from creating a mobile-only app to a cross-platform solution after user surveys showed a significant demand for desktop access.",
     "date": "2026-07-15",
     "hash": 1161844511
+  },
+  {
+    "word": "dependency injection",
+    "partOfSpeech": "noun",
+    "definition": "A software design pattern where an object's dependencies are provided externally rather than the object creating them internally, promoting loose coupling and easier testing.",
+    "example": "In a web application, a service class receives its database connection through dependency injection, allowing the connection to be mocked during unit tests.",
+    "date": "2026-07-16",
+    "hash": 1161844512
   }
 ]
