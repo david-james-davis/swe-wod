@@ -2078,5 +2078,13 @@
     "example": "In a web application, a service class receives its database connection through dependency injection, allowing the connection to be mocked during unit tests.",
     "date": "2026-07-16",
     "hash": 1161844512
+  },
+  {
+    "word": "hotspot",
+    "partOfSpeech": "noun",
+    "definition": "A section of code or system component where performance bottlenecks or high resource usage occurs, frequently targeted for optimization.",
+    "example": "The profiler identified a hotspot in the image-processing module, which was causing slow response times; optimizing the algorithm improved overall throughput.",
+    "date": "2026-07-17",
+    "hash": 1161844513
   }
 ]
