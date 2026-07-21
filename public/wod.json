@@ -2110,5 +2110,13 @@
     "example": "The team spent a sprint refactoring the legacy payment module to improve code clarity and ease future feature additions.",
     "date": "2026-07-20",
     "hash": 1161844537
+  },
+  {
+    "word": "idempotency",
+    "partOfSpeech": "noun",
+    "definition": "The property of an operation wherein performing it multiple times has the same effect as performing it once.",
+    "example": "An HTTP PUT request is idempotent because updating a resource multiple times with the same data doesn't change the result beyond the initial update.",
+    "date": "2026-07-21",
+    "hash": 1161844538
   }
 ]
