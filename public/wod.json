@@ -2118,5 +2118,13 @@
     "example": "An HTTP PUT request is idempotent because updating a resource multiple times with the same data doesn't change the result beyond the initial update.",
     "date": "2026-07-21",
     "hash": 1161844538
+  },
+  {
+    "word": "lazy loading",
+    "partOfSpeech": "noun",
+    "definition": "A design pattern that delays the initialization of an object or the loading of data until it is needed to improve performance and reduce resource usage.",
+    "example": "In a web application, images below the fold are loaded only when the user scrolls down to them, implementing lazy loading to speed up the initial page load.",
+    "date": "2026-07-22",
+    "hash": 1161844539
   }
 ]
