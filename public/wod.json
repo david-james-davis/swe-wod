@@ -2126,5 +2126,13 @@
     "example": "In a web application, images below the fold are loaded only when the user scrolls down to them, implementing lazy loading to speed up the initial page load.",
     "date": "2026-07-22",
     "hash": 1161844539
+  },
+  {
+    "word": "tokenization",
+    "partOfSpeech": "noun",
+    "definition": "The process of breaking down data, typically text or code, into smaller units called tokens that can be analyzed or processed individually.",
+    "example": "In natural language processing, tokenization splits a sentence into words or punctuation marks to facilitate tasks like parsing and sentiment analysis.",
+    "date": "2026-07-23",
+    "hash": 1161844540
   }
 ]
