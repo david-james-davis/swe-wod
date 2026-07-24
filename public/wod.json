@@ -2134,5 +2134,13 @@
     "example": "In natural language processing, tokenization splits a sentence into words or punctuation marks to facilitate tasks like parsing and sentiment analysis.",
     "date": "2026-07-23",
     "hash": 1161844540
+  },
+  {
+    "word": "write-ahead log",
+    "partOfSpeech": "noun",
+    "definition": "A write-ahead log (WAL) is a technique in databases where changes are first recorded in a log before updating the main data store, ensuring durability and enabling recovery after a crash.",
+    "example": "Before modifying the database records, the system writes the intended changes to the write-ahead log to prevent data loss in case of a sudden power failure.",
+    "date": "2026-07-24",
+    "hash": 1161844541
   }
 ]
