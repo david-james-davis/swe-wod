@@ -2150,5 +2150,13 @@
     "example": "We used a canary release to deploy the new search feature to 5% of users and monitored for errors before completing the full rollout.",
     "date": "2026-07-25",
     "hash": 1161844542
+  },
+  {
+    "word": "idempotent",
+    "partOfSpeech": "adjective",
+    "definition": "An operation that can be applied multiple times without changing the result beyond the initial application.",
+    "example": "HTTP GET requests are idempotent because making the same GET request multiple times will always return the same result without side effects.",
+    "date": "2026-07-26",
+    "hash": 1161844543
   }
 ]
