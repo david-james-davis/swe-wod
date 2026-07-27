@@ -2158,5 +2158,13 @@
     "example": "HTTP GET requests are idempotent because making the same GET request multiple times will always return the same result without side effects.",
     "date": "2026-07-26",
     "hash": 1161844543
+  },
+  {
+    "word": "shadowing",
+    "partOfSpeech": "noun",
+    "definition": "A programming practice where a variable declared within a certain scope has the same name as a variable declared in an outer scope, effectively 'shadowing' the outer variable within the inner scope.",
+    "example": "In JavaScript, declaring a variable inside a function with the same name as a global variable causes the inner one to shadow the outer, preventing access to the global variable inside that function.",
+    "date": "2026-07-27",
+    "hash": 1161844544
   }
 ]
