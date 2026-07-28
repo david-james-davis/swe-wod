@@ -2166,5 +2166,13 @@
     "example": "In JavaScript, declaring a variable inside a function with the same name as a global variable causes the inner one to shadow the outer, preventing access to the global variable inside that function.",
     "date": "2026-07-27",
     "hash": 1161844544
+  },
+  {
+    "word": "memoization",
+    "partOfSpeech": "noun",
+    "definition": "An optimization technique that stores the results of expensive function calls and returns the cached result when the same inputs occur again.",
+    "example": "Using memoization, the Fibonacci function avoids redundant calculations by caching previously computed values in a lookup table.",
+    "date": "2026-07-28",
+    "hash": 1161844545
   }
 ]
