@@ -2174,5 +2174,13 @@
     "example": "Using memoization, the Fibonacci function avoids redundant calculations by caching previously computed values in a lookup table.",
     "date": "2026-07-28",
     "hash": 1161844545
+  },
+  {
+    "word": "heartbeat",
+    "partOfSpeech": "noun",
+    "definition": "A periodic signal sent between systems or components to indicate normal operation or to detect failures.",
+    "example": "The server sends a heartbeat to the monitoring system every five seconds to confirm it's still online.",
+    "date": "2026-07-29",
+    "hash": 1161844546
   }
 ]
