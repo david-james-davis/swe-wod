@@ -2182,5 +2182,13 @@
     "example": "The server sends a heartbeat to the monitoring system every five seconds to confirm it's still online.",
     "date": "2026-07-29",
     "hash": 1161844546
+  },
+  {
+    "word": "rollback",
+    "partOfSpeech": "noun/verb",
+    "definition": "A rollback is the process of reverting a system or database to a previous stable state after a failed update or deployment, ensuring no partial changes remain.",
+    "example": "After the new deployment caused service outages, the DevOps team performed a rollback to the prior stable release to restore functionality.",
+    "date": "2026-07-30",
+    "hash": 1161844568
   }
 ]
