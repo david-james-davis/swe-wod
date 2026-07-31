@@ -2190,5 +2190,13 @@
     "example": "After the new deployment caused service outages, the DevOps team performed a rollback to the prior stable release to restore functionality.",
     "date": "2026-07-30",
     "hash": 1161844568
+  },
+  {
+    "word": "pagination",
+    "partOfSpeech": "noun",
+    "definition": "A technique used to divide a large set of data into discrete pages, making it easier to load and navigate content incrementally.",
+    "example": "In a web application, using pagination to display 20 user comments per page improves performance and user experience instead of loading all comments at once.",
+    "date": "2026-07-31",
+    "hash": 1161844569
   }
 ]
