@@ -2198,5 +2198,13 @@
     "example": "In a web application, using pagination to display 20 user comments per page improves performance and user experience instead of loading all comments at once.",
     "date": "2026-07-31",
     "hash": 1161844569
+  },
+  {
+    "word": "mutex",
+    "partOfSpeech": "noun",
+    "definition": "A mutual exclusion object used to prevent multiple threads from accessing a shared resource simultaneously, thus avoiding race conditions.",
+    "example": "In a multi-threaded program, a mutex locks access to a shared counter variable so that only one thread can increment it at a time.",
+    "date": "2026-08-01",
+    "hash": 1161874267
   }
 ]
