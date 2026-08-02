@@ -2206,5 +2206,13 @@
     "example": "In a multi-threaded program, a mutex locks access to a shared counter variable so that only one thread can increment it at a time.",
     "date": "2026-08-01",
     "hash": 1161874267
+  },
+  {
+    "word": "immutability",
+    "partOfSpeech": "noun",
+    "definition": "The property of an object whose state cannot be modified after it is created, often used to avoid side effects and improve predictability in programs.",
+    "example": "In functional programming, strings are immutable, so methods like toUpperCase() return a new string without changing the original.",
+    "date": "2026-08-02",
+    "hash": 1161874268
   }
 ]
