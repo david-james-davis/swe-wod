@@ -2238,5 +2238,13 @@
     "example": "An HTTP PUT request is idempotent because updating a resource with the same data repeatedly does not change the final state beyond the initial update.",
     "date": "2026-08-05",
     "hash": 1161874271
+  },
+  {
+    "word": "throttling",
+    "partOfSpeech": "noun",
+    "definition": "A mechanism used to control the amount of resources or requests allowed within a certain time to prevent system overload or ensure fair usage.",
+    "example": "The API server implemented throttling to limit each user to 100 requests per minute, thus preventing excessive load and potential downtime.",
+    "date": "2026-08-06",
+    "hash": 1161874272
   }
 ]
