@@ -2246,5 +2246,13 @@
     "example": "The API server implemented throttling to limit each user to 100 requests per minute, thus preventing excessive load and potential downtime.",
     "date": "2026-08-06",
     "hash": 1161874272
+  },
+  {
+    "word": "load balancing",
+    "partOfSpeech": "noun",
+    "definition": "The process of distributing incoming network traffic or computing tasks across multiple servers or resources to ensure reliability and optimal performance.",
+    "example": "Using a load balancer, web requests are evenly distributed among several backend servers to prevent any single server from becoming a bottleneck during high traffic periods.",
+    "date": "2026-08-07",
+    "hash": 1161874273
   }
 ]
