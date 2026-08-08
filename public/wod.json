@@ -2254,5 +2254,13 @@
     "example": "Using a load balancer, web requests are evenly distributed among several backend servers to prevent any single server from becoming a bottleneck during high traffic periods.",
     "date": "2026-08-07",
     "hash": 1161874273
+  },
+  {
+    "word": "stateless",
+    "partOfSpeech": "adjective",
+    "definition": "Refers to a system or component that does not retain any state information between requests, making each request independent.",
+    "example": "RESTful APIs are typically stateless, meaning each API call contains all necessary information without relying on previous interactions.",
+    "date": "2026-08-08",
+    "hash": 1161874274
   }
 ]
