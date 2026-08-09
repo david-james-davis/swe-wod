@@ -2262,5 +2262,13 @@
     "example": "RESTful APIs are typically stateless, meaning each API call contains all necessary information without relying on previous interactions.",
     "date": "2026-08-08",
     "hash": 1161874274
+  },
+  {
+    "word": "circuit breaker",
+    "partOfSpeech": "noun",
+    "definition": "A design pattern used in software systems to detect failures and encapsulate the logic of preventing a failure from constantly recurring during maintenance or temporary external system failure.",
+    "example": "Implementing a circuit breaker in the payment service stops calls to the downstream API after multiple failures, preventing system overload and allowing recovery.",
+    "date": "2026-08-09",
+    "hash": 1161874275
   }
 ]
