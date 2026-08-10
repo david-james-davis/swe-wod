@@ -2270,5 +2270,13 @@
     "example": "Implementing a circuit breaker in the payment service stops calls to the downstream API after multiple failures, preventing system overload and allowing recovery.",
     "date": "2026-08-09",
     "hash": 1161874275
+  },
+  {
+    "word": "race condition",
+    "partOfSpeech": "noun",
+    "definition": "A flaw that occurs when the behavior of software depends on the timing or sequence of uncontrollable events, often leading to unpredictable or erroneous results.",
+    "example": "Two threads incrementing the same counter without synchronization can cause a race condition, resulting in incorrect counts.",
+    "date": "2026-08-10",
+    "hash": 1161874297
   }
 ]
