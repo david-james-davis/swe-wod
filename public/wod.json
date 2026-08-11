@@ -2278,5 +2278,13 @@
     "example": "Two threads incrementing the same counter without synchronization can cause a race condition, resulting in incorrect counts.",
     "date": "2026-08-10",
     "hash": 1161874297
+  },
+  {
+    "word": "hot reload",
+    "partOfSpeech": "noun",
+    "definition": "A development feature that allows code changes to be applied to a running application without restarting it, enabling faster testing and iteration.",
+    "example": "Using hot reload in the React Native app allowed the developer to see UI changes instantly without rebuilding the entire app.",
+    "date": "2026-08-11",
+    "hash": 1161874298
   }
 ]
