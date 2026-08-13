@@ -2294,5 +2294,13 @@
     "example": "In Python, a function expecting an object with a 'quack()' method will work with any object that has quack(), regardless of its class - that's duck typing.",
     "date": "2026-08-12",
     "hash": 1161874299
+  },
+  {
+    "word": "feature toggle",
+    "partOfSpeech": "noun",
+    "definition": "A technique in software development that enables or disables features dynamically without deploying new code, allowing safer experimentation and gradual rollouts.",
+    "example": "Using a feature toggle, the team activated the new search functionality only for beta users without affecting the entire user base.",
+    "date": "2026-08-13",
+    "hash": 1161874300
   }
 ]
