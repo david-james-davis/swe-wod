@@ -2310,5 +2310,13 @@
     "example": "Using a load balancer, the web application can handle more users by evenly distributing requests to several backend servers.",
     "date": "2026-08-14",
     "hash": 1161874301
+  },
+  {
+    "word": "queue",
+    "partOfSpeech": "noun",
+    "definition": "A data structure that follows First-In-First-Out (FIFO) order, used to manage tasks or messages in processing pipelines or asynchronous workflows.",
+    "example": "An application uses a queue to hold incoming requests so workers can process them one by one without overload.",
+    "date": "2026-08-15",
+    "hash": 1161874302
   }
 ]
