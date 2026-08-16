@@ -2318,5 +2318,13 @@
     "example": "An application uses a queue to hold incoming requests so workers can process them one by one without overload.",
     "date": "2026-08-15",
     "hash": 1161874302
+  },
+  {
+    "word": "deadlock",
+    "partOfSpeech": "noun",
+    "definition": "A situation in concurrent programming where two or more threads are blocked forever, each waiting for the other to release a resource.",
+    "example": "Thread A holds Lock 1 and waits for Lock 2, while Thread B holds Lock 2 and waits for Lock 1, resulting in a deadlock.",
+    "date": "2026-08-16",
+    "hash": 1161874303
   }
 ]
