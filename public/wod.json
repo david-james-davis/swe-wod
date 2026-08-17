@@ -2326,5 +2326,13 @@
     "example": "Thread A holds Lock 1 and waits for Lock 2, while Thread B holds Lock 2 and waits for Lock 1, resulting in a deadlock.",
     "date": "2026-08-16",
     "hash": 1161874303
+  },
+  {
+    "word": "commit",
+    "partOfSpeech": "verb",
+    "definition": "To save changes made in the source code to a version control system, creating a checkpoint in the project’s history.",
+    "example": "After fixing the bug, she committed the changes to the Git repository with a descriptive message.",
+    "date": "2026-08-17",
+    "hash": 1161874304
   }
 ]
