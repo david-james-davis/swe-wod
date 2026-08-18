@@ -2334,5 +2334,13 @@
     "example": "After fixing the bug, she committed the changes to the Git repository with a descriptive message.",
     "date": "2026-08-17",
     "hash": 1161874304
+  },
+  {
+    "word": "dependency injection",
+    "partOfSpeech": "noun",
+    "definition": "A design pattern in which an object receives its dependencies from an external source rather than creating them internally, promoting modularity and testability.",
+    "example": "Using dependency injection, the service class receives a database connection object through its constructor instead of instantiating it, enabling easier unit testing and swapping of implementations.",
+    "date": "2026-08-18",
+    "hash": 1161874305
   }
 ]
