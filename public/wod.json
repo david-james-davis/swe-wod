@@ -2342,5 +2342,13 @@
     "example": "Using dependency injection, the service class receives a database connection object through its constructor instead of instantiating it, enabling easier unit testing and swapping of implementations.",
     "date": "2026-08-18",
     "hash": 1161874305
+  },
+  {
+    "word": "latency",
+    "partOfSpeech": "noun",
+    "definition": "The time delay between a request and the corresponding response in a system, network, or application.",
+    "example": "Reducing latency in the API response improved the user experience by delivering data faster.",
+    "date": "2026-08-19",
+    "hash": 1161874306
   }
 ]
