@@ -2350,5 +2350,13 @@
     "example": "Reducing latency in the API response improved the user experience by delivering data faster.",
     "date": "2026-08-19",
     "hash": 1161874306
+  },
+  {
+    "word": "edge computing",
+    "partOfSpeech": "noun",
+    "definition": "A distributed computing paradigm that brings computation and data storage closer to the sources of data, reducing latency and bandwidth use.",
+    "example": "Processing sensor data locally on devices at a factory floor instead of sending it all to a centralized cloud server is an example of edge computing.",
+    "date": "2026-08-20",
+    "hash": 1161874328
   }
 ]
