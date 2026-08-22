@@ -2366,5 +2366,13 @@
     "example": "In C++, the std namespace encapsulates standard library functions to prevent name conflicts with user-defined functions.",
     "date": "2026-08-21",
     "hash": 1161874329
+  },
+  {
+    "word": "serialization",
+    "partOfSpeech": "noun",
+    "definition": "The process of converting an object or data structure into a format that can be easily stored or transmitted and later reconstructed.",
+    "example": "In a distributed system, data objects are serialized to JSON before being sent over the network and deserialized on the receiving end.",
+    "date": "2026-08-22",
+    "hash": 1161874330
   }
 ]
