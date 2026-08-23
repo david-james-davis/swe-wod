@@ -2374,5 +2374,13 @@
     "example": "In a distributed system, data objects are serialized to JSON before being sent over the network and deserialized on the receiving end.",
     "date": "2026-08-22",
     "hash": 1161874330
+  },
+  {
+    "word": "feature flag",
+    "partOfSpeech": "noun",
+    "definition": "A technique that allows developers to enable or disable features dynamically without deploying new code, facilitating controlled rollouts and testing.",
+    "example": "By using a feature flag, the team rolled out the new search algorithm to 10% of users before a full deployment.",
+    "date": "2026-08-23",
+    "hash": 1161874331
   }
 ]
