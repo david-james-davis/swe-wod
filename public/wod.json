@@ -2382,5 +2382,13 @@
     "example": "By using a feature flag, the team rolled out the new search algorithm to 10% of users before a full deployment.",
     "date": "2026-08-23",
     "hash": 1161874331
+  },
+  {
+    "word": "monorepo",
+    "partOfSpeech": "noun",
+    "definition": "A monorepo is a software development strategy where code for many projects is stored in a single repository, allowing easier code sharing and unified version control.",
+    "example": "Google uses a monorepo to house most of its codebase, enabling consistent code standards and simplifying dependency management across teams.",
+    "date": "2026-08-24",
+    "hash": 1161874332
   }
 ]
