@@ -2398,5 +2398,13 @@
     "example": "In JavaScript, you can use a callback function to handle the response after fetching data asynchronously from an API.",
     "date": "2026-08-25",
     "hash": 1161874333
+  },
+  {
+    "word": "canary release",
+    "partOfSpeech": "noun",
+    "definition": "A deployment strategy that releases a new software version to a small subset of users before rolling it out to the entire user base, minimizing risk by monitoring performance and behavior.",
+    "example": "We used a canary release to deploy the new search feature to 5% of users and monitored for errors before completing the full rollout.",
+    "date": "2026-08-26",
+    "hash": 1161874334
   }
 ]
