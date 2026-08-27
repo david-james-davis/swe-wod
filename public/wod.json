@@ -2406,5 +2406,13 @@
     "example": "We used a canary release to deploy the new search feature to 5% of users and monitored for errors before completing the full rollout.",
     "date": "2026-08-26",
     "hash": 1161874334
+  },
+  {
+    "word": "refactoring",
+    "partOfSpeech": "noun",
+    "definition": "The process of restructuring existing computer code without changing its external behavior to improve readability, reduce complexity, and enhance maintainability.",
+    "example": "The development team spent a sprint refactoring the legacy authentication module to simplify the logic and improve test coverage.",
+    "date": "2026-08-27",
+    "hash": 1161874335
   }
 ]
