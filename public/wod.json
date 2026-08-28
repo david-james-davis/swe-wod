@@ -2414,5 +2414,13 @@
     "example": "The development team spent a sprint refactoring the legacy authentication module to simplify the logic and improve test coverage.",
     "date": "2026-08-27",
     "hash": 1161874335
+  },
+  {
+    "word": "singleton",
+    "partOfSpeech": "noun",
+    "definition": "A design pattern that restricts the instantiation of a class to one single instance, ensuring a single point of access.",
+    "example": "Using a singleton for the database connection manager ensures that all parts of the application share the same connection pool.",
+    "date": "2026-08-28",
+    "hash": 1161874336
   }
 ]
