@@ -2422,5 +2422,13 @@
     "example": "Using a singleton for the database connection manager ensures that all parts of the application share the same connection pool.",
     "date": "2026-08-28",
     "hash": 1161874336
+  },
+  {
+    "word": "heatmap",
+    "partOfSpeech": "noun",
+    "definition": "A visual representation of data where individual values are represented as colors, often used to identify patterns or hotspots in large datasets.",
+    "example": "Developers used a heatmap to analyze user interactions on the webpage, identifying the most frequently clicked areas for UI improvements.",
+    "date": "2026-08-29",
+    "hash": 1161874337
   }
 ]
