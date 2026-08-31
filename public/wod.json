@@ -2438,5 +2438,13 @@
     "example": "In a distributed database, a user's update to their profile might not be instantly visible on all servers, but with eventual consistency, all replicas will converge to the same data eventually.",
     "date": "2026-08-30",
     "hash": 1161874359
+  },
+  {
+    "word": "lazy loading",
+    "partOfSpeech": "noun",
+    "definition": "A design pattern that delays the initialization of an object or the loading of data until it is needed to improve performance and reduce resource usage.",
+    "example": "In a web application, images below the fold are loaded only when the user scrolls down to them, implementing lazy loading to speed up the initial page load.",
+    "date": "2026-08-31",
+    "hash": 1161874360
   }
 ]
