@@ -2446,5 +2446,13 @@
     "example": "In a web application, images below the fold are loaded only when the user scrolls down to them, implementing lazy loading to speed up the initial page load.",
     "date": "2026-08-31",
     "hash": 1161874360
+  },
+  {
+    "word": "continuous integration",
+    "partOfSpeech": "noun",
+    "definition": "A development practice where developers frequently merge their code changes into a shared repository, triggering automated builds and tests to detect integration errors early.",
+    "example": "The team uses continuous integration to automatically run tests whenever a developer pushes changes, ensuring that new code doesn't break existing functionality.",
+    "date": "2026-09-01",
+    "hash": 1161904058
   }
 ]
