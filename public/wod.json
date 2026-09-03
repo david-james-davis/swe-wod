@@ -2462,5 +2462,13 @@
     "example": "In a microservices system, configuring bulkheads ensures that if one service overloads or fails, it doesn't bring down the entire application.",
     "date": "2026-09-02",
     "hash": 1161904059
+  },
+  {
+    "word": "containerization",
+    "partOfSpeech": "noun",
+    "definition": "A lightweight virtualization method that packages an application and its dependencies into a single container, ensuring consistent environments across development, testing, and production.",
+    "example": "Using Docker for containerization, the development team was able to deploy the web app quickly and reliably across multiple cloud platforms without environment conflicts.",
+    "date": "2026-09-03",
+    "hash": 1161904060
   }
 ]
