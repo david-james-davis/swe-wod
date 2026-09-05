@@ -2478,5 +2478,13 @@
     "example": "After the faulty update caused several errors, the team performed a rollback to the previous database snapshot to restore normal operations.",
     "date": "2026-09-04",
     "hash": 1161904061
+  },
+  {
+    "word": "cache",
+    "partOfSpeech": "noun",
+    "definition": "A hardware or software component that stores data so future requests for that data can be served faster.",
+    "example": "The application uses an in-memory cache to store user session data, reducing database queries and improving response time.",
+    "date": "2026-09-05",
+    "hash": 1161904062
   }
 ]
