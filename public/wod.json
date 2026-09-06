@@ -2486,5 +2486,13 @@
     "example": "The application uses an in-memory cache to store user session data, reducing database queries and improving response time.",
     "date": "2026-09-05",
     "hash": 1161904062
+  },
+  {
+    "word": "event sourcing",
+    "partOfSpeech": "noun",
+    "definition": "An architectural pattern in which changes to application state are stored as a sequence of immutable events rather than overwriting the current state directly.",
+    "example": "Instead of updating the user's profile directly, the system records events like 'NameChanged' and 'EmailUpdated' which can be replayed to reconstruct the current profile state.",
+    "date": "2026-09-06",
+    "hash": 1161904063
   }
 ]
