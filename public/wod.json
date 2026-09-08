@@ -2502,5 +2502,13 @@
     "example": "We used a polyfill to enable the Fetch API in older versions of Internet Explorer.",
     "date": "2026-09-07",
     "hash": 1161904064
+  },
+  {
+    "word": "write-ahead log",
+    "partOfSpeech": "noun",
+    "definition": "A write-ahead log (WAL) is a technique in databases where changes are first recorded in a log before updating the main data store, ensuring durability and enabling recovery after a crash.",
+    "example": "Before modifying the database records, the system writes the intended changes to the write-ahead log to prevent data loss in case of a sudden power failure.",
+    "date": "2026-09-08",
+    "hash": 1161904065
   }
 ]
