@@ -2510,5 +2510,13 @@
     "example": "Before modifying the database records, the system writes the intended changes to the write-ahead log to prevent data loss in case of a sudden power failure.",
     "date": "2026-09-08",
     "hash": 1161904065
+  },
+  {
+    "word": "sandbox",
+    "partOfSpeech": "noun",
+    "definition": "An isolated environment used for testing or experimenting with code or applications without affecting the main system or production environment.",
+    "example": "Developers deployed the new feature in a sandbox environment to test its performance before releasing it to users.",
+    "date": "2026-09-09",
+    "hash": 1161904066
   }
 ]
