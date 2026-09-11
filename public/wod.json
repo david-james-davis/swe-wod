@@ -2526,5 +2526,13 @@
     "example": "During unit testing, developers often use mocking to replace database calls with mock objects that return preset data, ensuring tests run quickly and reliably.",
     "date": "2026-09-10",
     "hash": 1161904088
+  },
+  {
+    "word": "race condition",
+    "partOfSpeech": "noun",
+    "definition": "A flaw that occurs when the behavior of software depends on the timing or sequence of uncontrollable events, often leading to unpredictable or erroneous results.",
+    "example": "Two threads incrementing the same counter without synchronization can cause a race condition, resulting in incorrect counts.",
+    "date": "2026-09-11",
+    "hash": 1161904089
   }
 ]
