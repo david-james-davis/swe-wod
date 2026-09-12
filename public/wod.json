@@ -2534,5 +2534,13 @@
     "example": "Two threads incrementing the same counter without synchronization can cause a race condition, resulting in incorrect counts.",
     "date": "2026-09-11",
     "hash": 1161904089
+  },
+  {
+    "word": "throughput",
+    "partOfSpeech": "noun",
+    "definition": "The amount of work or data processed by a system in a given amount of time, often used to measure system performance or capacity.",
+    "example": "Increasing the database throughput allowed the application to handle more user requests per second without slowing down.",
+    "date": "2026-09-12",
+    "hash": 1161904090
   }
 ]
