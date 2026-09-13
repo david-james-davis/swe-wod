@@ -2542,5 +2542,13 @@
     "example": "Increasing the database throughput allowed the application to handle more user requests per second without slowing down.",
     "date": "2026-09-12",
     "hash": 1161904090
+  },
+  {
+    "word": "throttling",
+    "partOfSpeech": "noun",
+    "definition": "A mechanism used to control the amount of resources or requests allowed within a certain time to prevent system overload or ensure fair usage.",
+    "example": "The API server implemented throttling to limit each user to 100 requests per minute, thus preventing excessive load and potential downtime.",
+    "date": "2026-09-13",
+    "hash": 1161904091
   }
 ]
