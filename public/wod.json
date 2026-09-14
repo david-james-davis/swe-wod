@@ -2550,5 +2550,13 @@
     "example": "The API server implemented throttling to limit each user to 100 requests per minute, thus preventing excessive load and potential downtime.",
     "date": "2026-09-13",
     "hash": 1161904091
+  },
+  {
+    "word": "circuit breaker",
+    "partOfSpeech": "noun",
+    "definition": "A design pattern used in software to detect failures and encapsulate the logic of preventing a failure from constantly recurring, typically by stopping requests to a failing service for a period of time.",
+    "example": "In a microservices architecture, a circuit breaker can stop calls to a service that's down to avoid overwhelming it and allow time for recovery.",
+    "date": "2026-09-14",
+    "hash": 1161904092
   }
 ]
