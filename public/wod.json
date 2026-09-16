@@ -2566,5 +2566,13 @@
     "example": "In a web application, middleware can process incoming HTTP requests to handle authentication before passing the request to the main application logic.",
     "date": "2026-09-15",
     "hash": 1161904093
+  },
+  {
+    "word": "integration testing",
+    "partOfSpeech": "noun",
+    "definition": "A phase of software testing where individual modules are combined and tested as a group to detect interface defects between modules.",
+    "example": "After unit tests passed, the team ran integration testing to ensure that the payment gateway correctly communicated with the order processing system.",
+    "date": "2026-09-16",
+    "hash": 1161904094
   }
 ]
