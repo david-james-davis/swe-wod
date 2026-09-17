@@ -2574,5 +2574,13 @@
     "example": "After unit tests passed, the team ran integration testing to ensure that the payment gateway correctly communicated with the order processing system.",
     "date": "2026-09-16",
     "hash": 1161904094
+  },
+  {
+    "word": "pivot",
+    "partOfSpeech": "verb",
+    "definition": "To fundamentally change the direction or approach of a project or product based on new information or user feedback, while leveraging existing resources or technology.",
+    "example": "The development team decided to pivot from creating a mobile-only app to a cross-platform solution after user surveys showed a significant demand for desktop access.",
+    "date": "2026-09-17",
+    "hash": 1161904095
   }
 ]
