@@ -2582,5 +2582,13 @@
     "example": "The development team decided to pivot from creating a mobile-only app to a cross-platform solution after user surveys showed a significant demand for desktop access.",
     "date": "2026-09-17",
     "hash": 1161904095
+  },
+  {
+    "word": "commit",
+    "partOfSpeech": "verb",
+    "definition": "To save changes made in the source code to a version control system, creating a checkpoint in the project’s history.",
+    "example": "After fixing the bug, she committed the changes to the Git repository with a descriptive message.",
+    "date": "2026-09-18",
+    "hash": 1161904096
   }
 ]
