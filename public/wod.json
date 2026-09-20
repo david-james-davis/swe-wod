@@ -2598,5 +2598,13 @@
     "example": "To handle their rapidly growing user base, the company implemented sharding by distributing user data across multiple database servers based on geographic region.",
     "date": "2026-09-19",
     "hash": 1161904097
+  },
+  {
+    "word": "duck typing",
+    "partOfSpeech": "noun",
+    "definition": "A programming concept where an object's suitability is determined by the presence of certain methods and properties rather than the object's actual type.",
+    "example": "In Python, a function expecting an object with a 'quack()' method will work with any object that has quack(), regardless of its class - that's duck typing.",
+    "date": "2026-09-20",
+    "hash": 1161904119
   }
 ]
