@@ -2606,5 +2606,13 @@
     "example": "In Python, a function expecting an object with a 'quack()' method will work with any object that has quack(), regardless of its class - that's duck typing.",
     "date": "2026-09-20",
     "hash": 1161904119
+  },
+  {
+    "word": "pagination",
+    "partOfSpeech": "noun",
+    "definition": "A technique used to divide a large set of data into discrete pages, making it easier to load and navigate content incrementally.",
+    "example": "In a web application, using pagination to display 20 user comments per page improves performance and user experience instead of loading all comments at once.",
+    "date": "2026-09-21",
+    "hash": 1161904120
   }
 ]
