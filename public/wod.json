@@ -2614,5 +2614,13 @@
     "example": "In a web application, using pagination to display 20 user comments per page improves performance and user experience instead of loading all comments at once.",
     "date": "2026-09-21",
     "hash": 1161904120
+  },
+  {
+    "word": "load balancing",
+    "partOfSpeech": "noun",
+    "definition": "The process of distributing network or application traffic evenly across multiple servers to ensure reliability and optimal resource use.",
+    "example": "A load balancer routes incoming user requests to different web servers to prevent any single server from becoming a bottleneck during peak traffic.",
+    "date": "2026-09-22",
+    "hash": 1161904121
   }
 ]
