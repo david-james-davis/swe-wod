@@ -2638,5 +2638,13 @@
     "example": "The server sends a heartbeat to the monitoring system every five seconds to confirm it's still online.",
     "date": "2026-09-24",
     "hash": 1161904123
+  },
+  {
+    "word": "idempotent",
+    "partOfSpeech": "adjective",
+    "definition": "An operation that can be applied multiple times without changing the result beyond the initial application.",
+    "example": "An HTTP PUT request to update a user profile is idempotent because sending the same update multiple times results in the same user profile state.",
+    "date": "2026-09-25",
+    "hash": 1161904124
   }
 ]
