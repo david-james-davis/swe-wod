@@ -2646,5 +2646,13 @@
     "example": "An HTTP PUT request to update a user profile is idempotent because sending the same update multiple times results in the same user profile state.",
     "date": "2026-09-25",
     "hash": 1161904124
+  },
+  {
+    "word": "monorepo",
+    "partOfSpeech": "noun",
+    "definition": "A monorepo is a software development strategy where code for many projects is stored in a single repository, allowing easier code sharing and unified version control.",
+    "example": "Google uses a monorepo to house most of its codebase, enabling consistent code standards and simplifying dependency management across teams.",
+    "date": "2026-09-26",
+    "hash": 1161904125
   }
 ]
