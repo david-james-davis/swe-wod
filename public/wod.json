@@ -2654,5 +2654,13 @@
     "example": "Google uses a monorepo to house most of its codebase, enabling consistent code standards and simplifying dependency management across teams.",
     "date": "2026-09-26",
     "hash": 1161904125
+  },
+  {
+    "word": "dependency injection",
+    "partOfSpeech": "noun",
+    "definition": "A software design pattern where an object's dependencies are provided externally rather than the object creating them internally, promoting loose coupling and easier testing.",
+    "example": "In a web application, a service class receives its database connection through dependency injection, allowing the connection to be mocked during unit tests.",
+    "date": "2026-09-27",
+    "hash": 1161904126
   }
 ]
