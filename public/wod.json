@@ -2662,5 +2662,13 @@
     "example": "In a web application, a service class receives its database connection through dependency injection, allowing the connection to be mocked during unit tests.",
     "date": "2026-09-27",
     "hash": 1161904126
+  },
+  {
+    "word": "deadlock",
+    "partOfSpeech": "noun",
+    "definition": "A situation in concurrent programming where two or more processes are unable to proceed because each is waiting for the other to release a resource.",
+    "example": "In a multithreaded application, thread A holds lock 1 and waits for lock 2, while thread B holds lock 2 and waits for lock 1, causing a deadlock where neither thread can continue.",
+    "date": "2026-09-28",
+    "hash": 1161904127
   }
 ]
