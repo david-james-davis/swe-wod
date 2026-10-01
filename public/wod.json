@@ -2686,5 +2686,13 @@
     "example": "In an event-driven architecture, a server might respond to a user's click by triggering a chain of asynchronous functions instead of executing a fixed sequence of instructions.",
     "date": "2026-09-30",
     "hash": 1161904150
+  },
+  {
+    "word": "immutability",
+    "partOfSpeech": "noun",
+    "definition": "The property of an object whose state cannot be modified after it is created, promoting safer concurrency and easier reasoning about code.",
+    "example": "In functional programming, strings are often immutable, meaning any operation that alters the string returns a new instance rather than changing the original.",
+    "date": "2026-10-01",
+    "hash": 1162559460
   }
 ]
