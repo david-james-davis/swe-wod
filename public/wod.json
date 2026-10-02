@@ -2694,5 +2694,13 @@
     "example": "In functional programming, strings are often immutable, meaning any operation that alters the string returns a new instance rather than changing the original.",
     "date": "2026-10-01",
     "hash": 1162559460
+  },
+  {
+    "word": "feature flag",
+    "partOfSpeech": "noun",
+    "definition": "A technique that allows developers to enable or disable features dynamically without deploying new code, facilitating controlled rollouts and testing.",
+    "example": "By using a feature flag, the team rolled out the new search algorithm to 10% of users before a full deployment.",
+    "date": "2026-10-02",
+    "hash": 1162559461
   }
 ]
