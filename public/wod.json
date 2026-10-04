@@ -2710,5 +2710,13 @@
     "example": "The team uses continuous integration to automatically run tests whenever a developer pushes changes, ensuring that new code doesn't break existing functionality.",
     "date": "2026-10-03",
     "hash": 1162559462
+  },
+  {
+    "word": "serialization",
+    "partOfSpeech": "noun",
+    "definition": "The process of converting an object or data structure into a format that can be easily stored or transmitted and later reconstructed.",
+    "example": "In a distributed system, data objects are serialized to JSON before being sent over the network and deserialized on the receiving end.",
+    "date": "2026-10-04",
+    "hash": 1162559463
   }
 ]
