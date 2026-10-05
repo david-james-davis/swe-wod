@@ -2718,5 +2718,13 @@
     "example": "In a distributed system, data objects are serialized to JSON before being sent over the network and deserialized on the receiving end.",
     "date": "2026-10-04",
     "hash": 1162559463
+  },
+  {
+    "word": "virtual DOM",
+    "partOfSpeech": "noun",
+    "definition": "A lightweight, in-memory representation of the real DOM used to optimize UI rendering by minimizing direct manipulations of the actual DOM elements.",
+    "example": "React uses a virtual DOM to efficiently update only the changed parts of the UI instead of re-rendering the entire page.",
+    "date": "2026-10-05",
+    "hash": 1162559464
   }
 ]
