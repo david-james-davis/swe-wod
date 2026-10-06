@@ -2726,5 +2726,13 @@
     "example": "React uses a virtual DOM to efficiently update only the changed parts of the UI instead of re-rendering the entire page.",
     "date": "2026-10-05",
     "hash": 1162559464
+  },
+  {
+    "word": "debounce",
+    "partOfSpeech": "verb",
+    "definition": "To limit the rate at which a function is called by ensuring it only executes after a specified idle period, often used to improve performance and avoid excessive calls in response to rapid events.",
+    "example": "In a search input field, debounce is used to trigger the API call only after the user stops typing for 300 milliseconds, reducing unnecessary requests.",
+    "date": "2026-10-06",
+    "hash": 1162559465
   }
 ]
