@@ -2734,5 +2734,13 @@
     "example": "In a search input field, debounce is used to trigger the API call only after the user stops typing for 300 milliseconds, reducing unnecessary requests.",
     "date": "2026-10-06",
     "hash": 1162559465
+  },
+  {
+    "word": "hot reload",
+    "partOfSpeech": "verb",
+    "definition": "To update a running application's code without restarting it, allowing developers to see changes instantly during development.",
+    "example": "Using hot reload, the developer modified the UI's styling and saw the changes reflect immediately on the app without a full restart.",
+    "date": "2026-10-07",
+    "hash": 1162559466
   }
 ]
