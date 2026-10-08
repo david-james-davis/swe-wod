@@ -2742,5 +2742,13 @@
     "example": "Using hot reload, the developer modified the UI's styling and saw the changes reflect immediately on the app without a full restart.",
     "date": "2026-10-07",
     "hash": 1162559466
+  },
+  {
+    "word": "hotfix",
+    "partOfSpeech": "noun",
+    "definition": "A hotfix is an urgent, small-scale update applied directly to a live system to quickly resolve a critical bug or security vulnerability without going through the full release cycle.",
+    "example": "After discovering a severe login bug, the team deployed a hotfix to production within hours to ensure users could access the service without interruption.",
+    "date": "2026-10-08",
+    "hash": 1162559467
   }
 ]
