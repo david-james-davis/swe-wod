@@ -2750,5 +2750,13 @@
     "example": "After discovering a severe login bug, the team deployed a hotfix to production within hours to ensure users could access the service without interruption.",
     "date": "2026-10-08",
     "hash": 1162559467
+  },
+  {
+    "word": "caching",
+    "partOfSpeech": "noun",
+    "definition": "A technique to store copies of data or computations temporarily to speed up subsequent access by avoiding repeated processing or fetching from slower sources.",
+    "example": "A web application uses caching to store frequently accessed database query results in memory, reducing latency and lowering database load.",
+    "date": "2026-10-09",
+    "hash": 1162559468
   }
 ]
