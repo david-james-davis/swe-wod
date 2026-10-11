@@ -2766,5 +2766,13 @@
     "example": "Developers use containerization tools like Docker to ensure their application runs the same way on a developer's laptop and in production servers.",
     "date": "2026-10-10",
     "hash": 1162559490
+  },
+  {
+    "word": "load balancer",
+    "partOfSpeech": "noun",
+    "definition": "A device or software that distributes incoming network or application traffic across multiple servers to ensure reliability and performance.",
+    "example": "Using a load balancer improved our app's availability by routing user requests evenly between servers during traffic spikes.",
+    "date": "2026-10-11",
+    "hash": 1162559491
   }
 ]
