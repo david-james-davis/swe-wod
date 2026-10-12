@@ -2774,5 +2774,13 @@
     "example": "Using a load balancer improved our app's availability by routing user requests evenly between servers during traffic spikes.",
     "date": "2026-10-11",
     "hash": 1162559491
+  },
+  {
+    "word": "bulkhead",
+    "partOfSpeech": "noun",
+    "definition": "A design pattern in software architecture that isolates components or services to prevent failure in one area from cascading to others.",
+    "example": "In a microservices system, configuring bulkheads ensures that if one service overloads or fails, it doesn't bring down the entire application.",
+    "date": "2026-10-12",
+    "hash": 1162559492
   }
 ]
