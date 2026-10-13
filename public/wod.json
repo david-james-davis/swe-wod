@@ -2782,5 +2782,13 @@
     "example": "In a microservices system, configuring bulkheads ensures that if one service overloads or fails, it doesn't bring down the entire application.",
     "date": "2026-10-12",
     "hash": 1162559492
+  },
+  {
+    "word": "shadowing",
+    "partOfSpeech": "noun",
+    "definition": "A programming practice where a variable declared within a certain scope has the same name as a variable declared in an outer scope, effectively 'shadowing' the outer variable within the inner scope.",
+    "example": "In JavaScript, declaring a variable inside a function with the same name as a global variable causes the inner one to shadow the outer, preventing access to the global variable inside that function.",
+    "date": "2026-10-13",
+    "hash": 1162559493
   }
 ]
