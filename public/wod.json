@@ -2798,5 +2798,13 @@
     "example": "After the new deployment caused service outages, the DevOps team performed a rollback to the prior stable release to restore functionality.",
     "date": "2026-10-14",
     "hash": 1162559494
+  },
+  {
+    "word": "throttling",
+    "partOfSpeech": "noun",
+    "definition": "The process of limiting the rate at which a system or component processes requests to prevent overload or ensure quality of service.",
+    "example": "The API implements throttling by allowing only 100 requests per minute per user to avoid server overload.",
+    "date": "2026-10-15",
+    "hash": 1162559495
   }
 ]
