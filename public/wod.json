@@ -2806,5 +2806,13 @@
     "example": "The API implements throttling by allowing only 100 requests per minute per user to avoid server overload.",
     "date": "2026-10-15",
     "hash": 1162559495
+  },
+  {
+    "word": "idempotence",
+    "partOfSpeech": "noun",
+    "definition": "The property of certain operations in programming and distributed systems where performing the operation multiple times has the same effect as performing it once.",
+    "example": "An HTTP PUT request is idempotent because updating a resource with the same data repeatedly does not change the final state beyond the initial update.",
+    "date": "2026-10-16",
+    "hash": 1162559496
   }
 ]
