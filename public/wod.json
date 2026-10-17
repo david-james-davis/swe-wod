@@ -2814,5 +2814,13 @@
     "example": "An HTTP PUT request is idempotent because updating a resource with the same data repeatedly does not change the final state beyond the initial update.",
     "date": "2026-10-16",
     "hash": 1162559496
+  },
+  {
+    "word": "canary release",
+    "partOfSpeech": "noun",
+    "definition": "A deployment strategy that releases a new software version to a small subset of users before rolling it out to the entire user base, minimizing risk by monitoring performance and behavior.",
+    "example": "We used a canary release to deploy the new search feature to 5% of users and monitored for errors before completing the full rollout.",
+    "date": "2026-10-17",
+    "hash": 1162559497
   }
 ]
