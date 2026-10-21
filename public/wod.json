@@ -2846,5 +2846,13 @@
     "example": "In JavaScript, you can use a callback function to handle the response after fetching data asynchronously from an API.",
     "date": "2026-10-20",
     "hash": 1162559521
+  },
+  {
+    "word": "pivot",
+    "partOfSpeech": "verb",
+    "definition": "To fundamentally change the direction or approach of a project or product based on new information or user feedback, while leveraging existing resources or technology.",
+    "example": "The development team decided to pivot from creating a mobile-only app to a cross-platform solution after user surveys showed a significant demand for desktop access.",
+    "date": "2026-10-21",
+    "hash": 1162559522
   }
 ]
