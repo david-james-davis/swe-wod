@@ -2854,5 +2854,13 @@
     "example": "The development team decided to pivot from creating a mobile-only app to a cross-platform solution after user surveys showed a significant demand for desktop access.",
     "date": "2026-10-21",
     "hash": 1162559522
+  },
+  {
+    "word": "blue-green deployment",
+    "partOfSpeech": "noun",
+    "definition": "A deployment strategy that reduces downtime by running two identical production environments (blue and green) and switching traffic between them for updates.",
+    "example": "To minimize service disruption, the team used blue-green deployment by routing users to the green environment while updating the blue one.",
+    "date": "2026-10-22",
+    "hash": 1162559523
   }
 ]
