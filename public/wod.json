@@ -2862,5 +2862,13 @@
     "example": "To minimize service disruption, the team used blue-green deployment by routing users to the green environment while updating the blue one.",
     "date": "2026-10-22",
     "hash": 1162559523
+  },
+  {
+    "word": "refactoring",
+    "partOfSpeech": "noun",
+    "definition": "The process of restructuring existing computer code without changing its external behavior to improve readability, reduce complexity, and enhance maintainability.",
+    "example": "The development team spent a sprint refactoring the legacy authentication module to simplify the logic and improve test coverage.",
+    "date": "2026-10-23",
+    "hash": 1162559524
   }
 ]
