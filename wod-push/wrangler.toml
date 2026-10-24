@@ -10,6 +10,5 @@ id = "b451e3ce14574addac61f6032a6f97dd"
 binding = "WOD_META"
 id = "0209cc04fcd44a338d2d67a45c471e30"
 
-[triggers]
-# 8:00 AM PT across DST: 15:00 UTC (PDT) and 16:00 UTC (PST)
-crons = ["0 15 * * *", "0 16 * * *"]
+# Scheduled push notifications are temporarily disabled while the domain is
+# being retired. Restore the [triggers] block to re-enable them.
