@@ -2870,5 +2870,13 @@
     "example": "The development team spent a sprint refactoring the legacy authentication module to simplify the logic and improve test coverage.",
     "date": "2026-10-23",
     "hash": 1162559524
+  },
+  {
+    "word": "latency",
+    "partOfSpeech": "noun",
+    "definition": "The time delay between a request and the corresponding response in a system, network, or application.",
+    "example": "Reducing latency in the API response improved the user experience by delivering data faster.",
+    "date": "2026-10-24",
+    "hash": 1162559525
   }
 ]
